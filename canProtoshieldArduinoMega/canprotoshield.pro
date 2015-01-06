@@ -1,25 +1,25 @@
 EAGLE AutoRouter Statistics:
 
-Job           : /home/amaurial/eagle/canProtoshieldArduinoMega/canprotoshield.brd
+Job           : /home/user/amauriala/eagle/canProtoshieldArduinoMega/canprotoshield.brd
 
-Start at      : 01:03:59 (26/12/14)
-End at        : 01:08:00 (26/12/14)
-Elapsed time  : 00:03:56
+Start at      : 16:47:40 (6/01/15)
+End at        : 16:48:20 (6/01/15)
+Elapsed time  : 00:00:24
 
-Signals       :   128   RoutingGrid: 9 mil  Layers: 2
-Connections   :   104   predefined:  26 ( 0 Vias )
+Signals       :   128   RoutingGrid: 6.25 mil  Layers: 2
+Connections   :   126   predefined:  11 ( 0 Vias )
 
-Router memory :   731520
+Router memory :   1494712
 
-Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:03:06  00:00:02  00:00:15  00:00:11  00:00:11  00:00:11
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:04  00:00:05  00:00:05  00:00:04  00:00:06
+Number of Ripups  :         0         0         0         0         0
+max. Level        :         0         0         0         0         0
+max. Total        :         0         0         0         0         0
 
-Routed            :        76        78        72        75        76        76
-Vias              :         0         3        36        22        21        18
-Resolution        :    98.1 %   100.0 %    94.2 %    97.1 %    98.1 %    98.1 %
+Routed            :        94       115       115       115       115
+Vias              :        28         8         7         8         8
+Resolution        :    83.3 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 90.4% finished. Polygons may have fallen apart.
+Final             : 100.0% finished

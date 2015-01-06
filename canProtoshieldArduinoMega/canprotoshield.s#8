@@ -9376,7 +9376,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="RESET" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="S_CBUS" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="U$1" library="MCP2515_MT" deviceset="MCP2515*" device="SO"/>
-<part name="Q1" library="adafruit" deviceset="CRYSTAL" device="HC49UP"/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10pF"/>
 <part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10pF"/>
 <part name="GND" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
@@ -9421,6 +9420,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CN32" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN33" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN34" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
+<part name="Q2" library="adafruit" deviceset="CRYSTAL" device="CTS406"/>
+<part name="JP1" library="pinhead" deviceset="PINHD-2X24" device=""/>
+<part name="JP2" library="pinhead" deviceset="PINHD-2X24" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9435,7 +9437,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="RESET" gate="S" x="114.3" y="63.5"/>
 <instance part="S_CBUS" gate="S" x="119.38" y="17.78"/>
 <instance part="U$1" gate="G$1" x="25.4" y="7.62"/>
-<instance part="Q1" gate="G$1" x="7.62" y="17.78" rot="R90"/>
 <instance part="C3" gate="G$1" x="-5.08" y="15.24" rot="R90"/>
 <instance part="C4" gate="G$1" x="-5.08" y="20.32" rot="R90"/>
 <instance part="GND" gate="G$1" x="71.12" y="43.18"/>
@@ -9480,6 +9481,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="CN32" gate="G$1" x="101.6" y="-147.32" rot="R180"/>
 <instance part="CN33" gate="G$1" x="116.84" y="-104.14" rot="R180"/>
 <instance part="CN34" gate="G$1" x="116.84" y="-127" rot="R180"/>
+<instance part="Q2" gate="G$1" x="7.62" y="17.78" rot="R90"/>
+<instance part="JP1" gate="A" x="342.9" y="-71.12"/>
+<instance part="JP2" gate="A" x="363.22" y="-71.12"/>
 </instances>
 <busses>
 <bus name="B$1">
@@ -9523,22 +9527,22 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$1" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="OSC2"/>
-<pinref part="Q1" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="20.32" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
-<junction x="7.62" y="20.32"/>
 <pinref part="C4" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="20.32" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="20.32" x2="-2.54" y2="20.32" width="0.1524" layer="91"/>
+<junction x="7.62" y="20.32"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="OSC1"/>
 <wire x1="12.7" y1="17.78" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="Q1" gate="G$1" pin="1"/>
-<wire x1="12.7" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
-<junction x="7.62" y="15.24"/>
 <pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="12.7" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="Q2" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
+<junction x="7.62" y="15.24"/>
 </segment>
 </net>
 <net name="GND" class="0">
