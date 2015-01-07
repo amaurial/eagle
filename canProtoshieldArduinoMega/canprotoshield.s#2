@@ -9490,12 +9490,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP4" gate="A" x="297.18" y="-139.7"/>
 </instances>
 <busses>
-<bus name="B$1">
+<bus name="GND">
 <segment>
 <wire x1="274.32" y1="-45.72" x2="274.32" y2="-99.06" width="0.762" layer="92"/>
 </segment>
 </bus>
-<bus name="B$2">
+<bus name="VCC">
 <segment>
 <wire x1="256.54" y1="-45.72" x2="256.54" y2="-99.06" width="0.762" layer="92"/>
 </segment>
@@ -9628,9 +9628,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="76.2" y="-55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="274.32" y1="-45.72" x2="269.24" y2="-45.72" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="U3" gate="G$1" pin="GND@0"/>
 <junction x="144.78" y="-15.24"/>
 <wire x1="144.78" y1="-15.24" x2="137.16" y2="-15.24" width="0.1524" layer="91"/>
@@ -9639,6 +9636,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U3" gate="G$1" pin="GND@3"/>
 <junction x="144.78" y="-22.86"/>
 <wire x1="144.78" y1="-22.86" x2="137.16" y2="-22.86" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BUS_GND" gate="A" pin="1"/>
+<junction x="274.32" y="-45.72"/>
+<wire x1="274.32" y1="-45.72" x2="269.24" y2="-45.72" width="0.1524" layer="91"/>
+<label x="269.24" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -9692,6 +9695,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <wire x1="256.54" y1="-45.72" x2="248.92" y2="-45.72" width="0.1524" layer="91"/>
+<label x="248.92" y="-45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MCP_CS" class="0">
@@ -10694,12 +10698,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="BUS_VCC" gate="A" pin="20"/>
 <junction x="256.54" y="-93.98"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="BUS_GND" gate="A" pin="1"/>
-<junction x="274.32" y="-45.72"/>
 </segment>
 </net>
 <net name="N$32" class="0">
