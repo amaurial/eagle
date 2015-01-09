@@ -9420,11 +9420,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="CN32" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN33" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN34" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
-<part name="Q2" library="adafruit" deviceset="CRYSTAL" device="CTS406"/>
 <part name="JP1" library="adafruit" deviceset="PINHD-1X20" device="-BIG"/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X20" device="-BIG"/>
 <part name="JP3" library="pinhead" deviceset="PINHD-2X24" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X24" device=""/>
+<part name="Q1" library="adafruit" deviceset="CRYSTAL" device="HC49S" value="16mhz"/>
 </parts>
 <sheets>
 <sheet>
@@ -9483,11 +9483,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="CN32" gate="G$1" x="101.6" y="-147.32" rot="R180"/>
 <instance part="CN33" gate="G$1" x="116.84" y="-104.14" rot="R180"/>
 <instance part="CN34" gate="G$1" x="116.84" y="-127" rot="R180"/>
-<instance part="Q2" gate="G$1" x="7.62" y="17.78" rot="R90"/>
 <instance part="JP1" gate="A" x="187.96" y="-81.28"/>
 <instance part="JP2" gate="A" x="205.74" y="-81.28"/>
 <instance part="JP3" gate="A" x="322.58" y="-139.7"/>
 <instance part="JP4" gate="A" x="297.18" y="-139.7"/>
+<instance part="Q1" gate="G$1" x="2.54" y="17.78" rot="R90"/>
 </instances>
 <busses>
 <bus name="GND">
@@ -9532,10 +9532,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="U$1" gate="G$1" pin="OSC2"/>
 <pinref part="C4" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="20.32" x2="7.62" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="2"/>
-<wire x1="7.62" y1="20.32" x2="-2.54" y2="20.32" width="0.1524" layer="91"/>
-<junction x="7.62" y="20.32"/>
+<wire x1="12.7" y1="20.32" x2="2.54" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="2"/>
+<wire x1="2.54" y1="20.32" x2="-2.54" y2="20.32" width="0.1524" layer="91"/>
+<junction x="2.54" y="20.32"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9543,10 +9543,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="U$1" gate="G$1" pin="OSC1"/>
 <wire x1="12.7" y1="17.78" x2="12.7" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="12.7" y1="15.24" x2="7.62" y2="15.24" width="0.1524" layer="91"/>
-<pinref part="Q2" gate="G$1" pin="1"/>
-<wire x1="7.62" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
-<junction x="7.62" y="15.24"/>
+<wire x1="12.7" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
+<pinref part="Q1" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
+<junction x="2.54" y="15.24"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -10808,7 +10808,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="CN22" gate="G$1" pin="3"/>
 <junction x="22.86" y="-121.92"/>
-<label x="22.86" y="-121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="2"/>
+<wire x1="144.78" y1="12.7" x2="139.7" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
