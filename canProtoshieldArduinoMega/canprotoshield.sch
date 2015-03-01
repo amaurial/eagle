@@ -6352,20 +6352,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="97.79" y1="51.435" x2="97.79" y2="50.165" width="0.2032" layer="21"/>
 <wire x1="93.345" y1="52.07" x2="97.155" y2="52.07" width="0.2032" layer="21"/>
 <wire x1="97.155" y1="49.53" x2="93.345" y2="49.53" width="0.2032" layer="21"/>
-<wire x1="59.436" y1="43.053" x2="28.067" y2="43.053" width="0.3048" layer="21"/>
-<wire x1="59.944" y1="39.751" x2="85.471" y2="39.751" width="0.3048" layer="21"/>
-<wire x1="86.2584" y1="39.5478" x2="86.2584" y2="11.43" width="0.3048" layer="21"/>
-<wire x1="88.2904" y1="41.5798" x2="88.2904" y2="48.641" width="0.3048" layer="21"/>
 <wire x1="93.98" y1="52.1462" x2="93.98" y2="52.7812" width="0.3048" layer="21"/>
 <wire x1="93.98" y1="52.7812" x2="96.52" y2="52.7812" width="0.3048" layer="21"/>
 <wire x1="96.52" y1="52.7812" x2="96.52" y2="52.1208" width="0.3048" layer="21"/>
 <wire x1="93.98" y1="6.2738" x2="93.98" y2="5.5372" width="0.3048" layer="21"/>
 <wire x1="93.98" y1="5.5372" x2="96.52" y2="5.5372" width="0.3048" layer="21"/>
 <wire x1="96.52" y1="5.5372" x2="96.52" y2="6.2992" width="0.3048" layer="21"/>
-<wire x1="86.233" y1="10.5664" x2="49.911" y2="10.5664" width="0.3048" layer="21"/>
-<wire x1="86.233" y1="10.5664" x2="87.9348" y2="8.8646" width="0.3048" layer="21"/>
 <wire x1="87.9348" y1="8.8646" x2="100.8126" y2="8.8646" width="0.3048" layer="21"/>
-<wire x1="86.2584" y1="39.5478" x2="88.2904" y2="41.5798" width="0.3048" layer="21"/>
 <wire x1="97.79" y1="6.35" x2="100.7872" y2="6.35" width="0.3048" layer="21"/>
 <wire x1="60.833" y1="45.72" x2="60.833" y2="46.99" width="0.2032" layer="21"/>
 <wire x1="60.325" y1="46.482" x2="60.833" y2="46.99" width="0.2032" layer="21"/>
@@ -6373,7 +6366,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="63.373" y1="46.99" x2="63.373" y2="45.72" width="0.2032" layer="21"/>
 <wire x1="63.881" y1="46.228" x2="63.373" y2="45.72" width="0.2032" layer="21"/>
 <wire x1="63.373" y1="45.72" x2="62.865" y2="46.228" width="0.2032" layer="21"/>
-<wire x1="46.609" y1="10.5664" x2="32.131" y2="10.5664" width="0.3048" layer="21"/>
 <wire x1="44.45" y1="3.175" x2="45.085" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="45.085" y1="3.81" x2="46.355" y2="3.81" width="0.2032" layer="21"/>
 <wire x1="46.355" y1="3.81" x2="46.99" y2="3.175" width="0.2032" layer="21"/>
@@ -6674,6 +6666,81 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <rectangle x1="37.846" y1="2.286" x2="38.354" y2="2.794" layer="51"/>
 <rectangle x1="35.306" y1="2.286" x2="35.814" y2="2.794" layer="51"/>
 <rectangle x1="32.766" y1="2.286" x2="33.274" y2="2.794" layer="51"/>
+<wire x1="101.6" y1="6.35" x2="98.6028" y2="6.35" width="0.3048" layer="22"/>
+<text x="100.965" y="37.3634" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">31</text>
+<text x="100.965" y="34.8234" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">33</text>
+<text x="100.965" y="32.2834" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">35</text>
+<text x="100.965" y="29.7434" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">37</text>
+<text x="100.965" y="27.2034" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">39</text>
+<text x="100.965" y="24.6634" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">41</text>
+<text x="100.965" y="22.1234" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">43</text>
+<text x="100.965" y="19.5834" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">45</text>
+<text x="100.965" y="17.0434" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">47</text>
+<text x="100.965" y="14.5034" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">49</text>
+<text x="100.965" y="11.9634" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">51</text>
+<text x="100.965" y="9.4234" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">53</text>
+<text x="100.965" y="6.8834" size="1.016" layer="22" font="vector" ratio="15" rot="MR0">GND</text>
+<text x="91.9226" y="47.498" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">22</text>
+<text x="91.9226" y="44.958" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">24</text>
+<text x="91.9226" y="42.418" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">26</text>
+<text x="91.9226" y="39.878" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">28</text>
+<text x="91.9226" y="37.338" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">30</text>
+<text x="91.9226" y="34.798" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">32</text>
+<text x="91.9226" y="32.258" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">34</text>
+<text x="91.9226" y="29.718" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">36</text>
+<text x="91.9226" y="27.178" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">38</text>
+<text x="91.9226" y="24.638" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">40</text>
+<text x="91.9226" y="22.098" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">42</text>
+<text x="91.9226" y="19.558" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">44</text>
+<text x="91.9226" y="17.018" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">46</text>
+<text x="91.9226" y="11.938" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">50</text>
+<text x="91.9226" y="14.478" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">48</text>
+<text x="91.9226" y="9.398" size="1.4224" layer="22" font="vector" ratio="15" rot="MR0">52</text>
+<text x="33.528" y="9.3726" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">RESET</text>
+<text x="36.068" y="6.8326" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">5V</text>
+<text x="38.608" y="6.8326" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">5V</text>
+<text x="41.148" y="6.8326" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">GND</text>
+<text x="43.688" y="6.8326" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">GND</text>
+<text x="46.228" y="6.8326" size="1.016" layer="22" font="vector" ratio="15" rot="MR270">Vin</text>
+<text x="51.562" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A0</text>
+<text x="53.848" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A1</text>
+<text x="56.642" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A2</text>
+<text x="59.182" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A3</text>
+<text x="61.722" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A4</text>
+<text x="64.135" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A5</text>
+<text x="66.675" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">6</text>
+<text x="69.342" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A7</text>
+<text x="74.422" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A8</text>
+<text x="76.962" y="6.8326" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A9</text>
+<text x="79.502" y="8.1026" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A10</text>
+<text x="82.042" y="8.1026" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A11</text>
+<text x="84.582" y="8.1026" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A12</text>
+<text x="87.122" y="8.1026" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A13</text>
+<text x="89.662" y="8.1026" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A14</text>
+<text x="92.075" y="8.1026" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">A15</text>
+<text x="63.881" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">0</text>
+<text x="61.341" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">1</text>
+<text x="58.801" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">2</text>
+<text x="56.261" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">3</text>
+<text x="53.721" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">4</text>
+<text x="51.181" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">5</text>
+<text x="48.641" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">6</text>
+<text x="46.101" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">7</text>
+<text x="42.291" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">8</text>
+<text x="39.751" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">9</text>
+<text x="37.211" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">10</text>
+<text x="34.671" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">11</text>
+<text x="32.131" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">12</text>
+<text x="29.591" y="48.768" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">13</text>
+<text x="25.654" y="44.958" size="1.4224" layer="22" font="vector" ratio="15" rot="MR90">GND</text>
+<text x="68.961" y="49.657" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">14</text>
+<text x="71.501" y="49.657" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">15</text>
+<text x="74.041" y="49.657" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">16</text>
+<text x="76.581" y="49.657" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">17</text>
+<text x="79.121" y="49.657" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">18</text>
+<text x="81.661" y="49.657" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">19</text>
+<text x="84.201" y="49.657" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">20</text>
+<text x="86.741" y="49.657" size="1.4224" layer="22" font="vector" ratio="15" rot="MR270">21</text>
 </package>
 <package name="FPC_0.5MM-4">
 <wire x1="-2.45" y1="-1.15" x2="2.75" y2="-1.15" width="0.127" layer="21"/>
@@ -9376,8 +9443,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="RESET" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="S_CBUS" library="SparkFun-Retired" deviceset="TAC_SWITCH" device="PTH"/>
 <part name="U$1" library="MCP2515_MT" deviceset="MCP2515*" device="SO"/>
-<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10pF"/>
-<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="10pF"/>
+<part name="C3" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22pF"/>
+<part name="C4" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22pF"/>
 <part name="GND" library="SparkFun-Aesthetics" deviceset="GND-ISO" device=""/>
 <part name="VCC" library="SparkFun-Aesthetics" deviceset="VCC-ISO" device=""/>
 <part name="R3" library="adafruit" deviceset="R-US_" device="M2012" value="10k"/>
@@ -9425,6 +9492,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP3" library="pinhead" deviceset="PINHD-2X24" device=""/>
 <part name="JP4" library="pinhead" deviceset="PINHD-2X24" device=""/>
 <part name="Q1" library="adafruit" deviceset="CRYSTAL" device="HC49S" value="16mhz"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="C2" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
+<part name="R4" library="adafruit" deviceset="R-US_" device="M2012" value="10k"/>
 </parts>
 <sheets>
 <sheet>
@@ -9439,9 +9509,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="RESET" gate="S" x="114.3" y="63.5"/>
 <instance part="S_CBUS" gate="S" x="81.28" y="25.4"/>
 <instance part="U$1" gate="G$1" x="25.4" y="7.62"/>
-<instance part="C3" gate="G$1" x="-5.08" y="15.24" rot="R90"/>
+<instance part="C3" gate="G$1" x="-5.08" y="12.7" rot="R90"/>
 <instance part="C4" gate="G$1" x="-5.08" y="20.32" rot="R90"/>
-<instance part="GND" gate="G$1" x="71.12" y="43.18"/>
+<instance part="GND" gate="G$1" x="78.74" y="43.18"/>
 <instance part="VCC" gate="G$1" x="60.96" y="48.26"/>
 <instance part="R3" gate="G$1" x="88.9" y="17.78"/>
 <instance part="U3" gate="G$1" x="165.1" y="25.4"/>
@@ -9488,6 +9558,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP3" gate="A" x="322.58" y="-139.7"/>
 <instance part="JP4" gate="A" x="297.18" y="-139.7"/>
 <instance part="Q1" gate="G$1" x="2.54" y="17.78" rot="R90"/>
+<instance part="C1" gate="G$1" x="-5.08" y="55.88" rot="R180"/>
+<instance part="C2" gate="G$1" x="-5.08" y="35.56" rot="R180"/>
+<instance part="R4" gate="G$1" x="63.5" y="35.56"/>
 </instances>
 <busses>
 <bus name="GND">
@@ -9545,15 +9618,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C3" gate="G$1" pin="2"/>
 <wire x1="12.7" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="Q1" gate="G$1" pin="1"/>
-<wire x1="2.54" y1="15.24" x2="-2.54" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="15.24" x2="-2.54" y2="12.7" width="0.1524" layer="91"/>
 <junction x="2.54" y="15.24"/>
 </segment>
 </net>
 <net name="GND" class="0">
 <segment>
 <pinref part="GND" gate="G$1" pin="GND-ISO"/>
-<wire x1="71.12" y1="45.72" x2="71.12" y2="53.34" width="0.1524" layer="91"/>
-<label x="71.12" y="48.26" size="1.778" layer="95"/>
+<wire x1="78.74" y1="45.72" x2="78.74" y2="53.34" width="0.1524" layer="91"/>
+<label x="78.74" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="C4" gate="G$1" pin="1"/>
@@ -9562,8 +9635,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="C3" gate="G$1" pin="1"/>
-<wire x1="-10.16" y1="15.24" x2="-17.78" y2="15.24" width="0.1524" layer="91"/>
-<label x="-17.78" y="15.24" size="1.778" layer="95"/>
+<wire x1="-10.16" y1="12.7" x2="-17.78" y2="12.7" width="0.1524" layer="91"/>
+<label x="-17.78" y="12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="-22.86" y1="50.8" x2="-15.24" y2="50.8" width="0.1524" layer="91"/>
@@ -9575,12 +9648,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="27.94" x2="5.08" y2="27.94" width="0.1524" layer="91"/>
 <label x="5.08" y="27.94" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="VDD"/>
-<junction x="12.78" y="53.34"/>
-<label x="2.54" y="53.34" size="1.778" layer="95"/>
-<wire x1="12.78" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<junction x="5.08" y="27.94"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="27.94" x2="-5.08" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="-5.08" y1="27.94" x2="-5.08" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="43.18" y1="58.42" x2="43.26" y2="58.42" width="0.1524" layer="91"/>
@@ -9643,18 +9714,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="274.32" y1="-45.72" x2="269.24" y2="-45.72" width="0.1524" layer="91"/>
 <label x="269.24" y="-45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="12.7" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
+<junction x="12.7" y="55.88"/>
+<label x="2.54" y="55.88" size="1.778" layer="95"/>
+<junction x="5.08" y="55.88"/>
+<wire x1="5.08" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="0" y1="55.88" x2="0" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="2"/>
+<wire x1="0" y1="58.42" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
 <pinref part="VCC" gate="G$1" pin="VCC-ISO"/>
-<wire x1="60.96" y1="48.26" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="48.26" x2="60.96" y2="40.64" width="0.1524" layer="91"/>
 <label x="60.96" y="43.18" size="1.778" layer="95"/>
-<pinref part="U$1" gate="G$1" pin="RESET/"/>
-<wire x1="45.72" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
-<label x="48.26" y="35.56" size="1.778" layer="95"/>
-<junction x="45.72" y="35.56"/>
-<junction x="58.42" y="35.56"/>
-<wire x1="58.42" y1="35.56" x2="60.96" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="60.96" y1="40.64" x2="68.58" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="40.64" x2="68.58" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="-22.86" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
@@ -9666,12 +9744,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="30.48" x2="5.08" y2="30.48" width="0.1524" layer="91"/>
 <label x="5.08" y="30.48" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
-</segment>
-<segment>
-<pinref part="U2" gate="G$1" pin="VSS"/>
-<junction x="12.78" y="55.88"/>
-<label x="2.54" y="55.88" size="1.778" layer="95"/>
-<wire x1="12.78" y1="55.88" x2="5.08" y2="55.88" width="0.1524" layer="91"/>
+<junction x="5.08" y="30.48"/>
+<wire x1="5.08" y1="30.48" x2="0" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="0" y1="30.48" x2="0" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<wire x1="0" y1="38.1" x2="-5.08" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
@@ -9680,8 +9757,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="5V@1"/>
-<wire x1="144.78" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="71.12" x2="139.7" y2="71.12" width="0.1524" layer="91"/>
 <label x="134.62" y="71.12" size="1.778" layer="95"/>
+<junction x="139.7" y="71.12"/>
+<wire x1="139.7" y1="71.12" x2="137.16" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="71.12" x2="139.7" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U3" gate="G$1" pin="5V@0"/>
+<wire x1="139.7" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="CN13" gate="G$1" pin="1"/>
@@ -9696,6 +9778,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <wire x1="256.54" y1="-45.72" x2="248.92" y2="-45.72" width="0.1524" layer="91"/>
 <label x="248.92" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="12.7" y1="53.34" x2="5.08" y2="53.34" width="0.1524" layer="91"/>
+<junction x="12.7" y="53.34"/>
+<label x="2.54" y="53.34" size="1.778" layer="95"/>
+<junction x="5.08" y="53.34"/>
+<wire x1="5.08" y1="53.34" x2="0" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="0" y1="53.34" x2="0" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="0" y1="50.8" x2="-5.08" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="MCP_CS" class="0">
@@ -10820,6 +10912,27 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="CN6" gate="G$1" pin="4"/>
 <junction x="22.86" y="-33.02"/>
+</segment>
+</net>
+<net name="N$54" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="RESET/"/>
+<wire x1="45.72" y1="35.56" x2="58.42" y2="35.56" width="0.1524" layer="91"/>
+<junction x="45.72" y="35.56"/>
+<label x="48.26" y="35.56" size="1.778" layer="95"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$55" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="GND@1"/>
+<junction x="144.78" y="-17.78"/>
+</segment>
+</net>
+<net name="N$56" class="0">
+<segment>
+<pinref part="U3" gate="G$1" pin="GND@2"/>
+<junction x="144.78" y="-20.32"/>
 </segment>
 </net>
 </nets>
