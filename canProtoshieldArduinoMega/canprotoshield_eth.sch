@@ -9528,7 +9528,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <part name="CN3" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN4" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN5" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
-<part name="CN6" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN12" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN13" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="CN14" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
@@ -9550,7 +9549,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <part name="BUS_GND" library="adafruit" deviceset="PINHD-1X20" device=""/>
 <part name="JP7" library="pinhead" deviceset="PINHD-2X24" device=""/>
 <part name="JP14" library="pinhead" deviceset="PINHD-2X24" device=""/>
-<part name="CN33" library="Arduino_merg" deviceset="1X4" device="-3.5MM"/>
 <part name="JP1" library="adafruit" deviceset="PINHD-1X20" device="-BIG"/>
 <part name="JP2" library="adafruit" deviceset="PINHD-1X20" device="-BIG"/>
 <part name="JP3" library="pinhead" deviceset="PINHD-2X24" device=""/>
@@ -9590,29 +9588,27 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <instance part="CN3" gate="G$1" x="35.56" y="-15.24" rot="R180"/>
 <instance part="CN4" gate="G$1" x="53.34" y="-15.24" rot="R180"/>
 <instance part="CN5" gate="G$1" x="71.12" y="-15.24" rot="R180"/>
-<instance part="CN6" gate="G$1" x="17.78" y="-38.1" rot="R180"/>
-<instance part="CN12" gate="G$1" x="53.34" y="-58.42" rot="R180"/>
-<instance part="CN13" gate="G$1" x="71.12" y="-58.42" rot="R180"/>
-<instance part="CN14" gate="G$1" x="17.78" y="-81.28" rot="R180"/>
-<instance part="CN15" gate="G$1" x="35.56" y="-81.28" rot="R180"/>
-<instance part="CN16" gate="G$1" x="53.34" y="-78.74" rot="R180"/>
-<instance part="CN17" gate="G$1" x="71.12" y="-78.74" rot="R180"/>
-<instance part="CN18" gate="G$1" x="17.78" y="-104.14" rot="R180"/>
-<instance part="CN19" gate="G$1" x="35.56" y="-104.14" rot="R180"/>
-<instance part="CN20" gate="G$1" x="53.34" y="-104.14" rot="R180"/>
-<instance part="CN21" gate="G$1" x="71.12" y="-104.14" rot="R180"/>
-<instance part="CN22" gate="G$1" x="17.78" y="-124.46" rot="R180"/>
-<instance part="CN23" gate="G$1" x="35.56" y="-124.46" rot="R180"/>
-<instance part="CN24" gate="G$1" x="53.34" y="-124.46" rot="R180"/>
-<instance part="CN25" gate="G$1" x="71.12" y="-124.46" rot="R180"/>
-<instance part="CN27" gate="G$1" x="35.56" y="-147.32" rot="R180"/>
-<instance part="CN28" gate="G$1" x="53.34" y="-147.32" rot="R180"/>
-<instance part="CN29" gate="G$1" x="68.58" y="-147.32" rot="R180"/>
+<instance part="CN12" gate="G$1" x="17.78" y="-35.56" rot="R180"/>
+<instance part="CN13" gate="G$1" x="35.56" y="-35.56" rot="R180"/>
+<instance part="CN14" gate="G$1" x="17.78" y="-55.88" rot="R180"/>
+<instance part="CN15" gate="G$1" x="35.56" y="-55.88" rot="R180"/>
+<instance part="CN16" gate="G$1" x="53.34" y="-55.88" rot="R180"/>
+<instance part="CN17" gate="G$1" x="71.12" y="-55.88" rot="R180"/>
+<instance part="CN18" gate="G$1" x="17.78" y="-76.2" rot="R180"/>
+<instance part="CN19" gate="G$1" x="35.56" y="-76.2" rot="R180"/>
+<instance part="CN20" gate="G$1" x="53.34" y="-76.2" rot="R180"/>
+<instance part="CN21" gate="G$1" x="71.12" y="-76.2" rot="R180"/>
+<instance part="CN22" gate="G$1" x="17.78" y="-96.52" rot="R180"/>
+<instance part="CN23" gate="G$1" x="35.56" y="-96.52" rot="R180"/>
+<instance part="CN24" gate="G$1" x="53.34" y="-96.52" rot="R180"/>
+<instance part="CN25" gate="G$1" x="71.12" y="-96.52" rot="R180"/>
+<instance part="CN27" gate="G$1" x="35.56" y="-119.38" rot="R180"/>
+<instance part="CN28" gate="G$1" x="53.34" y="-119.38" rot="R180"/>
+<instance part="CN29" gate="G$1" x="68.58" y="-119.38" rot="R180"/>
 <instance part="BUS_VCC" gate="A" x="259.08" y="-68.58"/>
 <instance part="BUS_GND" gate="A" x="276.86" y="-68.58"/>
 <instance part="JP7" gate="A" x="297.18" y="-71.12"/>
 <instance part="JP14" gate="A" x="322.58" y="-71.12"/>
-<instance part="CN33" gate="G$1" x="116.84" y="-104.14" rot="R180"/>
 <instance part="JP1" gate="A" x="187.96" y="-81.28"/>
 <instance part="JP2" gate="A" x="205.74" y="-81.28"/>
 <instance part="JP3" gate="A" x="322.58" y="-139.7"/>
@@ -9756,13 +9752,13 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN13" gate="G$1" pin="2"/>
-<junction x="76.2" y="-58.42"/>
-<label x="76.2" y="-58.42" size="1.778" layer="95"/>
+<junction x="40.64" y="-35.56"/>
+<label x="40.64" y="-35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CN13" gate="G$1" pin="3"/>
-<junction x="76.2" y="-55.88"/>
-<label x="76.2" y="-55.88" size="1.778" layer="95"/>
+<junction x="40.64" y="-33.02"/>
+<label x="40.64" y="-33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="GND@0"/>
@@ -9789,6 +9785,10 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <wire x1="0" y1="55.88" x2="0" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <wire x1="0" y1="58.42" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="GND@4"/>
+<junction x="144.78" y="-25.4"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -9833,13 +9833,13 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN13" gate="G$1" pin="1"/>
-<junction x="76.2" y="-60.96"/>
-<label x="76.2" y="-60.96" size="1.778" layer="95"/>
+<junction x="40.64" y="-38.1"/>
+<label x="40.64" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="CN13" gate="G$1" pin="4"/>
-<junction x="76.2" y="-53.34"/>
-<label x="76.2" y="-53.34" size="1.778" layer="95"/>
+<junction x="40.64" y="-30.48"/>
+<label x="40.64" y="-30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <wire x1="256.54" y1="-45.72" x2="248.92" y2="-45.72" width="0.1524" layer="91"/>
@@ -10202,8 +10202,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN23" gate="G$1" pin="1"/>
-<junction x="40.64" y="-127"/>
-<label x="40.64" y="-127" size="1.778" layer="95"/>
+<junction x="40.64" y="-99.06"/>
+<label x="40.64" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="1" class="0">
@@ -10214,8 +10214,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN22" gate="G$1" pin="4"/>
-<junction x="22.86" y="-119.38"/>
-<label x="22.86" y="-119.38" size="1.778" layer="95"/>
+<junction x="22.86" y="-91.44"/>
+<label x="22.86" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="3" class="0">
@@ -10225,8 +10225,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN22" gate="G$1" pin="2"/>
-<junction x="22.86" y="-124.46"/>
-<label x="22.86" y="-124.46" size="1.778" layer="95"/>
+<junction x="22.86" y="-96.52"/>
+<label x="22.86" y="-96.52" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM" gate="G$1" pin="2"/>
@@ -10241,8 +10241,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN22" gate="G$1" pin="1"/>
-<junction x="22.86" y="-127"/>
-<label x="22.86" y="-127" size="1.778" layer="95"/>
+<junction x="22.86" y="-99.06"/>
+<label x="22.86" y="-99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM" gate="G$1" pin="3"/>
@@ -10257,8 +10257,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN21" gate="G$1" pin="4"/>
-<junction x="76.2" y="-99.06"/>
-<label x="76.2" y="-99.06" size="1.778" layer="95"/>
+<junction x="76.2" y="-71.12"/>
+<label x="76.2" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM" gate="G$1" pin="4"/>
@@ -10273,8 +10273,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN21" gate="G$1" pin="3"/>
-<junction x="76.2" y="-101.6"/>
-<label x="76.2" y="-101.6" size="1.778" layer="95"/>
+<junction x="76.2" y="-73.66"/>
+<label x="76.2" y="-73.66" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM" gate="G$1" pin="5"/>
@@ -10289,8 +10289,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN21" gate="G$1" pin="2"/>
-<junction x="76.2" y="-104.14"/>
-<label x="76.2" y="-104.14" size="1.778" layer="95"/>
+<junction x="76.2" y="-76.2"/>
+<label x="76.2" y="-76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM" gate="G$1" pin="6"/>
@@ -10305,8 +10305,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN21" gate="G$1" pin="1"/>
-<junction x="76.2" y="-106.68"/>
-<label x="76.2" y="-106.68" size="1.778" layer="95"/>
+<junction x="76.2" y="-78.74"/>
+<label x="76.2" y="-78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM" gate="G$1" pin="7"/>
@@ -10321,8 +10321,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN20" gate="G$1" pin="4"/>
-<junction x="58.42" y="-99.06"/>
-<label x="58.42" y="-99.06" size="1.778" layer="95"/>
+<junction x="58.42" y="-71.12"/>
+<label x="58.42" y="-71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="PWM" gate="G$1" pin="8"/>
@@ -10337,8 +10337,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN20" gate="G$1" pin="3"/>
-<junction x="58.42" y="-101.6"/>
-<label x="58.42" y="-101.6" size="1.778" layer="95"/>
+<junction x="58.42" y="-73.66"/>
+<label x="58.42" y="-73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="11" class="0">
@@ -10348,8 +10348,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN20" gate="G$1" pin="2"/>
-<junction x="58.42" y="-104.14"/>
-<label x="58.42" y="-104.14" size="1.778" layer="95"/>
+<junction x="58.42" y="-76.2"/>
+<label x="58.42" y="-76.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="12" class="0">
@@ -10359,8 +10359,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN20" gate="G$1" pin="1"/>
-<junction x="58.42" y="-106.68"/>
-<label x="58.42" y="-106.68" size="1.778" layer="95"/>
+<junction x="58.42" y="-78.74"/>
+<label x="58.42" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="14" class="0">
@@ -10370,8 +10370,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN23" gate="G$1" pin="2"/>
-<junction x="40.64" y="-124.46"/>
-<label x="40.64" y="-124.46" size="1.778" layer="95"/>
+<junction x="40.64" y="-96.52"/>
+<label x="40.64" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="15" class="0">
@@ -10381,8 +10381,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN23" gate="G$1" pin="3"/>
-<junction x="40.64" y="-121.92"/>
-<label x="40.64" y="-121.92" size="1.778" layer="95"/>
+<junction x="40.64" y="-93.98"/>
+<label x="40.64" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="16" class="0">
@@ -10392,8 +10392,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN23" gate="G$1" pin="4"/>
-<junction x="40.64" y="-119.38"/>
-<label x="40.64" y="-119.38" size="1.778" layer="95"/>
+<junction x="40.64" y="-91.44"/>
+<label x="40.64" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="17" class="0">
@@ -10403,8 +10403,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN24" gate="G$1" pin="1"/>
-<junction x="58.42" y="-127"/>
-<label x="58.42" y="-127" size="1.778" layer="95"/>
+<junction x="58.42" y="-99.06"/>
+<label x="58.42" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="18" class="0">
@@ -10414,8 +10414,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN24" gate="G$1" pin="2"/>
-<junction x="58.42" y="-124.46"/>
-<label x="58.42" y="-124.46" size="1.778" layer="95"/>
+<junction x="58.42" y="-96.52"/>
+<label x="58.42" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="19" class="0">
@@ -10425,8 +10425,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN24" gate="G$1" pin="3"/>
-<junction x="58.42" y="-121.92"/>
-<label x="58.42" y="-121.92" size="1.778" layer="95"/>
+<junction x="58.42" y="-93.98"/>
+<label x="58.42" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="20" class="0">
@@ -10436,8 +10436,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN24" gate="G$1" pin="4"/>
-<junction x="58.42" y="-119.38"/>
-<label x="58.42" y="-119.38" size="1.778" layer="95"/>
+<junction x="58.42" y="-91.44"/>
+<label x="58.42" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="21" class="0">
@@ -10486,10 +10486,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <wire x1="185.42" y1="48.26" x2="193.04" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CN6" gate="G$1" pin="3"/>
-<junction x="22.86" y="-35.56"/>
-</segment>
-<segment>
 <pinref part="DIGITAL1" gate="G$1" pin="8"/>
 <wire x1="132.08" y1="-116.84" x2="137.16" y2="-116.84" width="0.1524" layer="91"/>
 <label x="134.62" y="-116.84" size="1.778" layer="95"/>
@@ -10501,10 +10497,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <wire x1="185.42" y1="45.72" x2="193.04" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="CN6" gate="G$1" pin="2"/>
-<junction x="22.86" y="-38.1"/>
-</segment>
-<segment>
 <pinref part="DIGITAL1" gate="G$1" pin="7"/>
 <wire x1="132.08" y1="-114.3" x2="137.16" y2="-114.3" width="0.1524" layer="91"/>
 <label x="134.62" y="-114.3" size="1.778" layer="95"/>
@@ -10514,10 +10506,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <segment>
 <pinref part="U3" gate="G$1" pin="26"/>
 <wire x1="185.42" y1="43.18" x2="193.04" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="CN6" gate="G$1" pin="1"/>
-<junction x="22.86" y="-40.64"/>
 </segment>
 <segment>
 <pinref part="DIGITAL1" gate="G$1" pin="6"/>
@@ -10752,8 +10740,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN12" gate="G$1" pin="1"/>
-<junction x="58.42" y="-60.96"/>
-<label x="58.42" y="-60.96" size="1.778" layer="95"/>
+<junction x="22.86" y="-38.1"/>
+<label x="22.86" y="-38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="DIGITAL3" gate="G$1" pin="1"/>
@@ -10768,8 +10756,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN12" gate="G$1" pin="2"/>
-<junction x="58.42" y="-58.42"/>
-<label x="58.42" y="-58.42" size="1.778" layer="95"/>
+<junction x="22.86" y="-35.56"/>
+<label x="22.86" y="-35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="49" class="0">
@@ -10779,8 +10767,8 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 </segment>
 <segment>
 <pinref part="CN12" gate="G$1" pin="3"/>
-<junction x="58.42" y="-55.88"/>
-<label x="58.42" y="-55.88" size="1.778" layer="95"/>
+<junction x="22.86" y="-33.02"/>
+<label x="22.86" y="-33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -10835,36 +10823,36 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <net name="N$14" class="0">
 <segment>
 <pinref part="CN12" gate="G$1" pin="4"/>
-<junction x="58.42" y="-53.34"/>
-<label x="58.42" y="-53.34" size="1.778" layer="95"/>
+<junction x="22.86" y="-30.48"/>
+<label x="22.86" y="-30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$19" class="0">
 <segment>
 <pinref part="CN25" gate="G$1" pin="1"/>
-<junction x="76.2" y="-127"/>
-<label x="76.2" y="-127" size="1.778" layer="95"/>
+<junction x="76.2" y="-99.06"/>
+<label x="76.2" y="-99.06" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="CN25" gate="G$1" pin="2"/>
-<junction x="76.2" y="-124.46"/>
-<label x="76.2" y="-124.46" size="1.778" layer="95"/>
+<junction x="76.2" y="-96.52"/>
+<label x="76.2" y="-96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="CN25" gate="G$1" pin="3"/>
-<junction x="76.2" y="-121.92"/>
-<label x="76.2" y="-121.92" size="1.778" layer="95"/>
+<junction x="76.2" y="-93.98"/>
+<label x="76.2" y="-93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="CN25" gate="G$1" pin="4"/>
-<junction x="76.2" y="-119.38"/>
-<label x="76.2" y="-119.38" size="1.778" layer="95"/>
+<junction x="76.2" y="-91.44"/>
+<label x="76.2" y="-91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -11104,7 +11092,7 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <net name="2" class="0">
 <segment>
 <pinref part="CN22" gate="G$1" pin="3"/>
-<junction x="22.86" y="-121.92"/>
+<junction x="22.86" y="-93.98"/>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="2"/>
@@ -11115,12 +11103,6 @@ Simple RJ45, 8-pin connection - connector for common Cat5, Cat5e, and Cat6 Ether
 <pinref part="PWM" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="-68.58" x2="137.16" y2="-68.58" width="0.1524" layer="91"/>
 <label x="132.08" y="-68.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$53" class="0">
-<segment>
-<pinref part="CN6" gate="G$1" pin="4"/>
-<junction x="22.86" y="-33.02"/>
 </segment>
 </net>
 <net name="N$54" class="0">
