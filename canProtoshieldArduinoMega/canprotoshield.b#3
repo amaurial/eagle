@@ -1994,6 +1994,36 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
+<library name="SparkFun-Connectors">
+<description>&lt;h3&gt;SparkFun Electronics' preferred foot prints&lt;/h3&gt;
+In this library you'll find connectors and sockets- basically anything that can be plugged into or onto.&lt;br&gt;&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is the end user's responsibility to ensure correctness and suitablity for a given componet or application. If you enjoy using this library, please buy one of our products at www.sparkfun.com.
+&lt;br&gt;&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="RJ45-8">
+<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="21"/>
+<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
+<pad name="8" x="4.445" y="8.89" drill="1" diameter="1.8796"/>
+<pad name="7" x="3.175" y="6.35" drill="1" diameter="1.8796"/>
+<pad name="6" x="1.905" y="8.89" drill="1" diameter="1.8796"/>
+<pad name="4" x="-0.635" y="8.89" drill="1" diameter="1.8796"/>
+<pad name="2" x="-3.175" y="8.89" drill="1" diameter="1.8796"/>
+<pad name="5" x="0.635" y="6.35" drill="1" diameter="1.8796"/>
+<pad name="3" x="-1.905" y="6.35" drill="1" diameter="1.8796"/>
+<pad name="1" x="-4.445" y="6.35" drill="1" diameter="1.8796" shape="square"/>
+<hole x="-5.715" y="0" drill="3.2"/>
+<hole x="5.715" y="0" drill="3.2"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -2003,7 +2033,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="SparkFun">
+<designrules name="Elecrow_2-layer_eagle_rule">
+<description language="de">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
+&lt;p&gt;
+Die Standard-Design-Rules sind so gewählt, dass sie für 
+die meisten Anwendungen passen. Sollte ihre Platine 
+besondere Anforderungen haben, treffen Sie die erforderlichen
+Einstellungen hier und speichern die Design Rules unter 
+einem neuen Namen ab.</description>
 <description language="en">&lt;b&gt;EAGLE Design Rules&lt;/b&gt;
 &lt;p&gt;
 The default Design Rules have been set to cover
@@ -2011,26 +2048,28 @@ a wide range of applications. Your particular design
 may have different requirements, so please make the
 necessary adjustments and save your customized
 design rules under a new name.</description>
+<description language="zh">&lt;b&gt;Elecrow EAGLE Design Rules&lt;/b&gt;
+</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm 0.035mm"/>
 <param name="mtIsolate" value="1.5mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm 0.15mm 0.2mm"/>
-<param name="mdWireWire" value="8mil"/>
-<param name="mdWirePad" value="8mil"/>
-<param name="mdWireVia" value="8mil"/>
-<param name="mdPadPad" value="8mil"/>
-<param name="mdPadVia" value="8mil"/>
-<param name="mdViaVia" value="8mil"/>
-<param name="mdSmdPad" value="8mil"/>
-<param name="mdSmdVia" value="8mil"/>
-<param name="mdSmdSmd" value="8mil"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="0mil"/>
+<param name="mdSmdVia" value="0mil"/>
+<param name="mdSmdSmd" value="0mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="10mil"/>
-<param name="mdDrill" value="8mil"/>
+<param name="mdDrill" value="10mil"/>
 <param name="mdSmdStop" value="0mil"/>
-<param name="msWidth" value="8mil"/>
-<param name="msDrill" value="20mil"/>
-<param name="msMicroVia" value="9.99mm"/>
+<param name="msWidth" value="6mil"/>
+<param name="msDrill" value="12mil"/>
+<param name="msMicroVia" value="12mil"/>
 <param name="msBlindViaRatio" value="0.5"/>
 <param name="rvPadTop" value="0.25"/>
 <param name="rvPadInner" value="0.25"/>
@@ -2039,15 +2078,15 @@ design rules under a new name.</description>
 <param name="rvViaInner" value="0.25"/>
 <param name="rvMicroViaOuter" value="0.25"/>
 <param name="rvMicroViaInner" value="0.25"/>
-<param name="rlMinPadTop" value="12mil"/>
+<param name="rlMinPadTop" value="10mil"/>
 <param name="rlMaxPadTop" value="20mil"/>
 <param name="rlMinPadInner" value="10mil"/>
 <param name="rlMaxPadInner" value="20mil"/>
-<param name="rlMinPadBottom" value="12mil"/>
+<param name="rlMinPadBottom" value="10mil"/>
 <param name="rlMaxPadBottom" value="20mil"/>
-<param name="rlMinViaOuter" value="10mil"/>
+<param name="rlMinViaOuter" value="6mil"/>
 <param name="rlMaxViaOuter" value="20mil"/>
-<param name="rlMinViaInner" value="10mil"/>
+<param name="rlMinViaInner" value="6mil"/>
 <param name="rlMaxViaInner" value="20mil"/>
 <param name="rlMinMicroViaOuter" value="4mil"/>
 <param name="rlMaxMicroViaOuter" value="20mil"/>
@@ -2055,16 +2094,16 @@ design rules under a new name.</description>
 <param name="rlMaxMicroViaInner" value="20mil"/>
 <param name="psTop" value="-1"/>
 <param name="psBottom" value="-1"/>
-<param name="psFirst" value="-1"/>
+<param name="psFirst" value="0"/>
 <param name="psElongationLong" value="100"/>
 <param name="psElongationOffset" value="100"/>
 <param name="mvStopFrame" value="1"/>
 <param name="mvCreamFrame" value="0"/>
-<param name="mlMinStopFrame" value="4mil"/>
-<param name="mlMaxStopFrame" value="4mil"/>
+<param name="mlMinStopFrame" value="2mil"/>
+<param name="mlMaxStopFrame" value="2mil"/>
 <param name="mlMinCreamFrame" value="0mil"/>
 <param name="mlMaxCreamFrame" value="0mil"/>
-<param name="mlViaStopLimit" value="25mil"/>
+<param name="mlViaStopLimit" value="100mil"/>
 <param name="srRoundness" value="0"/>
 <param name="srMinRoundness" value="0mil"/>
 <param name="srMaxRoundness" value="0mil"/>
@@ -2075,7 +2114,7 @@ design rules under a new name.</description>
 <param name="checkGrid" value="0"/>
 <param name="checkAngle" value="0"/>
 <param name="checkFont" value="1"/>
-<param name="checkRestrict" value="1"/>
+<param name="checkRestrict" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -2241,6 +2280,11 @@ design rules under a new name.</description>
 <element name="C1" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="17.186240625" y="14.852403125" rot="MR270"/>
 <element name="C2" library="SparkFun-Capacitors" package="0805" value="0.1uF" x="14.526134375" y="31.86958125" rot="MR90"/>
 <element name="R4" library="adafruit" package="M2012" value="10k" x="15.62570625" y="42.162696875" rot="MR270"/>
+<element name="PWM" library="SparkFun-Connectors" package="RJ45-8" value="RJ45-8PTH" x="-21.4376" y="10.361984375"/>
+<element name="DIGITAL1" library="SparkFun-Connectors" package="RJ45-8" value="RJ45-8PTH" x="-36.8808" y="10.361984375"/>
+<element name="DIGITAL2" library="SparkFun-Connectors" package="RJ45-8" value="RJ45-8PTH" x="-52.324" y="10.361984375"/>
+<element name="ANALOG" library="SparkFun-Connectors" package="RJ45-8" value="RJ45-8PTH" x="-67.7672" y="10.361984375"/>
+<element name="ANALOG1" library="SparkFun-Connectors" package="RJ45-8" value="RJ45-8PTH" x="-83.2104" y="10.361984375"/>
 </elements>
 <signals>
 <signal name="TXCAN">
@@ -3249,15 +3293,132 @@ design rules under a new name.</description>
 <signal name="N$56">
 <contactref element="U3" pad="GND@2"/>
 </signal>
-<signal name="VCC1">
-<wire x1="99.40944375" y1="56.1231375" x2="94.935175" y2="59.2981375" width="0.2032" layer="1"/>
-<wire x1="98.110175" y1="4.0531375" x2="99.40944375" y2="56.1231375" width="0.2032" layer="1"/>
+<signal name="N$57">
+<contactref element="ANALOG" pad="1"/>
+</signal>
+<signal name="N$58">
+<contactref element="ANALOG" pad="2"/>
+</signal>
+<signal name="N$59">
+<contactref element="ANALOG" pad="3"/>
+</signal>
+<signal name="N$60">
+<contactref element="ANALOG" pad="4"/>
+</signal>
+<signal name="N$61">
+<contactref element="ANALOG" pad="5"/>
+</signal>
+<signal name="N$62">
+<contactref element="ANALOG" pad="6"/>
+</signal>
+<signal name="N$63">
+<contactref element="ANALOG" pad="7"/>
+</signal>
+<signal name="N$64">
+<contactref element="ANALOG" pad="8"/>
+</signal>
+<signal name="N$65">
+<contactref element="ANALOG1" pad="1"/>
+</signal>
+<signal name="N$66">
+<contactref element="ANALOG1" pad="2"/>
+</signal>
+<signal name="N$67">
+<contactref element="ANALOG1" pad="3"/>
+</signal>
+<signal name="N$68">
+<contactref element="ANALOG1" pad="4"/>
+</signal>
+<signal name="N$69">
+<contactref element="ANALOG1" pad="5"/>
+</signal>
+<signal name="N$70">
+<contactref element="ANALOG1" pad="6"/>
+</signal>
+<signal name="N$71">
+<contactref element="ANALOG1" pad="7"/>
+</signal>
+<signal name="N$72">
+<contactref element="ANALOG1" pad="8"/>
+</signal>
+<signal name="N$73">
+<contactref element="PWM" pad="1"/>
+</signal>
+<signal name="N$74">
+<contactref element="PWM" pad="2"/>
+</signal>
+<signal name="N$75">
+<contactref element="PWM" pad="3"/>
+</signal>
+<signal name="N$76">
+<contactref element="PWM" pad="4"/>
+</signal>
+<signal name="N$77">
+<contactref element="PWM" pad="5"/>
+</signal>
+<signal name="N$78">
+<contactref element="PWM" pad="6"/>
+</signal>
+<signal name="N$79">
+<contactref element="PWM" pad="7"/>
+</signal>
+<signal name="N$80">
+<contactref element="PWM" pad="8"/>
+</signal>
+<signal name="N$81">
+<contactref element="DIGITAL1" pad="1"/>
+</signal>
+<signal name="N$82">
+<contactref element="DIGITAL1" pad="2"/>
+</signal>
+<signal name="N$83">
+<contactref element="DIGITAL1" pad="3"/>
+</signal>
+<signal name="N$84">
+<contactref element="DIGITAL1" pad="4"/>
+</signal>
+<signal name="N$85">
+<contactref element="DIGITAL1" pad="5"/>
+</signal>
+<signal name="N$86">
+<contactref element="DIGITAL1" pad="6"/>
+</signal>
+<signal name="N$87">
+<contactref element="DIGITAL1" pad="7"/>
+</signal>
+<signal name="N$88">
+<contactref element="DIGITAL1" pad="8"/>
+</signal>
+<signal name="N$89">
+<contactref element="DIGITAL2" pad="1"/>
+</signal>
+<signal name="N$90">
+<contactref element="DIGITAL2" pad="2"/>
+</signal>
+<signal name="N$91">
+<contactref element="DIGITAL2" pad="3"/>
+</signal>
+<signal name="N$92">
+<contactref element="DIGITAL2" pad="4"/>
+</signal>
+<signal name="N$93">
+<contactref element="DIGITAL2" pad="5"/>
+</signal>
+<signal name="N$94">
+<contactref element="DIGITAL2" pad="6"/>
+</signal>
+<signal name="N$95">
+<contactref element="DIGITAL2" pad="7"/>
+</signal>
+<signal name="N$96">
+<contactref element="DIGITAL2" pad="8"/>
 </signal>
 </signals>
 <errors>
+<approved hash="19,16,c3dd18b07ee91b2f"/>
+<approved hash="19,1,a0bc2561b2b8f72d"/>
 <approved hash="19,1,db112d4641a9f3f6"/>
 <approved hash="19,1,5379e62be7115243"/>
-<approved hash="19,1,a0bc2561b2b8f72d"/>
 <approved hash="19,1,be914f9b4f6cbe66"/>
 <approved hash="19,1,2765366f3660276a"/>
 <approved hash="19,1,88769d7c9d75887f"/>
@@ -3296,7 +3457,47 @@ design rules under a new name.</description>
 <approved hash="19,1,625f7755772e6224"/>
 <approved hash="19,1,db28ee22ee3bdb31"/>
 <approved hash="19,1,3f5150ef32069df0"/>
-<approved hash="19,16,c3dd18b07ee91b2f"/>
+<approved hash="19,1,b3511f2698b93c4c"/>
+<approved hash="19,1,7ce6a23f1e00cd48"/>
+<approved hash="19,1,9c8e567457529da8"/>
+<approved hash="19,1,9e716f3cefcb1e86"/>
+<approved hash="19,1,0782d4cf54c7878a"/>
+<approved hash="19,1,68963ddbbdd3e89e"/>
+<approved hash="19,1,d19ba2d622ee51a3"/>
+<approved hash="19,1,3aaf0be28bfabab7"/>
+<approved hash="19,1,a3b370fef0f523b8"/>
+<approved hash="19,1,04c4d989598184cc"/>
+<approved hash="19,1,6dc83e85be9dedd0"/>
+<approved hash="19,1,d6dda79027a856e5"/>
+<approved hash="19,1,3fe10cac8ca4bfe9"/>
+<approved hash="19,1,a0f575b8f5b720fa"/>
+<approved hash="19,1,0806db4b5b43880e"/>
+<approved hash="19,1,730a4247c25ff312"/>
+<approved hash="19,1,da1fa952296a5a27"/>
+<approved hash="19,1,3d23106e9066bd2b"/>
+<approved hash="19,1,a437777af771243c"/>
+<approved hash="19,1,0f38de755e0d8f40"/>
+<approved hash="19,1,764c4501c519f654"/>
+<approved hash="19,1,74453c792d946839"/>
+<approved hash="19,1,d3f527b0a7475302"/>
+<approved hash="19,1,4a069c431c4bca0e"/>
+<approved hash="19,1,25127557f55fa51a"/>
+<approved hash="19,1,9c1fea5a6a621c27"/>
+<approved hash="19,1,772b436ec376f733"/>
+<approved hash="19,1,ee373872b8796e3c"/>
+<approved hash="19,1,49409105110dc948"/>
+<approved hash="19,1,204c7609f611a054"/>
+<approved hash="19,1,9b59ef1c6f241b61"/>
+<approved hash="19,1,72654420c428f26d"/>
+<approved hash="19,1,ed713d34bd3b6d7e"/>
+<approved hash="19,1,458293c713cfc58a"/>
+<approved hash="19,1,3e8e0acb8ad3be96"/>
+<approved hash="19,1,979be1de61e617a3"/>
+<approved hash="19,1,70a758e2d8eaf0af"/>
+<approved hash="19,1,e9b33ff6bffd69b8"/>
+<approved hash="19,1,42bc96f91681c2c4"/>
+<approved hash="19,1,3bc80d8d8d95bbd0"/>
+<approved hash="19,1,30c80971288519be"/>
 </errors>
 </board>
 </drawing>
