@@ -18,8 +18,8 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -735,6 +735,7 @@ design rules under a new name.</description>
 <element name="USBV+2" library="wirepad" package="SMD1,27-2,54" value="" x="3.302" y="9.652" rot="MR90"/>
 <element name="USBV-" library="wirepad" package="SMD1,27-2,54" value="" x="3.302" y="7.112" rot="MR90"/>
 <element name="U2" library="SparkFun-RF" package="RFM69CW-XXXS2" value="RFM69CW" x="23.622" y="10.922" rot="MR270"/>
+<element name="AUX10" library="wirepad" package="SMD1,27-2,54" value="" x="17.018" y="1.778"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -998,10 +999,14 @@ design rules under a new name.</description>
 <wire x1="20.4216" y1="8.382" x2="20.2692" y2="8.382" width="0.1524" layer="1"/>
 <wire x1="21.1836" y1="7.62" x2="20.4216" y2="8.382" width="0.1524" layer="1"/>
 <wire x1="21.1836" y1="4.572" x2="21.1836" y2="7.62" width="0.1524" layer="1"/>
-<wire x1="18.4404" y1="1.8288" x2="21.1836" y2="4.572" width="0.1524" layer="1"/>
-<wire x1="10.9728" y1="1.8288" x2="18.4404" y2="1.8288" width="0.1524" layer="1"/>
 <wire x1="15.3924" y1="13.2588" x2="15.283721875" y2="13.3261625" width="0.1524" layer="1"/>
 <wire x1="10.9728" y1="1.8288" x2="10.922" y2="1.778" width="0.1524" layer="1"/>
+<wire x1="10.9728" y1="1.8288" x2="10.922" y2="1.8796" width="0.1524" layer="1"/>
+<wire x1="10.922" y1="1.8796" x2="10.922" y2="4.064" width="0.1524" layer="1"/>
+<wire x1="10.922" y1="4.064" x2="17.526" y2="4.064" width="0.1524" layer="1"/>
+<wire x1="17.526" y1="4.064" x2="19.05" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="19.05" y1="2.54" x2="19.1516" y2="2.54" width="0.1524" layer="1"/>
+<wire x1="19.1516" y1="2.54" x2="21.1836" y2="4.572" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$7">
 <contactref element="USBD+" pad="1"/>
@@ -1137,6 +1142,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="D3">
 <contactref element="U1" pad="18"/>
+<contactref element="R8" pad="4"/>
+<wire x1="26.649528125" y1="5.1814125" x2="26.416" y2="5.1814125" width="0.1524" layer="1"/>
+<wire x1="26.416" y1="5.1814125" x2="26.416" y2="6.71936875" width="0.1524" layer="1"/>
+<wire x1="26.416" y1="6.71936875" x2="25.748903125" y2="7.386465625" width="0.1524" layer="1"/>
 </signal>
 <signal name="D4">
 <contactref element="U1" pad="25"/>
@@ -1205,13 +1214,10 @@ design rules under a new name.</description>
 </signal>
 <signal name="D11">
 <contactref element="U1" pad="12"/>
-<contactref element="R8" pad="4"/>
-<wire x1="24.8412" y1="5.0292" x2="26.5176" y2="5.0292" width="0.1524" layer="1"/>
-<wire x1="23.3172" y1="3.5052" x2="24.8412" y2="5.0292" width="0.1524" layer="1"/>
-<wire x1="22.86" y1="3.5052" x2="23.3172" y2="3.5052" width="0.1524" layer="1"/>
-<wire x1="22.4028" y1="3.9624" x2="22.86" y2="3.5052" width="0.1524" layer="1"/>
-<wire x1="26.5176" y1="5.0292" x2="26.649528125" y2="5.1814125" width="0.1524" layer="1"/>
-<wire x1="22.4028" y1="3.9624" x2="22.354790625" y2="3.992353125" width="0.1524" layer="1"/>
+<contactref element="AUX10" pad="1"/>
+<wire x1="17.018" y1="1.778" x2="19.05" y2="1.778" width="0.1524" layer="1"/>
+<wire x1="19.05" y1="1.778" x2="20.574" y2="3.302" width="0.1524" layer="1"/>
+<wire x1="20.574" y1="3.302" x2="22.354790625" y2="3.992353125" width="0.1524" layer="1"/>
 </signal>
 <signal name="D12">
 <contactref element="U1" pad="26"/>

@@ -2538,6 +2538,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="SparkFun-RF" deviceset="RFM69" device="CW"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3V"/>
+<part name="AUX10" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2623,6 +2624,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U2" gate="G$1" x="50.8" y="-25.4"/>
 <instance part="GND12" gate="1" x="71.12" y="-40.64"/>
 <instance part="SUPPLY1" gate="G$1" x="27.94" y="-10.16"/>
+<instance part="AUX10" gate="1" x="220.98" y="-78.74" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -2982,6 +2984,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="66.04" y1="55.88" x2="76.2" y2="55.88" width="0.1524" layer="91"/>
 <label x="73.66" y="55.88" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R8" gate="D" pin="1"/>
+<wire x1="185.42" y1="17.78" x2="170.18" y2="17.78" width="0.1524" layer="91"/>
+<label x="172.72" y="17.78" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D4" class="0">
 <segment>
@@ -3074,9 +3081,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="73.66" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="R8" gate="D" pin="1"/>
-<wire x1="185.42" y1="17.78" x2="170.18" y2="17.78" width="0.1524" layer="91"/>
-<label x="172.72" y="17.78" size="1.778" layer="95"/>
+<pinref part="AUX10" gate="1" pin="P"/>
+<wire x1="218.44" y1="-78.74" x2="170.18" y2="-78.74" width="0.1524" layer="91"/>
+<label x="170.18" y="-78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D12" class="0">
