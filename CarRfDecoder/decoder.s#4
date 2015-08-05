@@ -2512,7 +2512,7 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="R5" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="2K"/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="VCC1" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3V"/>
-<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV"/>
+<part name="R6" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="2k2"/>
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="100"/>
 <part name="R8" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="100"/>
 <part name="R9" library="SparkFun-Resistors" deviceset="RESISTOR-ARRAY" device="0603-ARV" value="100"/>
@@ -3372,8 +3372,20 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <errors>
 <approved hash="104,1,15.24,116.84,U3,VIN,N$9,,,"/>
 <approved hash="104,1,35.56,116.84,U3,VBAT,N$10,,,"/>
+<approved hash="104,1,35.56,111.76,U3,VSS,GND,,,"/>
+<approved hash="202,1,88.9,109.22,U6,BP,,,,"/>
 <approved hash="106,1,66.04,55.88,D3,,,,,"/>
 <approved hash="106,1,66.04,15.24,TXLED,,,,,"/>
+<approved hash="113,1,-32.9107,118.013,USBV+,,,,,"/>
+<approved hash="113,1,-32.9107,112.933,USBD+,,,,,"/>
+<approved hash="113,1,-32.9107,107.853,USBD-,,,,,"/>
+<approved hash="113,1,-32.9107,102.773,USBV-,,,,,"/>
+<approved hash="113,1,-33.2994,128.173,GND,,,,,"/>
+<approved hash="113,1,-32.0921,133.253,USBV+2,,,,,"/>
+<approved hash="113,1,152.4,107.675,R6,,,,,"/>
+<approved hash="113,1,193.04,108.043,D1,,,,,"/>
+<approved hash="113,1,220.871,97.6926,MOTOR,,,,,"/>
+<approved hash="113,1,218.415,92.6126,MOTORGND,,,,,"/>
 <approved hash="113,1,216.966,41.8126,BLINK-L,,,,,"/>
 <approved hash="113,1,216.966,34.1926,BLINK-R,,,,,"/>
 <approved hash="113,1,210.418,26.5726,BACK-BREAKLIGHT,,,,,"/>
@@ -3386,9 +3398,12 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <approved hash="113,1,218.719,-36.9274,AUX6,,,,,"/>
 <approved hash="113,1,218.719,-44.5474,AUX7,,,,,"/>
 <approved hash="113,1,218.719,-52.1674,AUX8,,,,,"/>
+<approved hash="113,1,218.604,51.9726,LIGHT,,,,,"/>
 <approved hash="113,1,218.719,-62.3274,AUX9,,,,,"/>
 <approved hash="113,1,218.719,69.7526,2.56V,,,,,"/>
+<approved hash="113,1,218.719,64.6726,LDR,,,,,"/>
 <approved hash="113,1,218.719,-69.9474,3.3V,,,,,"/>
+<approved hash="115,1,71.12,38.1,D10,,,,,"/>
 </errors>
 </schematic>
 </drawing>

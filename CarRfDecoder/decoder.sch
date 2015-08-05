@@ -1299,7 +1299,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
 <smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-0.8" y="-1.13" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1588,8 +1588,8 @@ Source: RS Components</description>
 <smd name="6" x="0.4" y="0.625" dx="0.5" dy="0.65" layer="1"/>
 <smd name="7" x="-0.4" y="0.625" dx="0.5" dy="0.65" layer="1"/>
 <smd name="8" x="-1.2" y="0.625" dx="0.5" dy="0.65" layer="1"/>
-<text x="-1.905" y="-2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.905" y="1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.27" y="-1.905" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="1.27" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.6" y1="0.7" x2="-0.9" y2="0.8" layer="51"/>
 <rectangle x1="-0.7" y1="0.7" x2="-0.1" y2="0.8" layer="51"/>
 <rectangle x1="0.1" y1="0.7" x2="0.7" y2="0.8" layer="51"/>
