@@ -2515,8 +2515,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="MOTORGND" library="wirepad" deviceset="SMD2" device=""/>
 <part name="BLINK-L" library="wirepad" deviceset="SMD2" device=""/>
 <part name="BLINK-R" library="wirepad" deviceset="SMD2" device=""/>
-<part name="BACK-BREAKLIGHT" library="wirepad" deviceset="SMD2" device=""/>
-<part name="AUX-BREAKLIGHT" library="wirepad" deviceset="SMD2" device=""/>
+<part name="BBRKLIGHT" library="wirepad" deviceset="SMD2" device=""/>
+<part name="ABRKLIGHT" library="wirepad" deviceset="SMD2" device=""/>
 <part name="AUX1" library="wirepad" deviceset="SMD2" device=""/>
 <part name="AUX2" library="wirepad" deviceset="SMD2" device=""/>
 <part name="AUX3" library="wirepad" deviceset="SMD2" device=""/>
@@ -2601,8 +2601,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="MOTORGND" gate="1" x="223.52" y="91.44" rot="MR0"/>
 <instance part="BLINK-L" gate="1" x="220.98" y="40.64" rot="MR0"/>
 <instance part="BLINK-R" gate="1" x="220.98" y="33.02" rot="MR0"/>
-<instance part="BACK-BREAKLIGHT" gate="1" x="220.98" y="25.4" rot="MR0"/>
-<instance part="AUX-BREAKLIGHT" gate="1" x="220.98" y="17.78" rot="MR0"/>
+<instance part="BBRKLIGHT" gate="1" x="220.98" y="25.4" rot="MR0"/>
+<instance part="ABRKLIGHT" gate="1" x="220.98" y="17.78" rot="MR0"/>
 <instance part="AUX1" gate="1" x="220.98" y="2.54" rot="MR0"/>
 <instance part="AUX2" gate="1" x="220.98" y="-5.08" rot="MR0"/>
 <instance part="AUX3" gate="1" x="220.98" y="-12.7" rot="MR0"/>
@@ -3290,14 +3290,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$18" class="0">
 <segment>
 <pinref part="R8" gate="R" pin="2"/>
-<pinref part="BACK-BREAKLIGHT" gate="1" pin="P"/>
+<pinref part="BBRKLIGHT" gate="1" pin="P"/>
 <wire x1="195.58" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R8" gate="D" pin="2"/>
-<pinref part="AUX-BREAKLIGHT" gate="1" pin="P"/>
+<pinref part="ABRKLIGHT" gate="1" pin="P"/>
 <wire x1="195.58" y1="17.78" x2="218.44" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>

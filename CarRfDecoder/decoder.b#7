@@ -19,7 +19,7 @@
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -72,7 +72,7 @@
 <layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
 <layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
 <layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
@@ -157,8 +157,12 @@
 <text x="19.304" y="21.59" size="0.8128" layer="121" rot="R270">p9</text>
 <text x="2.286" y="16.764" size="1.016" layer="121">LDR</text>
 <text x="5.334" y="5.08" size="1.016" layer="122" rot="MR0">USB-</text>
-<text x="5.334" y="7.874" size="1.016" layer="122" rot="MR0">USB+</text>
-<text x="4.826" y="10.414" size="1.016" layer="122" rot="MR0">Mot-</text>
+<text x="6.35" y="9.398" size="1.016" layer="122" rot="MR0">V+</text>
+<text x="6.858" y="11.684" size="0.8128" layer="122" rot="MR0">Mot-</text>
+<text x="13.462" y="1.524" size="0.8128" layer="122" rot="MR90">USBD-</text>
+<text x="10.414" y="4.318" size="0.8128" layer="122" rot="MR90">USBD+</text>
+<text x="5.334" y="19.304" size="0.8128" layer="122" rot="MR0">usbV+</text>
+<text x="7.874" y="14.224" size="0.8128" layer="122" rot="MR0">Mot+</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">

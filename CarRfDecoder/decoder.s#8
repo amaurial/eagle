@@ -2521,7 +2521,7 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <part name="T1" library="transistor" deviceset="BC847" device=""/>
 <part name="T2" library="transistor" deviceset="BC847" device=""/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="SOD-523"/>
-<part name="T3" library="we-transistor" deviceset="MOSFET-P" device="-SOT23"/>
+<part name="T3" library="we-transistor" deviceset="MOSFET-P" device="-SOT23" value="IRLML6402"/>
 <part name="MOTOR" library="wirepad" deviceset="SMD2" device=""/>
 <part name="MOTORGND" library="wirepad" deviceset="SMD2" device=""/>
 <part name="BLINK-L" library="wirepad" deviceset="SMD2" device=""/>
