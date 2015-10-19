@@ -1,0 +1,53 @@
+Partlist exported from /home/user/amauriala/eagle/CarRfDecoder/decoder.sch at 19/08/15 9:59 AM
+
+Part            Value             Device                 Package       Description                                                                             PROD_ID    VALUE       
+2.56V                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+3.3V                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+10K             68                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
+AUX-BREAKLIGHT                    SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX1                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX2                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX3                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX4                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX5                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX6                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX7                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX8                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX9                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+AUX10                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+BACK-BREAKLIGHT                   SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+BLINK-L                           SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+BLINK-R                           SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+C1              1uF               CAP0805                0805          Capacitor                                                                                                      
+C2              4.7uF             CAP0805                0805          Capacitor                                                                                                      
+C3              4.7uF             CAP0805                0805          Capacitor                                                                                                      
+C4              4.7uF             CAP0805                0805          Capacitor                                                                                                      
+D1                                DIODESOD-523           SOD-523       Diode                                                                                                          
+GND                               SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+LDR                               SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+LIGHT                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+MOTOR                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+MOTORGND                          SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+R1              22                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
+R2              22                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
+R3              2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
+R4              2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
+R5              2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
+R6              2k2               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
+R7              100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
+R8              100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
+R9              100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
+R10             100               RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
+R11             68                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
+T1              BC847             BC847                  SOT23         NPN TRANSISTOR                                                                                                 
+T2              BC847             BC847                  SOT23         NPN TRANSISTOR                                                                                                 
+T3              IRLML6402         MOSFET-P-SOT23         SOT23         P-Channel MOSFET (e.g.  IRLML6402)                                                                             
+U1              ATMEGA32U4TQFP-44 ATMEGA32U4TQFP-44      TQFP44        Atmel 44-pin 8-bit Microcontroller with 32KBytes of ISP Flash and USB Controller                               
+U2              RFM69CW           RFM69CW                RFM69CW-XXXS2                                                                                                                
+U3              MCP73831          MCP73831               SOT23-5       Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller IC-09995               
+U6              MIC5219 3.3V      V_REG_MIC52193.3V      SOT23-5       V_REG MIC5219                                                                           VREG-09872 MIC5219 3.3V
+USBD+                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+USBD-                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+USBV+                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+USBV+2                            SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
+USBV-                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
