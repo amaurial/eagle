@@ -374,6 +374,7 @@ UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/discrete.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/display-hp.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/display-kingbright.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/display-lcd.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/diy-modules.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/docu-dummy.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/eagle-ltspice.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/ecl.lbr"
@@ -583,7 +584,7 @@ UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/Eagle-Libs-master/we-transistor.lbr"
 [Win_1]
 Type="Control Panel"
 Loc="226 59 1131 686"
-State=2
+State=1
 Number=0
 
 [Desktop]
