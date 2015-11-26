@@ -1299,7 +1299,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
 <smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
-<text x="-0.8" y="-2.4" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-0.8" y="-1.13" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 </package>
 </packages>
 <symbols>
@@ -1588,8 +1588,8 @@ Source: RS Components</description>
 <smd name="6" x="0.4" y="0.625" dx="0.5" dy="0.65" layer="1"/>
 <smd name="7" x="-0.4" y="0.625" dx="0.5" dy="0.65" layer="1"/>
 <smd name="8" x="-1.2" y="0.625" dx="0.5" dy="0.65" layer="1"/>
-<text x="-1.905" y="-2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-1.905" y="1.27" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-1.27" y="-1.905" size="0.6096" layer="25" ratio="10">&gt;NAME</text>
+<text x="-1.905" y="1.27" size="0.6096" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-1.6" y1="0.7" x2="-0.9" y2="0.8" layer="51"/>
 <rectangle x1="-0.7" y1="0.7" x2="-0.1" y2="0.8" layer="51"/>
 <rectangle x1="0.1" y1="0.7" x2="0.7" y2="0.8" layer="51"/>
@@ -2515,8 +2515,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="MOTORGND" library="wirepad" deviceset="SMD2" device=""/>
 <part name="BLINK-L" library="wirepad" deviceset="SMD2" device=""/>
 <part name="BLINK-R" library="wirepad" deviceset="SMD2" device=""/>
-<part name="BACK-BREAKLIGHT" library="wirepad" deviceset="SMD2" device=""/>
-<part name="AUX-BREAKLIGHT" library="wirepad" deviceset="SMD2" device=""/>
+<part name="BBRKLIGHT" library="wirepad" deviceset="SMD2" device=""/>
+<part name="ABRKLIGHT" library="wirepad" deviceset="SMD2" device=""/>
 <part name="AUX1" library="wirepad" deviceset="SMD2" device=""/>
 <part name="AUX2" library="wirepad" deviceset="SMD2" device=""/>
 <part name="AUX3" library="wirepad" deviceset="SMD2" device=""/>
@@ -2538,6 +2538,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="U2" library="SparkFun-RF" deviceset="RFM69" device="CW"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3V"/>
+<part name="AUX10" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2600,8 +2601,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="MOTORGND" gate="1" x="223.52" y="91.44" rot="MR0"/>
 <instance part="BLINK-L" gate="1" x="220.98" y="40.64" rot="MR0"/>
 <instance part="BLINK-R" gate="1" x="220.98" y="33.02" rot="MR0"/>
-<instance part="BACK-BREAKLIGHT" gate="1" x="220.98" y="25.4" rot="MR0"/>
-<instance part="AUX-BREAKLIGHT" gate="1" x="220.98" y="17.78" rot="MR0"/>
+<instance part="BBRKLIGHT" gate="1" x="220.98" y="25.4" rot="MR0"/>
+<instance part="ABRKLIGHT" gate="1" x="220.98" y="17.78" rot="MR0"/>
 <instance part="AUX1" gate="1" x="220.98" y="2.54" rot="MR0"/>
 <instance part="AUX2" gate="1" x="220.98" y="-5.08" rot="MR0"/>
 <instance part="AUX3" gate="1" x="220.98" y="-12.7" rot="MR0"/>
@@ -2623,6 +2624,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="U2" gate="G$1" x="50.8" y="-25.4"/>
 <instance part="GND12" gate="1" x="71.12" y="-40.64"/>
 <instance part="SUPPLY1" gate="G$1" x="27.94" y="-10.16"/>
+<instance part="AUX10" gate="1" x="220.98" y="-78.74" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -3078,6 +3080,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="66.04" y1="35.56" x2="76.2" y2="35.56" width="0.1524" layer="91"/>
 <label x="73.66" y="35.56" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="AUX10" gate="1" pin="P"/>
+<wire x1="218.44" y1="-78.74" x2="170.18" y2="-78.74" width="0.1524" layer="91"/>
+<label x="170.18" y="-78.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D12" class="0">
 <segment>
@@ -3283,14 +3290,14 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <net name="N$18" class="0">
 <segment>
 <pinref part="R8" gate="R" pin="2"/>
-<pinref part="BACK-BREAKLIGHT" gate="1" pin="P"/>
+<pinref part="BBRKLIGHT" gate="1" pin="P"/>
 <wire x1="195.58" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$20" class="0">
 <segment>
 <pinref part="R8" gate="D" pin="2"/>
-<pinref part="AUX-BREAKLIGHT" gate="1" pin="P"/>
+<pinref part="ABRKLIGHT" gate="1" pin="P"/>
 <wire x1="195.58" y1="17.78" x2="218.44" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>

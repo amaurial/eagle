@@ -25,6 +25,7 @@ UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Resistors.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Retired.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Sensors.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/adafruit.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/wirepad.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/Eagle-Libs-master/we-transistor.lbr"
 
 [Win_1]

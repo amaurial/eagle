@@ -1847,8 +1847,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-4" y1="-2" x2="0" y2="-2" width="0.2032" layer="21"/>
 <wire x1="0" y1="-2" x2="0" y2="2" width="0.2032" layer="21"/>
 <wire x1="0" y1="2" x2="-4" y2="2" width="0.2032" layer="21"/>
-<text x="-9" y="9" size="1.27" layer="25">&gt;NAME</text>
-<text x="9" y="9" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
+<text x="-3.92" y="3.92" size="1.27" layer="25">&gt;NAME</text>
+<text x="2.65" y="-4.97" size="1.27" layer="27" align="bottom-right">&gt;VALUE</text>
 <text x="-5.485" y="5.35" size="1.27" layer="21" ratio="12">1</text>
 <wire x1="2" y1="-0.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
 <wire x1="4" y1="1.5" x2="2" y2="1.5" width="0.2032" layer="21"/>
@@ -1980,6 +1980,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SI" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SO" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SCK" library="wirepad" deviceset="SMD2" device=""/>
+<part name="SERIAL_DTR" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2057,6 +2058,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SI" gate="1" x="119.38" y="22.86" rot="MR0"/>
 <instance part="SO" gate="1" x="119.38" y="17.78" rot="MR0"/>
 <instance part="SCK" gate="1" x="119.38" y="12.7" rot="MR0"/>
+<instance part="SERIAL_DTR" gate="1" x="-35.56" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -2635,7 +2637,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="PC6(/RESET)"/>
-<wire x1="20.32" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SERIAL_DTR" gate="1" pin="P"/>
+<wire x1="25.4" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="101.6" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<junction x="25.4" y="73.66"/>
 </segment>
 </net>
 </nets>
