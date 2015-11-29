@@ -2,24 +2,24 @@ EAGLE AutoRouter Statistics:
 
 Job           : /home/amaurial/eagle/arduino_nano_cbus/eagle_mini.brd
 
-Start at      : 10:53:58 (15/11/15)
-End at        : 10:54:21 (15/11/15)
-Elapsed time  : 00:00:07
+Start at      : 16:21:50 (28/11/15)
+End at        : 16:22:11 (28/11/15)
+Elapsed time  : 00:00:10
 
 Signals       :    42   RoutingGrid: 25 mil  Layers: 2
-Connections   :    94   predefined:  20 ( 0 Vias )
+Connections   :    98   predefined:  22 ( 0 Vias )
 
-Router memory :   46560
+Router memory :   52520
 
-Passname          :    Busses     Route Optimize1 Optimize2 Optimize3 Optimize4
+Passname          :     Route Optimize1 Optimize2 Optimize3 Optimize4
 
-Time per pass     :  00:00:00  00:00:02  00:00:02  00:00:01  00:00:01  00:00:01
-Number of Ripups  :         0         0         0         0         0         0
-max. Level        :         0         0         0         0         0         0
-max. Total        :         0         0         0         0         0         0
+Time per pass     :  00:00:02  00:00:01  00:00:02  00:00:02  00:00:03
+Number of Ripups  :         0         0         0         0         0
+max. Level        :         0         0         0         0         0
+max. Total        :         0         0         0         0         0
 
-Routed            :         6        74        74        74        74        74
-Vias              :         0       110        41        25        21        21
-Resolution        :    27.7 %   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
+Routed            :        76        76        76        76        76
+Vias              :       119        37        32        31        28
+Resolution        :   100.0 %   100.0 %   100.0 %   100.0 %   100.0 %
 
-Final             : 98.9% finished. Polygons may have fallen apart.
+Final             : 95.9% finished. Polygons may have fallen apart.

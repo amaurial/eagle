@@ -1980,6 +1980,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SI" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SO" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SCK" library="wirepad" deviceset="SMD2" device=""/>
+<part name="SERIAL_DTR" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2057,6 +2058,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SI" gate="1" x="119.38" y="22.86" rot="MR0"/>
 <instance part="SO" gate="1" x="119.38" y="17.78" rot="MR0"/>
 <instance part="SCK" gate="1" x="119.38" y="12.7" rot="MR0"/>
+<instance part="SERIAL_DTR" gate="1" x="-35.56" y="101.6"/>
 </instances>
 <busses>
 </busses>
@@ -2635,7 +2637,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="PC6(/RESET)"/>
-<wire x1="20.32" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="73.66" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="SERIAL_DTR" gate="1" pin="P"/>
+<wire x1="25.4" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-33.02" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="25.4" y1="101.6" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
+<junction x="25.4" y="73.66"/>
 </segment>
 </net>
 </nets>

@@ -4896,13 +4896,14 @@ SMT- SWCH-08247</description>
 <part name="JPLG" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="JPLY" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="JPD9" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
-<part name="JPDC_CBUS" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
+<part name="JPDC_SERVO" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="ICSP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="ICSP2" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="ICSP3" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="CBUS_CON" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="JPANALOG1" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="JPDIG" library="SparkFun-Connectors" deviceset="M08" device=""/>
+<part name="JPDC_CBUS" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 </parts>
 <sheets>
 <sheet>
@@ -4934,13 +4935,14 @@ SMT- SWCH-08247</description>
 <instance part="JPLG" gate="G$1" x="96.52" y="73.66"/>
 <instance part="JPLY" gate="G$1" x="96.52" y="55.88"/>
 <instance part="JPD9" gate="G$1" x="-22.86" y="12.7"/>
-<instance part="JPDC_CBUS" gate="G$1" x="167.64" y="30.48"/>
+<instance part="JPDC_SERVO" gate="G$1" x="167.64" y="30.48"/>
 <instance part="ICSP1" gate="G$1" x="66.04" y="-15.24"/>
 <instance part="ICSP2" gate="G$1" x="66.04" y="-30.48"/>
 <instance part="ICSP3" gate="G$1" x="66.04" y="-45.72"/>
 <instance part="CBUS_CON" gate="G$1" x="40.64" y="-45.72"/>
 <instance part="JPANALOG1" gate="G$1" x="7.62" y="-10.16"/>
 <instance part="JPDIG" gate="G$1" x="99.06" y="25.4"/>
+<instance part="JPDC_CBUS" gate="G$1" x="167.64" y="15.24"/>
 </instances>
 <busses>
 </busses>
@@ -5104,6 +5106,11 @@ SMT- SWCH-08247</description>
 <wire x1="73.66" y1="-45.72" x2="81.28" y2="-45.72" width="0.1524" layer="91"/>
 <label x="76.2" y="-45.72" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
+<label x="68.58" y="73.66" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VCC" class="0">
 <segment>
@@ -5132,14 +5139,19 @@ SMT- SWCH-08247</description>
 <label x="43.18" y="48.26" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JPDC_CBUS" gate="G$1" pin="1"/>
-<wire x1="175.26" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
-<label x="177.8" y="30.48" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="ICSP1" gate="G$1" pin="1"/>
 <wire x1="73.66" y1="-15.24" x2="81.28" y2="-15.24" width="0.1524" layer="91"/>
 <label x="76.2" y="-15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JPDC_SERVO" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="33.02" x2="180.34" y2="33.02" width="0.1524" layer="91"/>
+<label x="177.8" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="JPDC_CBUS" gate="G$1" pin="2"/>
+<wire x1="175.26" y1="17.78" x2="180.34" y2="17.78" width="0.1524" layer="91"/>
+<label x="177.8" y="17.78" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V+" class="0">
@@ -5182,23 +5194,9 @@ SMT- SWCH-08247</description>
 <junction x="154.94" y="38.1"/>
 </segment>
 <segment>
-<pinref part="JPDC_CBUS" gate="G$1" pin="2"/>
-<wire x1="175.26" y1="33.02" x2="180.34" y2="33.02" width="0.1524" layer="91"/>
-<label x="177.8" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
-<label x="68.58" y="73.66" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$16" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
-<label x="68.58" y="71.12" size="1.778" layer="95"/>
+<pinref part="JPDC_SERVO" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
+<label x="177.8" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$17" class="0">
@@ -5310,24 +5308,11 @@ SMT- SWCH-08247</description>
 <wire x1="22.86" y1="78.74" x2="22.86" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="2"/>
-<wire x1="73.66" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
-<label x="68.58" y="78.74" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="J2" gate="G$1" pin="1"/>
-<wire x1="73.66" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
-<label x="68.58" y="81.28" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="D1" class="0">
 <segment>
 <pinref part="M1" gate="G$1" pin="D1/TX"/>
 <wire x1="2.54" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
+<label x="-5.08" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JPLG" gate="G$1" pin="1"/>
@@ -5349,6 +5334,7 @@ SMT- SWCH-08247</description>
 <segment>
 <pinref part="M1" gate="G$1" pin="D0/RX"/>
 <wire x1="2.54" y1="53.34" x2="-5.08" y2="53.34" width="0.1524" layer="91"/>
+<label x="-5.08" y="53.34" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="JPLY" gate="G$1" pin="1"/>
@@ -5639,16 +5625,38 @@ SMT- SWCH-08247</description>
 </net>
 <net name="L" class="0">
 <segment>
-<pinref part="CBUS_CON" gate="G$1" pin="2"/>
-<wire x1="48.26" y1="-43.18" x2="53.34" y2="-43.18" width="0.1524" layer="91"/>
-<label x="50.8" y="-43.18" size="1.778" layer="95"/>
+<pinref part="CBUS_CON" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="-45.72" x2="53.34" y2="-45.72" width="0.1524" layer="91"/>
+<label x="50.8" y="-45.72" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<wire x1="73.66" y1="81.28" x2="68.58" y2="81.28" width="0.1524" layer="91"/>
+<label x="68.58" y="81.28" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="H" class="0">
 <segment>
-<pinref part="CBUS_CON" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="-45.72" x2="53.34" y2="-45.72" width="0.1524" layer="91"/>
-<label x="50.8" y="-45.72" size="1.778" layer="95"/>
+<pinref part="CBUS_CON" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="-43.18" x2="53.34" y2="-43.18" width="0.1524" layer="91"/>
+<label x="50.8" y="-43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="71.12" x2="68.58" y2="71.12" width="0.1524" layer="91"/>
+<label x="68.58" y="71.12" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VBUS+" class="0">
+<segment>
+<pinref part="JPDC_CBUS" gate="G$1" pin="1"/>
+<wire x1="175.26" y1="15.24" x2="180.34" y2="15.24" width="0.1524" layer="91"/>
+<label x="177.8" y="15.24" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="2"/>
+<wire x1="73.66" y1="78.74" x2="68.58" y2="78.74" width="0.1524" layer="91"/>
+<label x="68.58" y="78.74" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

@@ -747,12 +747,15 @@ design rules under a new name.</description>
 <element name="USBV-" library="wirepad" package="SMD1,27-2,54" value="" x="3.302" y="7.112" rot="MR90"/>
 <element name="U2" library="SparkFun-RF" package="RFM69CW-XXXS2" value="RFM69CW" x="23.622" y="10.922" rot="MR270"/>
 <element name="AUX10" library="wirepad" package="SMD1,27-2,54" value="" x="17.018" y="1.778"/>
+<element name="XTAL" library="wirepad" package="SMD1,27-2,54" value="" x="0.254" y="1.524"/>
+<element name="XTAL1" library="wirepad" package="SMD1,27-2,54" value="" x="-1.778" y="1.524"/>
+<element name="C5" library="SparkFun-Capacitors" package="0805" value="22pF" x="-4.572" y="1.778"/>
+<element name="C6" library="SparkFun-Capacitors" package="0805" value="22pF" x="-7.62" y="1.778"/>
 </elements>
 <signals>
 <signal name="VCC">
 <contactref element="U1" pad="34"/>
 <contactref element="U1" pad="14"/>
-<contactref element="U1" pad="13"/>
 <contactref element="U1" pad="24"/>
 <contactref element="U1" pad="44"/>
 <contactref element="U6" pad="5"/>
@@ -760,7 +763,6 @@ design rules under a new name.</description>
 <contactref element="3.3V" pad="1"/>
 <contactref element="U2" pad="2"/>
 <wire x1="23.4696" y1="5.0292" x2="23.0124" y2="4.572" width="0.1524" layer="1"/>
-<wire x1="23.0124" y1="4.572" x2="22.920475" y2="4.5580375" width="0.1524" layer="1"/>
 <wire x1="23.4696" y1="5.0292" x2="23.4861625" y2="5.123721875" width="0.1524" layer="1"/>
 <wire x1="27.8892" y1="12.8016" x2="27.5844" y2="12.8016" width="0.1524" layer="1"/>
 <wire x1="28.3464" y1="13.2588" x2="27.8892" y2="12.8016" width="0.1524" layer="1"/>
@@ -964,6 +966,10 @@ design rules under a new name.</description>
 <via x="6.096" y="19.9644" extent="1-16" drill="0.3048"/>
 <via x="21.336" y="16.4592" extent="1-16" drill="0.3048"/>
 <via x="9.144" y="8.2296" extent="1-16" drill="0.3048"/>
+<contactref element="C5" pad="1"/>
+<contactref element="C6" pad="1"/>
+<wire x1="-5.472" y1="1.778" x2="-8.52" y2="1.778" width="0" layer="19" extent="1-1"/>
+<wire x1="3.2004" y1="4.572" x2="-5.472" y2="1.778" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="U1" pad="6"/>
@@ -1638,6 +1644,20 @@ design rules under a new name.</description>
 <wire x1="18.542" y1="21.082" x2="18.288" y2="21.336" width="0.1524" layer="16"/>
 <wire x1="10.2108" y1="19.812" x2="10.072" y2="19.812" width="0.1524" layer="1"/>
 <via x="18.288" y="21.336" extent="1-16" drill="0.6" shape="square"/>
+</signal>
+<signal name="N$3">
+<contactref element="XTAL" pad="1"/>
+<contactref element="U1" pad="17"/>
+<contactref element="C5" pad="2"/>
+<wire x1="0.254" y1="1.524" x2="25.18321875" y2="6.820778125" width="0" layer="19" extent="1-1"/>
+<wire x1="-3.672" y1="1.778" x2="0.254" y2="1.524" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$4">
+<contactref element="XTAL1" pad="1"/>
+<contactref element="U1" pad="16"/>
+<contactref element="C6" pad="2"/>
+<wire x1="-1.778" y1="1.524" x2="24.61753125" y2="6.25509375" width="0" layer="19" extent="1-1"/>
+<wire x1="-6.72" y1="1.778" x2="-1.778" y2="1.524" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>

@@ -139,7 +139,7 @@
 <text x="6.35" y="9.398" size="1.016" layer="122" rot="MR0">V+</text>
 <text x="13.97" y="1.524" size="0.8128" layer="122" rot="MR90">USBD-</text>
 <text x="10.414" y="4.318" size="0.8128" layer="122" rot="MR90">USBD+</text>
-<text x="17.78" y="0.762" size="0.6096" layer="122" rot="MR0">gnd</text>
+<text x="17.526" y="0.762" size="0.6096" layer="122" rot="MR0">gnd</text>
 <text x="20.574" y="20.32" size="0.8128" layer="122" rot="MR0">3.3v</text>
 <text x="30.988" y="20.32" size="0.8128" layer="122" rot="MR0">hss</text>
 <text x="28.448" y="20.32" size="0.8128" layer="122" rot="MR0">sck</text>
@@ -746,13 +746,13 @@ design rules under a new name.</description>
 <element name="USBV+2" library="wirepad" package="SMD1,27-2,54" value="" x="3.302" y="9.652" rot="MR90"/>
 <element name="USBV-" library="wirepad" package="SMD1,27-2,54" value="" x="3.302" y="7.112" rot="MR90"/>
 <element name="U2" library="SparkFun-RF" package="RFM69CW-XXXS2" value="RFM69CW" x="23.622" y="10.922" rot="MR270"/>
-<element name="AUX10" library="wirepad" package="SMD1,27-2,54" value="" x="16.51" y="1.27"/>
+<element name="AUX10" library="wirepad" package="SMD1,27-2,54" value="" x="17.018" y="1.27"/>
 <element name="XTAL" library="wirepad" package="SMD1,27-2,54" value="" x="25.654" y="1.27"/>
 <element name="XTAL1" library="wirepad" package="SMD1,27-2,54" value="" x="23.876" y="1.27"/>
 <element name="C5" library="SparkFun-Capacitors" package="0805" value="22pF" x="29.718" y="1.778" rot="R90"/>
 <element name="C6" library="SparkFun-Capacitors" package="0805" value="22pF" x="27.686" y="1.778" rot="R90"/>
-<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="2K" x="21.082" y="1.27" rot="R180"/>
-<element name="RST" library="wirepad" package="SMD1,27-2,54" value="" x="18.542" y="1.27" rot="R180"/>
+<element name="R12" library="SparkFun-Resistors" package="0603-RES" value="2K" x="19.812" y="1.016" rot="R180"/>
+<element name="RST" library="wirepad" package="SMD1,27-2,54" value="" x="22.098" y="1.27" rot="R180"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -819,7 +819,7 @@ design rules under a new name.</description>
 <via x="5.4864" y="12.8016" extent="1-16" drill="0.3048"/>
 <via x="16.9164" y="12.954" extent="1-16" drill="0.3048"/>
 <contactref element="R12" pad="2"/>
-<wire x1="20.232" y1="1.27" x2="5.4864" y2="12.8016" width="0" layer="19" extent="1-16"/>
+<wire x1="18.962" y1="1.016" x2="5.4864" y2="12.8016" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="GND">
 <contactref element="U1" pad="43"/>
@@ -1236,8 +1236,8 @@ design rules under a new name.</description>
 <signal name="D11">
 <contactref element="U1" pad="12"/>
 <contactref element="AUX10" pad="1"/>
-<wire x1="16.51" y1="1.27" x2="19.05" y2="1.778" width="0.1524" layer="1"/>
-<wire x1="19.05" y1="1.778" x2="20.574" y2="3.302" width="0.1524" layer="1"/>
+<wire x1="17.018" y1="1.27" x2="19.304" y2="2.032" width="0.1524" layer="1"/>
+<wire x1="19.304" y1="2.032" x2="20.574" y2="3.302" width="0.1524" layer="1"/>
 <wire x1="20.574" y1="3.302" x2="22.354790625" y2="3.992353125" width="0.1524" layer="1"/>
 </signal>
 <signal name="D12">
@@ -1588,8 +1588,8 @@ design rules under a new name.</description>
 <contactref element="R12" pad="1"/>
 <contactref element="U1" pad="13"/>
 <contactref element="RST" pad="1"/>
-<wire x1="21.932" y1="1.27" x2="22.920475" y2="4.5580375" width="0" layer="19" extent="1-1"/>
-<wire x1="18.542" y1="1.27" x2="21.932" y2="1.27" width="0" layer="19" extent="1-1"/>
+<wire x1="20.662" y1="1.016" x2="22.920475" y2="4.5580375" width="0" layer="19" extent="1-1"/>
+<wire x1="22.098" y1="1.27" x2="20.662" y2="1.016" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 <errors>
