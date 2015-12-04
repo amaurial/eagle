@@ -744,7 +744,7 @@ Standard 0603 ceramic capacitor, and 0.1" leaded capacitor.</description>
 <packages>
 <package name="SMD1,27-2,54">
 <description>&lt;b&gt;SMD PAD&lt;/b&gt;</description>
-<smd name="1" x="0" y="0" dx="1.27" dy="2.54" layer="1"/>
+<smd name="1" x="0" y="0" dx="1.27" dy="1.524" layer="1"/>
 <text x="0" y="0" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="-0.8" y="-1.13" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 </package>
@@ -1981,6 +1981,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SO" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SCK" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SERIAL_DTR" library="wirepad" deviceset="SMD2" device=""/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22pF"/>
+<part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22pF"/>
 </parts>
 <sheets>
 <sheet>
@@ -2059,6 +2061,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SO" gate="1" x="119.38" y="17.78" rot="MR0"/>
 <instance part="SCK" gate="1" x="119.38" y="12.7" rot="MR0"/>
 <instance part="SERIAL_DTR" gate="1" x="-35.56" y="101.6"/>
+<instance part="C1" gate="G$1" x="10.16" y="48.26" rot="R90"/>
+<instance part="C5" gate="G$1" x="10.16" y="43.18" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -2185,6 +2189,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="27.94" y1="20.32" x2="30.48" y2="20.32" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
 <junction x="27.94" y="17.78"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="43.18" x2="2.54" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="43.18" x2="2.54" y2="45.72" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="2.54" y1="45.72" x2="2.54" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="45.72" x2="-2.54" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="-2.54" y1="45.72" x2="-2.54" y2="17.78" width="0.1524" layer="91"/>
+<junction x="2.54" y="45.72"/>
+<wire x1="-2.54" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -2643,6 +2657,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="-33.02" y1="101.6" x2="25.4" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="25.4" y1="101.6" x2="25.4" y2="73.66" width="0.1524" layer="91"/>
 <junction x="25.4" y="73.66"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="C1" gate="G$1" pin="2"/>
+<pinref part="U4" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
+<wire x1="12.7" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="C5" gate="G$1" pin="2"/>
+<pinref part="U4" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
+<wire x1="12.7" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

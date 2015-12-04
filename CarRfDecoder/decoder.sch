@@ -2546,6 +2546,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="2K"/>
 <part name="RST" library="wirepad" deviceset="SMD2" device=""/>
+<part name="VJ" library="wirepad" deviceset="SMD2" device=""/>
+<part name="VJ1" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2639,6 +2641,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="GND3" gate="1" x="2.54" y="40.64"/>
 <instance part="R12" gate="G$1" x="30.48" y="96.52" rot="R90"/>
 <instance part="RST" gate="1" x="43.18" y="96.52" rot="R180"/>
+<instance part="VJ" gate="1" x="17.78" y="-15.24" rot="MR180"/>
+<instance part="VJ1" gate="1" x="17.78" y="-10.16" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -2685,10 +2689,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="160.02" y1="-71.12" x2="160.02" y2="-68.58" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="3.3V"/>
-<wire x1="35.56" y1="-15.24" x2="27.94" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-15.24" x2="27.94" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="VJ1" gate="1" pin="P"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<wire x1="20.32" y1="-10.16" x2="27.94" y2="-10.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -3420,6 +3423,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="35.56" y1="96.52" x2="35.56" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="91.44" x2="30.48" y2="91.44" width="0.1524" layer="91"/>
 <junction x="30.48" y="91.44"/>
+</segment>
+</net>
+<net name="N$31" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="3.3V"/>
+<pinref part="VJ" gate="1" pin="P"/>
+<wire x1="20.32" y1="-15.24" x2="35.56" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

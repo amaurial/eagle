@@ -1409,8 +1409,8 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <smd name="3" x="0" y="1.1" dx="1" dy="1.4" layer="1"/>
 <smd name="2" x="0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
 <smd name="1" x="-0.95" y="-1.1" dx="1" dy="1.4" layer="1"/>
-<text x="-1.905" y="1.905" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.905" y="-3.175" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="1.905" size="0.6096" layer="25">&gt;NAME</text>
+<text x="-1.905" y="-3.175" size="0.6096" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.2286" y1="0.7112" x2="0.2286" y2="1.2954" layer="51"/>
 <rectangle x1="0.7112" y1="-1.2954" x2="1.1684" y2="-0.7112" layer="51"/>
 <rectangle x1="-1.1684" y1="-1.2954" x2="-0.7112" y2="-0.7112" layer="51"/>
@@ -1744,8 +1744,8 @@ Standard 3.3V and 5V 500mA LDO voltage regulator in SOT-23 layout. Micrel part M
 <smd name="3" x="1.1" y="0" dx="0.9" dy="1.3" layer="1" roundness="10" rot="R270"/>
 <smd name="2" x="-1.1" y="-0.95" dx="0.9" dy="1.3" layer="1" roundness="10" rot="R270"/>
 <smd name="1" x="-1.1" y="0.95" dx="0.9" dy="1.3" layer="1" roundness="10" rot="R270"/>
-<text x="-2.54" y="0" size="0.8128" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
-<text x="2.54" y="0" size="0.8128" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
+<text x="-2.54" y="0" size="0.6096" layer="25" font="vector" ratio="10" rot="R270" align="center">&gt;NAME</text>
+<text x="2.54" y="0" size="0.6096" layer="27" font="vector" ratio="10" rot="R270" align="center">&gt;VALUE</text>
 <wire x1="0.65" y1="-1.4" x2="-0.65" y2="-1.4" width="0.127" layer="21"/>
 <wire x1="-0.65" y1="-1.4" x2="-0.65" y2="1.4" width="0.127" layer="21"/>
 <wire x1="-0.65" y1="1.4" x2="0.65" y2="1.4" width="0.127" layer="21"/>
@@ -2518,9 +2518,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="172.72" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="PD2(INT0)"/>
-<wire x1="78.74" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
-<label x="86.36" y="45.72" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="PD5(T1)"/>
+<wire x1="78.74" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
+<label x="81.28" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BR" class="0">
@@ -2530,9 +2530,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="172.72" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="PD3(INT1)"/>
-<wire x1="78.74" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
-<label x="86.36" y="43.18" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="PD4(XCK/T0)"/>
+<wire x1="78.74" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
+<label x="81.28" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BBRKL" class="0">
@@ -2542,9 +2542,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="172.72" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="PD4(XCK/T0)"/>
-<wire x1="78.74" y1="40.64" x2="88.9" y2="40.64" width="0.1524" layer="91"/>
-<label x="81.28" y="40.64" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="PD3(INT1)"/>
+<wire x1="78.74" y1="43.18" x2="88.9" y2="43.18" width="0.1524" layer="91"/>
+<label x="86.36" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ABRKL" class="0">
@@ -2554,9 +2554,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="172.72" y="17.78" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="PD5(T1)"/>
-<wire x1="78.74" y1="38.1" x2="88.9" y2="38.1" width="0.1524" layer="91"/>
-<label x="81.28" y="38.1" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="PD2(INT0)"/>
+<wire x1="78.74" y1="45.72" x2="88.9" y2="45.72" width="0.1524" layer="91"/>
+<label x="86.36" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AX1" class="0">
@@ -2578,9 +2578,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="172.72" y="-5.08" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="ADC6"/>
-<wire x1="78.74" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<label x="83.82" y="58.42" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="ADC7"/>
+<wire x1="78.74" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<label x="83.82" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AX3" class="0">
@@ -2590,9 +2590,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="172.72" y="-12.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U4" gate="G$1" pin="ADC7"/>
-<wire x1="78.74" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
-<label x="83.82" y="55.88" size="1.778" layer="95"/>
+<pinref part="U4" gate="G$1" pin="ADC6"/>
+<wire x1="78.74" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<label x="83.82" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="AX4" class="0">

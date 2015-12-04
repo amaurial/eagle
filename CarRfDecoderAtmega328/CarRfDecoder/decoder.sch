@@ -1983,6 +1983,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SERIAL_DTR" library="wirepad" deviceset="SMD2" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22pF"/>
 <part name="C5" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="22pF"/>
+<part name="XTAL" library="wirepad" deviceset="SMD2" device=""/>
+<part name="XTAL1" library="wirepad" deviceset="SMD2" device=""/>
+<part name="VJ" library="wirepad" deviceset="SMD2" device=""/>
+<part name="VJ1" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2049,7 +2053,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="VCC2" gate="G$1" x="165.1" y="-27.94"/>
 <instance part="U2" gate="G$1" x="50.8" y="-25.4"/>
 <instance part="GND12" gate="1" x="71.12" y="-40.64"/>
-<instance part="SUPPLY1" gate="G$1" x="27.94" y="-10.16"/>
+<instance part="SUPPLY1" gate="G$1" x="33.02" y="-5.08"/>
 <instance part="U4" gate="G$1" x="53.34" y="48.26"/>
 <instance part="GND3" gate="1" x="27.94" y="15.24"/>
 <instance part="VCC3" gate="G$1" x="25.4" y="66.04"/>
@@ -2063,6 +2067,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="SERIAL_DTR" gate="1" x="-17.78" y="101.6"/>
 <instance part="C1" gate="G$1" x="10.16" y="48.26" rot="R90"/>
 <instance part="C5" gate="G$1" x="10.16" y="43.18" rot="R90"/>
+<instance part="XTAL" gate="1" x="22.86" y="53.34" rot="MR0"/>
+<instance part="XTAL1" gate="1" x="22.86" y="38.1" rot="MR0"/>
+<instance part="VJ" gate="1" x="27.94" y="-12.7" rot="MR180"/>
+<instance part="VJ1" gate="1" x="27.94" y="-5.08" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -2086,10 +2094,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="165.1" y1="-30.48" x2="165.1" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="U2" gate="G$1" pin="3.3V"/>
-<wire x1="35.56" y1="-15.24" x2="27.94" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="27.94" y1="-15.24" x2="27.94" y2="-10.16" width="0.1524" layer="91"/>
+<pinref part="VJ1" gate="1" pin="P"/>
 <pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
+<wire x1="33.02" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="VCC@1"/>
@@ -2663,14 +2670,29 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
-<wire x1="12.7" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="48.26" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="XTAL" gate="1" pin="P"/>
+<wire x1="20.32" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="53.34" x2="20.32" y2="48.26" width="0.1524" layer="91"/>
+<junction x="20.32" y="48.26"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="C5" gate="G$1" pin="2"/>
 <pinref part="U4" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
-<wire x1="12.7" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="43.18" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="XTAL1" gate="1" pin="P"/>
+<wire x1="20.32" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="38.1" x2="20.32" y2="43.18" width="0.1524" layer="91"/>
+<junction x="20.32" y="43.18"/>
+</segment>
+</net>
+<net name="N$1" class="0">
+<segment>
+<pinref part="U2" gate="G$1" pin="3.3V"/>
+<pinref part="VJ" gate="1" pin="P"/>
+<wire x1="35.56" y1="-15.24" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
