@@ -2081,7 +2081,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="SER_GND" library="wirepad" deviceset="SMD2" device=""/>
 <part name="R1" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="VCC4" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3V"/>
-<part name="SS" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SI" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SO" library="wirepad" deviceset="SMD2" device=""/>
 <part name="SCK" library="wirepad" deviceset="SMD2" device=""/>
@@ -2161,7 +2160,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="SER_GND" gate="1" x="-17.78" y="121.92"/>
 <instance part="R1" gate="G$1" x="15.24" y="73.66"/>
 <instance part="VCC4" gate="G$1" x="2.54" y="73.66"/>
-<instance part="SS" gate="1" x="119.38" y="27.94" rot="MR0"/>
 <instance part="SI" gate="1" x="119.38" y="22.86" rot="MR0"/>
 <instance part="SO" gate="1" x="119.38" y="17.78" rot="MR0"/>
 <instance part="SCK" gate="1" x="119.38" y="12.7" rot="MR0"/>
@@ -2344,31 +2342,26 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </net>
 <net name="A1" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="185.42" y1="50.8" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
-<label x="172.72" y="50.8" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="PC1(ADC1)"/>
 <wire x1="78.74" y1="71.12" x2="88.9" y2="71.12" width="0.1524" layer="91"/>
 <label x="83.82" y="71.12" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U3" gate="G$1" pin="STAT"/>
+<wire x1="15.24" y1="111.76" x2="7.62" y2="111.76" width="0.1524" layer="91"/>
+<label x="7.62" y="111.76" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="A3" class="0">
-<segment>
-<wire x1="144.78" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="91.44" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
-<pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="144.78" y1="81.28" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
-<junction x="144.78" y="81.28"/>
-<label x="119.38" y="81.28" size="1.778" layer="95"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PC3(ADC3)"/>
 <wire x1="78.74" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
 <label x="83.82" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="R" pin="1"/>
+<wire x1="185.42" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
+<label x="172.72" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -2391,30 +2384,26 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </net>
 <net name="A5" class="0">
 <segment>
-<pinref part="R4" gate="G$1" pin="1"/>
-<pinref part="R5" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="119.38" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="116.84" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="129.54" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
-<junction x="129.54" y="116.84"/>
-<label x="119.38" y="116.84" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U4" gate="G$1" pin="PC5(ADC5/SCL)"/>
 <wire x1="78.74" y1="60.96" x2="88.9" y2="60.96" width="0.1524" layer="91"/>
 <label x="83.82" y="60.96" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R9" gate="B" pin="1"/>
+<wire x1="185.42" y1="-5.08" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
+<label x="172.72" y="-5.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D7" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="STAT"/>
-<wire x1="15.24" y1="111.76" x2="7.62" y2="111.76" width="0.1524" layer="91"/>
-<label x="7.62" y="111.76" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PD7(AIN1)"/>
 <wire x1="78.74" y1="33.02" x2="88.9" y2="33.02" width="0.1524" layer="91"/>
 <label x="86.36" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="185.42" y1="50.8" x2="170.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="172.72" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SS" class="0">
@@ -2427,9 +2416,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U4" gate="G$1" pin="PB2(SS/OC1B)"/>
 <label x="83.82" y="22.86" size="1.778" layer="95"/>
 <wire x1="78.74" y1="22.86" x2="99.06" y2="22.86" width="0.1524" layer="91"/>
-<wire x1="99.06" y1="22.86" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="SS" gate="1" pin="P"/>
-<wire x1="99.06" y1="27.94" x2="116.84" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCK" class="0">
@@ -2605,47 +2591,11 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <label x="71.12" y="-15.24" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="AX1" class="0">
+<net name="D6" class="0">
 <segment>
 <pinref part="R9" gate="A" pin="1"/>
 <wire x1="185.42" y1="2.54" x2="167.64" y2="2.54" width="0.1524" layer="91"/>
 <label x="172.72" y="2.54" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="PC2(ADC2)"/>
-<wire x1="78.74" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
-<label x="83.82" y="68.58" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AX2" class="0">
-<segment>
-<pinref part="R9" gate="B" pin="1"/>
-<wire x1="185.42" y1="-5.08" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
-<label x="172.72" y="-5.08" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="ADC7"/>
-<wire x1="78.74" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
-<label x="83.82" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AX3" class="0">
-<segment>
-<pinref part="R9" gate="R" pin="1"/>
-<wire x1="185.42" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
-<label x="172.72" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U4" gate="G$1" pin="ADC6"/>
-<wire x1="78.74" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
-<label x="83.82" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="AX4" class="0">
-<segment>
-<pinref part="R9" gate="D" pin="1"/>
-<wire x1="185.42" y1="-20.32" x2="167.64" y2="-20.32" width="0.1524" layer="91"/>
-<label x="172.72" y="-20.32" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PD6(AIN0)"/>
@@ -2788,6 +2738,51 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="160.02" y1="106.68" x2="160.02" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="MDRIVER" gate="G$1" pin="IB"/>
 <wire x1="160.02" y1="109.22" x2="165.1" y2="109.22" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A6" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="ADC6"/>
+<wire x1="78.74" y1="58.42" x2="88.9" y2="58.42" width="0.1524" layer="91"/>
+<label x="83.82" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="144.78" y1="91.44" x2="147.32" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="91.44" x2="144.78" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="81.28" x2="119.38" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="C4" gate="G$1" pin="1"/>
+<wire x1="144.78" y1="81.28" x2="149.86" y2="81.28" width="0.1524" layer="91"/>
+<junction x="144.78" y="81.28"/>
+<label x="119.38" y="81.28" size="1.778" layer="95"/>
+<pinref part="R2" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="A7" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="ADC7"/>
+<wire x1="78.74" y1="55.88" x2="88.9" y2="55.88" width="0.1524" layer="91"/>
+<label x="83.82" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="129.54" y1="119.38" x2="129.54" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="116.84" x2="129.54" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="129.54" y1="116.84" x2="119.38" y2="116.84" width="0.1524" layer="91"/>
+<junction x="129.54" y="116.84"/>
+<label x="119.38" y="116.84" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A2" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PC2(ADC2)"/>
+<wire x1="78.74" y1="68.58" x2="88.9" y2="68.58" width="0.1524" layer="91"/>
+<label x="83.82" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="D" pin="1"/>
+<wire x1="185.42" y1="-20.32" x2="167.64" y2="-20.32" width="0.1524" layer="91"/>
+<label x="172.72" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
