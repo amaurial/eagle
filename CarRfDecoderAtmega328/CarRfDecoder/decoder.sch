@@ -2440,8 +2440,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="GND1" library="wirepad" deviceset="SMD2" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
 <part name="RST" library="wirepad" deviceset="SMD2" device=""/>
-<part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
-<part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
+<part name="R_BAT" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
+<part name="R_3.3V" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -2525,8 +2525,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="GND1" gate="1" x="220.98" y="-45.72" rot="MR0"/>
 <instance part="C1" gate="G$1" x="22.86" y="83.82"/>
 <instance part="RST" gate="1" x="43.18" y="88.9" rot="MR0"/>
-<instance part="R2" gate="G$1" x="7.62" y="88.9" rot="R90"/>
-<instance part="R7" gate="G$1" x="10.16" y="60.96"/>
+<instance part="R_BAT" gate="G$1" x="7.62" y="88.9" rot="R90"/>
+<instance part="R_3.3V" gate="G$1" x="10.16" y="60.96"/>
 </instances>
 <busses>
 </busses>
@@ -2558,7 +2558,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="73.66" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="VCC4" gate="G$1" pin="VCC"/>
-<pinref part="R7" gate="G$1" pin="1"/>
+<pinref part="R_3.3V" gate="G$1" pin="1"/>
 <wire x1="5.08" y1="60.96" x2="2.54" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="60.96" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
 <junction x="2.54" y="73.66"/>
@@ -3087,7 +3087,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <junction x="182.88" y="132.08"/>
 <pinref part="T3" gate="T" pin="S"/>
 <wire x1="205.74" y1="132.08" x2="205.74" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R_BAT" gate="G$1" pin="2"/>
 <wire x1="7.62" y1="93.98" x2="7.62" y2="132.08" width="0.1524" layer="91"/>
 <junction x="7.62" y="132.08"/>
 </segment>
@@ -3165,10 +3165,10 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="25.4" y1="66.04" x2="25.4" y2="63.5" width="0.1524" layer="91"/>
 <junction x="25.4" y="66.04"/>
 <wire x1="7.62" y1="66.04" x2="15.24" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R2" gate="G$1" pin="1"/>
+<pinref part="R_BAT" gate="G$1" pin="1"/>
 <wire x1="15.24" y1="66.04" x2="25.4" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="7.62" y1="66.04" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="2"/>
+<pinref part="R_3.3V" gate="G$1" pin="2"/>
 <wire x1="15.24" y1="66.04" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 <junction x="15.24" y="66.04"/>
 </segment>
