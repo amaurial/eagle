@@ -2090,7 +2090,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="Y1" library="SparkFun-FreqCtrl" deviceset="RESONATOR" device="16MHZ" value="16MHZ"/>
 <part name="GND" library="wirepad" deviceset="SMD2" device=""/>
 <part name="GND1" library="wirepad" deviceset="SMD2" device=""/>
-<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="1uF"/>
+<part name="C1" library="SparkFun-Capacitors" deviceset="CAP" device="0805" value="0.1uF"/>
 <part name="RST" library="wirepad" deviceset="SMD2" device=""/>
 <part name="MDRIVER" library="h-bridge-l9119s" deviceset="L9110S" device=""/>
 <part name="R2" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="2k2"/>
@@ -2098,6 +2098,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="R7" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
 <part name="R10" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
+<part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
+<part name="BAT+1" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2179,6 +2181,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="R7" gate="G$1" x="152.4" y="106.68"/>
 <instance part="R10" gate="G$1" x="0" y="88.9" rot="R90"/>
 <instance part="R12" gate="G$1" x="7.62" y="60.96"/>
+<instance part="R13" gate="G$1" x="10.16" y="-20.32"/>
+<instance part="BAT+1" gate="1" x="-17.78" y="137.16"/>
 </instances>
 <busses>
 </busses>
@@ -2458,8 +2462,9 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <net name="MISO" class="0">
 <segment>
 <pinref part="U2" gate="G$1" pin="MISO"/>
-<wire x1="35.56" y1="-20.32" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
 <label x="25.4" y="-20.32" size="1.778" layer="95"/>
+<pinref part="R13" gate="G$1" pin="2"/>
+<wire x1="15.24" y1="-20.32" x2="35.56" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PB4(MISO)"/>
@@ -2661,6 +2666,10 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="U2" gate="G$1" pin="3.3V"/>
 <pinref part="VJ" gate="1" pin="P"/>
 <wire x1="35.56" y1="-15.24" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="-20.32" x2="5.08" y2="-15.24" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="-15.24" x2="35.56" y2="-15.24" width="0.1524" layer="91"/>
+<junction x="35.56" y="-15.24"/>
 </segment>
 </net>
 <net name="BAT+" class="0">
@@ -2699,6 +2708,9 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="R10" gate="G$1" pin="2"/>
 <wire x1="0" y1="93.98" x2="0" y2="132.08" width="0.1524" layer="91"/>
 <junction x="0" y="132.08"/>
+<pinref part="BAT+1" gate="1" pin="P"/>
+<wire x1="-15.24" y1="137.16" x2="0" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="0" y1="137.16" x2="0" y2="132.08" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
