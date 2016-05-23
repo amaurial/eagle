@@ -1410,20 +1410,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="8" y1="8" x2="8" y2="-8" width="0.2032" layer="21"/>
 <wire x1="8" y1="-8" x2="-8" y2="-8" width="0.2032" layer="21"/>
 <wire x1="-8" y1="-8" x2="-8" y2="8" width="0.2032" layer="21"/>
-<smd name="4" x="-7.5" y="0" dx="3" dy="1.2" layer="1"/>
-<smd name="3" x="-7.5" y="2" dx="3" dy="1.2" layer="1"/>
-<smd name="2" x="-7.5" y="4" dx="3" dy="1.2" layer="1"/>
-<smd name="1" x="-7.5" y="6" dx="3" dy="1.2" layer="1"/>
-<smd name="5" x="-7.5" y="-2" dx="3" dy="1.2" layer="1"/>
-<smd name="6" x="-7.5" y="-4" dx="3" dy="1.2" layer="1"/>
-<smd name="7" x="-7.5" y="-6" dx="3" dy="1.2" layer="1"/>
-<smd name="8" x="7.5" y="-6" dx="3" dy="1.2" layer="1"/>
-<smd name="9" x="7.5" y="-4" dx="3" dy="1.2" layer="1"/>
-<smd name="10" x="7.5" y="-2" dx="3" dy="1.2" layer="1"/>
-<smd name="11" x="7.5" y="0" dx="3" dy="1.2" layer="1"/>
-<smd name="12" x="7.5" y="2" dx="3" dy="1.2" layer="1"/>
-<smd name="13" x="7.5" y="4" dx="3" dy="1.2" layer="1"/>
-<smd name="14" x="7.5" y="6" dx="3" dy="1.2" layer="1"/>
+<smd name="4" x="-7.754" y="0" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="3" x="-7.754" y="2" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="2" x="-7.754" y="4" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="1" x="-7.754" y="6" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="5" x="-7.754" y="-2" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="6" x="-7.754" y="-4" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="7" x="-7.754" y="-6" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="8" x="7.754" y="-6" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="9" x="7.754" y="-4" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="10" x="7.754" y="-2" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="11" x="7.754" y="0" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="12" x="7.754" y="2" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="13" x="7.754" y="4" dx="2.5428" dy="1.2" layer="1"/>
+<smd name="14" x="7.754" y="6" dx="2.5428" dy="1.2" layer="1"/>
 <wire x1="-4" y1="2" x2="-4" y2="-2" width="0.2032" layer="21"/>
 <wire x1="-4" y1="-2" x2="0" y2="-2" width="0.2032" layer="21"/>
 <wire x1="0" y1="-2" x2="0" y2="2" width="0.2032" layer="21"/>
@@ -2107,6 +2107,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <text x="114.3" y="114.3" size="1.27" layer="91">Battery level</text>
 <text x="124.46" y="86.36" size="1.778" layer="91">Motor</text>
 <text x="124.46" y="81.28" size="1.778" layer="91">Motor Rotation</text>
+<text x="124.46" y="91.44" size="1.778" layer="91">Motor back</text>
+<text x="111.76" y="73.66" size="1.778" layer="91">A5 is connected to AUX2 and motor back</text>
 </plain>
 <instances>
 <instance part="SER_V+" gate="1" x="-17.78" y="116.84"/>
@@ -2380,12 +2382,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="142.24" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
 <label x="119.38" y="86.36" size="1.778" layer="95"/>
 <wire x1="142.24" y1="86.36" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R6" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="106.68" x2="142.24" y2="114.3" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="114.3" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="142.24" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
-<junction x="142.24" y="106.68"/>
 </segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="PC4(ADC4/SDA)"/>
@@ -2403,6 +2401,13 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="R9" gate="B" pin="1"/>
 <wire x1="185.42" y1="-5.08" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
 <label x="172.72" y="-5.08" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="147.32" y1="114.3" x2="137.16" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="114.3" x2="137.16" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="91.44" x2="119.38" y2="91.44" width="0.1524" layer="91"/>
+<label x="119.38" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -2822,39 +2827,17 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </sheets>
 <errors>
 <approved hash="104,1,15.24,116.84,U3,VIN,N$9,,,"/>
-<approved hash="104,1,35.56,116.84,U3,VBAT,N$10,,,"/>
 <approved hash="104,1,35.56,111.76,U3,VSS,GND,,,"/>
 <approved hash="202,1,88.9,109.22,U6,BP,,,,"/>
-<approved hash="106,1,66.04,55.88,D3,,,,,"/>
-<approved hash="106,1,66.04,15.24,TXLED,,,,,"/>
-<approved hash="113,1,-32.9107,118.013,USBV+,,,,,"/>
-<approved hash="113,1,-32.9107,112.933,USBD+,,,,,"/>
-<approved hash="113,1,-32.9107,107.853,USBD-,,,,,"/>
-<approved hash="113,1,-32.9107,102.773,USBV-,,,,,"/>
-<approved hash="113,1,-33.2994,128.173,GND,,,,,"/>
-<approved hash="113,1,-32.0921,133.253,USBV+2,,,,,"/>
-<approved hash="113,1,152.4,107.675,R6,,,,,"/>
-<approved hash="113,1,193.04,108.043,D1,,,,,"/>
 <approved hash="113,1,220.871,97.6926,MOTOR,,,,,"/>
 <approved hash="113,1,218.415,92.6126,MOTORGND,,,,,"/>
-<approved hash="113,1,216.966,41.8126,BLINK-L,,,,,"/>
-<approved hash="113,1,216.966,34.1926,BLINK-R,,,,,"/>
-<approved hash="113,1,210.418,26.5726,BACK-BREAKLIGHT,,,,,"/>
-<approved hash="113,1,211.236,18.9526,AUX-BREAKLIGHT,,,,,"/>
 <approved hash="113,1,218.719,3.71263,AUX1,,,,,"/>
 <approved hash="113,1,218.719,-3.90737,AUX2,,,,,"/>
 <approved hash="113,1,218.719,-11.5274,AUX3,,,,,"/>
 <approved hash="113,1,218.719,-19.1474,AUX4,,,,,"/>
-<approved hash="113,1,218.719,-29.3074,AUX5,,,,,"/>
-<approved hash="113,1,218.719,-36.9274,AUX6,,,,,"/>
-<approved hash="113,1,218.719,-44.5474,AUX7,,,,,"/>
-<approved hash="113,1,218.719,-52.1674,AUX8,,,,,"/>
 <approved hash="113,1,218.604,51.9726,LIGHT,,,,,"/>
-<approved hash="113,1,218.719,-62.3274,AUX9,,,,,"/>
 <approved hash="113,1,218.719,69.7526,2.56V,,,,,"/>
 <approved hash="113,1,218.719,64.6726,LDR,,,,,"/>
-<approved hash="113,1,218.719,-69.9474,3.3V,,,,,"/>
-<approved hash="115,1,71.12,38.1,D10,,,,,"/>
 </errors>
 </schematic>
 </drawing>
