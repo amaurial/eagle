@@ -1,0 +1,40 @@
+[Eagle]
+Version="07 02 00"
+Platform="Linux"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Aesthetics.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-AnalogIC.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Boards.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Capacitors.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Connectors.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-DigitalIC.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-DiscreteSemi.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Displays.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Electromechanical.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-FreqCtrl.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-LED.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Passives.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-PowerIC.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-RF.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Resistors.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Retired.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Sensors.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/adafruit.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/h-bridge-l9119s.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/wirepad.lbr"
+UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/Eagle-Libs-master/we-transistor.lbr"
+
+[Win_1]
+Type="Control Panel"
+Loc="226 59 1131 686"
+State=1
+Number=0
+
+[Desktop]
+Screen="3286 1080"
+Window="Win_1"
