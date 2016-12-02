@@ -26,13 +26,12 @@ UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Retired.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/SparkFun-Sensors.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/adafruit.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/h-bridge-l9119s.lbr"
-UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/led.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/wirepad.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/Eagle-Libs-master/we-transistor.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="0 0 1365 748"
+Loc="1366 0 3285 1060"
 State=1
 Number=0
 
