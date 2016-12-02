@@ -31,7 +31,7 @@ UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/Eagle-Libs-master/we-transistor.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="226 59 1131 686"
+Loc="1366 0 3285 1060"
 State=1
 Number=0
 
