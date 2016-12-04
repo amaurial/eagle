@@ -2100,6 +2100,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="R12" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="BAT+1" library="wirepad" deviceset="SMD2" device=""/>
+<part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
 </parts>
 <sheets>
 <sheet>
@@ -2172,7 +2173,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="SER_DTR" gate="1" x="-17.78" y="101.6"/>
 <instance part="VJ" gate="1" x="27.94" y="-12.7" rot="MR180"/>
 <instance part="VJ1" gate="1" x="27.94" y="-5.08" rot="MR180"/>
-<instance part="Y1" gate="G$1" x="7.62" y="45.72" rot="R270"/>
+<instance part="Y1" gate="G$1" x="22.86" y="45.72" rot="R270"/>
 <instance part="GND" gate="1" x="220.98" y="-38.1" rot="MR0"/>
 <instance part="GND1" gate="1" x="220.98" y="-45.72" rot="MR0"/>
 <instance part="C1" gate="G$1" x="22.86" y="83.82"/>
@@ -2185,6 +2186,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="R12" gate="G$1" x="7.62" y="60.96"/>
 <instance part="R13" gate="G$1" x="10.16" y="-20.32"/>
 <instance part="BAT+1" gate="1" x="-17.78" y="137.16"/>
+<instance part="R14" gate="G$1" x="185.42" y="91.44" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -2269,13 +2271,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="172.72" y1="86.36" x2="172.72" y2="91.44" width="0.1524" layer="91"/>
 <junction x="172.72" y="91.44"/>
-<wire x1="172.72" y1="91.44" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="MOTORGND" gate="1" pin="P"/>
-<pinref part="MDRIVER" gate="G$1" pin="OA"/>
-<wire x1="198.12" y1="91.44" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="193.04" y1="104.14" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="198.12" y1="104.14" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
-<junction x="198.12" y="91.44"/>
+<wire x1="172.72" y1="91.44" x2="180.34" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="MDRIVER" gate="G$1" pin="GND1"/>
 <wire x1="165.1" y1="119.38" x2="162.56" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="119.38" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
@@ -2283,6 +2279,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="165.1" y1="104.14" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="162.56" y1="104.14" x2="162.56" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 </segment>
 <segment>
 <pinref part="10K" gate="G$1" pin="1"/>
@@ -2308,8 +2305,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <pinref part="GND3" gate="1" pin="GND"/>
 <junction x="27.94" y="17.78"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="0" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="0" y1="45.72" x2="0" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="17.78" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="45.72" x2="15.24" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -2655,14 +2652,14 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <net name="N$2" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="PB6(XTAL1/TOSC1)"/>
-<wire x1="7.62" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="48.26" x2="30.48" y2="48.26" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="U4" gate="G$1" pin="PB7(XTAL2/TOSC2)"/>
-<wire x1="7.62" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="43.18" x2="30.48" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="3"/>
 </segment>
 </net>
@@ -2820,6 +2817,18 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="7.62" y1="66.04" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="OA" class="0">
+<segment>
+<pinref part="MOTORGND" gate="1" pin="P"/>
+<wire x1="198.12" y1="91.44" x2="220.98" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="MDRIVER" gate="G$1" pin="OA"/>
+<wire x1="193.04" y1="104.14" x2="198.12" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="104.14" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
+<junction x="198.12" y="91.44"/>
+<wire x1="190.5" y1="91.44" x2="198.12" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="R14" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
