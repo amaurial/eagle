@@ -980,19 +980,19 @@ design rules under a new name.</description>
 <element name="RIR" library="SparkFun-Resistors" package="0603-RES" value="68" x="6.1976" y="11.9888"/>
 <element name="2.56V" library="wirepad" package="SMD1,27-2,54" value="" x="11.6674125" y="0.936396875" rot="MR0"/>
 <element name="3.3V" library="wirepad" package="SMD1,27-2,54" value="" x="2.245525" y="12.739646875" rot="R90"/>
-<element name="ABRKL" library="wirepad" package="SMD1,27-2,54" value="" x="28.2448" y="4.531240625" rot="R90"/>
+<element name="ABRKL" library="wirepad" package="SMD1,27-2,54" value="" x="28.279521875" y="4.9827125" rot="R90"/>
 <element name="AUX4" library="wirepad" package="SMD1,27-2,54" value="" x="17.07195" y="0.92718125"/>
 <element name="AUX3" library="wirepad" package="SMD1,27-2,54" value="" x="15.162565625" y="0.948171875"/>
 <element name="AUX2" library="wirepad" package="SMD1,27-2,54" value="" x="13.204321875" y="0.950959375"/>
 <element name="AUX1" library="wirepad" package="SMD1,27-2,54" value="" x="11.309609375" y="0.96713125"/>
-<element name="BBRKL" library="wirepad" package="SMD1,27-2,54" value="" x="28.253971875" y="6.434171875" rot="R90"/>
-<element name="B-L" library="wirepad" package="SMD1,27-2,54" value="" x="28.2956" y="10.068440625" rot="R90"/>
-<element name="B-R" library="wirepad" package="SMD1,27-2,54" value="" x="28.2956" y="8.2446625" rot="R90"/>
+<element name="BBRKL" library="wirepad" package="SMD1,27-2,54" value="" x="28.288696875" y="7.02455625" rot="R90"/>
+<element name="B-L" library="wirepad" package="SMD1,27-2,54" value="" x="28.260878125" y="11.0061125" rot="R90"/>
+<element name="B-R" library="wirepad" package="SMD1,27-2,54" value="" x="28.260875" y="9.04341875" rot="R90"/>
 <element name="C2" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="6.1468" y="1.3716" rot="MR0"/>
 <element name="C3" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="10.2616" y="15.494" rot="MR180"/>
 <element name="C4" library="SparkFun-Capacitors" package="0805" value="4.7uF" x="10.2616" y="15.1892" rot="R180"/>
 <element name="D1" library="adafruit" package="SOD-523" value="" x="2.6416" y="2.0828" rot="MR0"/>
-<element name="BAT-" library="wirepad" package="SMD1,27-2,54" value="" x="2.2352" y="3.2512" rot="R90"/>
+<element name="BAT-" library="wirepad" package="SMD1,27-2,54" value="" x="2.177334375" y="3.2801375" rot="R90"/>
 <element name="LDR" library="wirepad" package="SMD1,27-2,54" value="" x="2.286" y="14.5796" rot="R90"/>
 <element name="LIGHT" library="wirepad" package="SMD1,27-2,54" value="" x="26.67576875" y="17.44615625"/>
 <element name="MOTOR" library="wirepad" package="SMD1,27-2,54" value="" x="2.286" y="15.2272" rot="MR90"/>
@@ -1026,7 +1026,7 @@ design rules under a new name.</description>
 <element name="SI" library="wirepad" package="SMD1,27-2,54" value="" x="18.657009375" y="17.4609125"/>
 <element name="SO" library="wirepad" package="SMD1,27-2,54" value="" x="20.579559375" y="17.423678125"/>
 <element name="SCK" library="wirepad" package="SMD1,27-2,54" value="" x="16.7674" y="17.501503125"/>
-<element name="SER_DTR" library="wirepad" package="SMD1,27-2,54" value="" x="8.590075" y="0.921396875"/>
+<element name="SER_DTR" library="wirepad" package="SMD1,27-2,54" value="" x="9.08193125" y="0.863525"/>
 <element name="VJ" library="wirepad" package="SMD1,27-2,54" value="" x="7.112" y="17.4752" rot="MR0"/>
 <element name="VJ1" library="wirepad" package="SMD1,27-2,54" value="" x="4.6736" y="17.4752" rot="MR0"/>
 <element name="Y1" library="SparkFun-FreqCtrl" package="RESONATOR-SMD" value="16MHZ" x="26.038075" y="13.62050625" rot="R90">
@@ -1034,7 +1034,7 @@ design rules under a new name.</description>
 </element>
 <element name="GND" library="wirepad" package="SMD1,27-2,54" value="" x="28.254653125" y="2.7213625" rot="R90"/>
 <element name="GND1" library="wirepad" package="SMD1,27-2,54" value="" x="9.948478125" y="17.461765625" rot="MR0"/>
-<element name="C1" library="SparkFun-Capacitors" package="0805" value="1uF" x="5.916221875" y="0.832240625" rot="R180"/>
+<element name="C1" library="SparkFun-Capacitors" package="0805" value="1uF" x="6.23448125" y="0.861175" rot="R180"/>
 <element name="RST" library="wirepad" package="SMD1,27-2,54" value="" x="21.885759375" y="0.91805"/>
 <element name="BAT+1" library="wirepad" package="SMD1,27-2,54" value="" x="2.239934375" y="7.3642625" rot="R90"/>
 </elements>
@@ -1089,7 +1089,7 @@ design rules under a new name.</description>
 <wire x1="9.948478125" y1="17.461765625" x2="9.3616" y2="15.494" width="0" layer="19" extent="16-16"/>
 <wire x1="6.16019375" y1="5.270403125" x2="10.3124" y2="6.0659" width="0" layer="19" extent="1-1"/>
 <wire x1="5.2468" y1="1.3716" x2="6.16019375" y2="5.270403125" width="0" layer="19" extent="1-16"/>
-<wire x1="2.2352" y1="3.2512" x2="5.2468" y2="1.3716" width="0" layer="19" extent="1-16"/>
+<wire x1="2.177334375" y1="3.2801375" x2="5.2468" y2="1.3716" width="0" layer="19" extent="1-16"/>
 </signal>
 <signal name="AREF">
 <contactref element="2.56V" pad="1"/>
@@ -1200,22 +1200,22 @@ design rules under a new name.</description>
 <signal name="N$13">
 <contactref element="R8" pad="8"/>
 <contactref element="B-L" pad="1"/>
-<wire x1="26.4822" y1="7.4484" x2="28.2956" y2="10.068440625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.4822" y1="7.4484" x2="28.260878125" y2="11.0061125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$16">
 <contactref element="R8" pad="7"/>
 <contactref element="B-R" pad="1"/>
-<wire x1="26.4822" y1="6.6484" x2="28.2956" y2="8.2446625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.4822" y1="6.6484" x2="28.260875" y2="9.04341875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$18">
 <contactref element="R8" pad="6"/>
 <contactref element="BBRKL" pad="1"/>
-<wire x1="26.4822" y1="5.8484" x2="28.253971875" y2="6.434171875" width="0" layer="19" extent="1-1"/>
+<wire x1="26.4822" y1="5.8484" x2="28.288696875" y2="7.02455625" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$20">
 <contactref element="R8" pad="5"/>
 <contactref element="ABRKL" pad="1"/>
-<wire x1="26.4822" y1="5.0484" x2="28.2448" y2="4.531240625" width="0" layer="19" extent="1-1"/>
+<wire x1="26.4822" y1="5.0484" x2="28.279521875" y2="4.9827125" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$21">
 <contactref element="R9" pad="8"/>
@@ -1277,7 +1277,7 @@ design rules under a new name.</description>
 <signal name="N$3">
 <contactref element="SER_DTR" pad="1"/>
 <contactref element="C1" pad="1"/>
-<wire x1="6.816221875" y1="0.832240625" x2="8.590075" y2="0.921396875" width="0" layer="19" extent="1-1"/>
+<wire x1="7.13448125" y1="0.861175" x2="9.08193125" y2="0.863525" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U4" pad="7"/>
@@ -1325,8 +1325,8 @@ design rules under a new name.</description>
 <contactref element="C1" pad="2"/>
 <contactref element="RST" pad="1"/>
 <wire x1="21.885759375" y1="0.91805" x2="19.315921875" y2="5.519609375" width="0" layer="19" extent="1-1"/>
-<wire x1="5.016221875" y1="0.832240625" x2="19.315921875" y2="5.519609375" width="0" layer="19" extent="1-1"/>
-<wire x1="3.865403125" y1="0.740190625" x2="5.016221875" y2="0.832240625" width="0" layer="19" extent="1-1"/>
+<wire x1="5.33448125" y1="0.861175" x2="19.315921875" y2="5.519609375" width="0" layer="19" extent="1-1"/>
+<wire x1="3.865403125" y1="0.740190625" x2="5.33448125" y2="0.861175" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="A6">
 <contactref element="U4" pad="19"/>

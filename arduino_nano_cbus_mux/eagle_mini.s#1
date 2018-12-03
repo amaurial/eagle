@@ -10408,7 +10408,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JP9" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="JPLG" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="JPLY" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
-<part name="JPD9" library="SparkFun-Connectors" deviceset="M03" device="PTH"/>
 <part name="JPDC_SERVO" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="ICSP1" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="ICSP2" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
@@ -10425,6 +10424,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="JPANALOGMUX2" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="JPDIGITALMUX1" library="SparkFun-Connectors" deviceset="M08" device=""/>
 <part name="JPDIGITALMUX2" library="SparkFun-Connectors" deviceset="M08" device=""/>
+<part name="JPDIGITALMUX3" library="SparkFun-Connectors" deviceset="M08" device=""/>
+<part name="JPDIGITALMUX4" library="SparkFun-Connectors" deviceset="M08" device=""/>
+<part name="JPDIGITALMUX5" library="SparkFun-Connectors" deviceset="M08" device=""/>
+<part name="JPDIGITALMUX6" library="SparkFun-Connectors" deviceset="M08" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -10455,7 +10458,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JP9" gate="G$1" x="129.54" y="-50.8"/>
 <instance part="JPLG" gate="G$1" x="96.52" y="73.66"/>
 <instance part="JPLY" gate="G$1" x="96.52" y="55.88"/>
-<instance part="JPD9" gate="G$1" x="-22.86" y="12.7"/>
 <instance part="JPDC_SERVO" gate="G$1" x="167.64" y="30.48"/>
 <instance part="ICSP1" gate="G$1" x="66.04" y="-15.24"/>
 <instance part="ICSP2" gate="G$1" x="66.04" y="-30.48"/>
@@ -10472,6 +10474,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <instance part="JPANALOGMUX2" gate="G$1" x="284.48" y="111.76" rot="R180"/>
 <instance part="JPDIGITALMUX1" gate="G$1" x="284.48" y="76.2" rot="R180"/>
 <instance part="JPDIGITALMUX2" gate="G$1" x="284.48" y="50.8" rot="R180"/>
+<instance part="JPDIGITALMUX3" gate="G$1" x="307.34" y="76.2" rot="R180"/>
+<instance part="JPDIGITALMUX4" gate="G$1" x="307.34" y="50.8" rot="R180"/>
+<instance part="JPDIGITALMUX5" gate="G$1" x="325.12" y="76.2" rot="R180"/>
+<instance part="JPDIGITALMUX6" gate="G$1" x="325.12" y="50.8" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -10654,19 +10660,74 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="198.12" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="EN"/>
-<wire x1="210.82" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
-<label x="198.12" y="111.76" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$2" gate="G$1" pin="GND"/>
 <wire x1="210.82" y1="78.74" x2="200.66" y2="78.74" width="0.1524" layer="91"/>
 <label x="200.66" y="78.74" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$2" gate="G$1" pin="EN"/>
-<wire x1="210.82" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
-<label x="200.66" y="50.8" size="1.778" layer="95"/>
+<pinref part="JPDIGITALMUX3" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="83.82" x2="299.72" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="83.82" x2="299.72" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="JPDIGITALMUX4" gate="G$1" pin="8"/>
+<wire x1="299.72" y1="81.28" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="78.74" x2="299.72" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="76.2" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="73.66" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="71.12" x2="299.72" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="68.58" x2="299.72" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="66.04" x2="299.72" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="58.42" x2="299.72" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="55.88" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="53.34" x2="299.72" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="50.8" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="48.26" x2="299.72" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="45.72" x2="299.72" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="43.18" x2="299.72" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="299.72" y1="40.64" x2="302.26" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="JPDIGITALMUX4" gate="G$1" pin="7"/>
+<wire x1="302.26" y1="43.18" x2="299.72" y2="43.18" width="0.1524" layer="91"/>
+<junction x="299.72" y="43.18"/>
+<pinref part="JPDIGITALMUX4" gate="G$1" pin="6"/>
+<wire x1="302.26" y1="45.72" x2="299.72" y2="45.72" width="0.1524" layer="91"/>
+<junction x="299.72" y="45.72"/>
+<pinref part="JPDIGITALMUX4" gate="G$1" pin="5"/>
+<wire x1="302.26" y1="48.26" x2="299.72" y2="48.26" width="0.1524" layer="91"/>
+<junction x="299.72" y="48.26"/>
+<pinref part="JPDIGITALMUX4" gate="G$1" pin="4"/>
+<wire x1="302.26" y1="50.8" x2="299.72" y2="50.8" width="0.1524" layer="91"/>
+<junction x="299.72" y="50.8"/>
+<pinref part="JPDIGITALMUX4" gate="G$1" pin="3"/>
+<wire x1="302.26" y1="53.34" x2="299.72" y2="53.34" width="0.1524" layer="91"/>
+<junction x="299.72" y="53.34"/>
+<pinref part="JPDIGITALMUX4" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="55.88" x2="299.72" y2="55.88" width="0.1524" layer="91"/>
+<junction x="299.72" y="55.88"/>
+<pinref part="JPDIGITALMUX4" gate="G$1" pin="1"/>
+<wire x1="302.26" y1="58.42" x2="299.72" y2="58.42" width="0.1524" layer="91"/>
+<junction x="299.72" y="58.42"/>
+<pinref part="JPDIGITALMUX3" gate="G$1" pin="8"/>
+<wire x1="302.26" y1="66.04" x2="299.72" y2="66.04" width="0.1524" layer="91"/>
+<junction x="299.72" y="66.04"/>
+<pinref part="JPDIGITALMUX3" gate="G$1" pin="7"/>
+<wire x1="302.26" y1="68.58" x2="299.72" y2="68.58" width="0.1524" layer="91"/>
+<junction x="299.72" y="68.58"/>
+<pinref part="JPDIGITALMUX3" gate="G$1" pin="6"/>
+<wire x1="302.26" y1="71.12" x2="299.72" y2="71.12" width="0.1524" layer="91"/>
+<junction x="299.72" y="71.12"/>
+<pinref part="JPDIGITALMUX3" gate="G$1" pin="5"/>
+<wire x1="302.26" y1="73.66" x2="299.72" y2="73.66" width="0.1524" layer="91"/>
+<junction x="299.72" y="73.66"/>
+<pinref part="JPDIGITALMUX3" gate="G$1" pin="4"/>
+<wire x1="302.26" y1="76.2" x2="299.72" y2="76.2" width="0.1524" layer="91"/>
+<junction x="299.72" y="76.2"/>
+<pinref part="JPDIGITALMUX3" gate="G$1" pin="3"/>
+<wire x1="302.26" y1="78.74" x2="299.72" y2="78.74" width="0.1524" layer="91"/>
+<junction x="299.72" y="78.74"/>
+<pinref part="JPDIGITALMUX3" gate="G$1" pin="2"/>
+<wire x1="302.26" y1="81.28" x2="299.72" y2="81.28" width="0.1524" layer="91"/>
+<junction x="299.72" y="81.28"/>
+<wire x1="299.72" y1="83.82" x2="299.72" y2="91.44" width="0.1524" layer="91"/>
+<junction x="299.72" y="83.82"/>
 </segment>
 </net>
 <net name="VCC" class="0">
@@ -10770,6 +10831,71 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="175.26" y1="30.48" x2="180.34" y2="30.48" width="0.1524" layer="91"/>
 <label x="177.8" y="30.48" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="JPDIGITALMUX5" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="83.82" x2="317.5" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="83.82" x2="317.5" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="JPDIGITALMUX6" gate="G$1" pin="8"/>
+<wire x1="317.5" y1="81.28" x2="317.5" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="78.74" x2="317.5" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="76.2" x2="317.5" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="73.66" x2="317.5" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="71.12" x2="317.5" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="68.58" x2="317.5" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="66.04" x2="317.5" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="58.42" x2="317.5" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="55.88" x2="317.5" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="53.34" x2="317.5" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="50.8" x2="317.5" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="48.26" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="45.72" x2="317.5" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="43.18" x2="317.5" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="40.64" x2="320.04" y2="40.64" width="0.1524" layer="91"/>
+<pinref part="JPDIGITALMUX6" gate="G$1" pin="7"/>
+<wire x1="320.04" y1="43.18" x2="317.5" y2="43.18" width="0.1524" layer="91"/>
+<junction x="317.5" y="43.18"/>
+<pinref part="JPDIGITALMUX6" gate="G$1" pin="6"/>
+<wire x1="320.04" y1="45.72" x2="317.5" y2="45.72" width="0.1524" layer="91"/>
+<junction x="317.5" y="45.72"/>
+<pinref part="JPDIGITALMUX6" gate="G$1" pin="5"/>
+<wire x1="320.04" y1="48.26" x2="317.5" y2="48.26" width="0.1524" layer="91"/>
+<junction x="317.5" y="48.26"/>
+<pinref part="JPDIGITALMUX6" gate="G$1" pin="4"/>
+<wire x1="320.04" y1="50.8" x2="317.5" y2="50.8" width="0.1524" layer="91"/>
+<junction x="317.5" y="50.8"/>
+<pinref part="JPDIGITALMUX6" gate="G$1" pin="3"/>
+<wire x1="320.04" y1="53.34" x2="317.5" y2="53.34" width="0.1524" layer="91"/>
+<junction x="317.5" y="53.34"/>
+<pinref part="JPDIGITALMUX6" gate="G$1" pin="2"/>
+<wire x1="320.04" y1="55.88" x2="317.5" y2="55.88" width="0.1524" layer="91"/>
+<junction x="317.5" y="55.88"/>
+<pinref part="JPDIGITALMUX6" gate="G$1" pin="1"/>
+<wire x1="320.04" y1="58.42" x2="317.5" y2="58.42" width="0.1524" layer="91"/>
+<junction x="317.5" y="58.42"/>
+<pinref part="JPDIGITALMUX5" gate="G$1" pin="8"/>
+<wire x1="320.04" y1="66.04" x2="317.5" y2="66.04" width="0.1524" layer="91"/>
+<junction x="317.5" y="66.04"/>
+<pinref part="JPDIGITALMUX5" gate="G$1" pin="7"/>
+<wire x1="320.04" y1="68.58" x2="317.5" y2="68.58" width="0.1524" layer="91"/>
+<junction x="317.5" y="68.58"/>
+<pinref part="JPDIGITALMUX5" gate="G$1" pin="6"/>
+<wire x1="320.04" y1="71.12" x2="317.5" y2="71.12" width="0.1524" layer="91"/>
+<junction x="317.5" y="71.12"/>
+<pinref part="JPDIGITALMUX5" gate="G$1" pin="5"/>
+<wire x1="320.04" y1="73.66" x2="317.5" y2="73.66" width="0.1524" layer="91"/>
+<junction x="317.5" y="73.66"/>
+<pinref part="JPDIGITALMUX5" gate="G$1" pin="4"/>
+<wire x1="320.04" y1="76.2" x2="317.5" y2="76.2" width="0.1524" layer="91"/>
+<junction x="317.5" y="76.2"/>
+<pinref part="JPDIGITALMUX5" gate="G$1" pin="3"/>
+<wire x1="320.04" y1="78.74" x2="317.5" y2="78.74" width="0.1524" layer="91"/>
+<junction x="317.5" y="78.74"/>
+<pinref part="JPDIGITALMUX5" gate="G$1" pin="2"/>
+<wire x1="320.04" y1="81.28" x2="317.5" y2="81.28" width="0.1524" layer="91"/>
+<junction x="317.5" y="81.28"/>
+<wire x1="317.5" y1="83.82" x2="317.5" y2="91.44" width="0.1524" layer="91"/>
+<junction x="317.5" y="83.82"/>
+</segment>
 </net>
 <net name="N$17" class="0">
 <segment>
@@ -10835,9 +10961,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <label x="-2.54" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="JPD9" gate="G$1" pin="2"/>
-<wire x1="-15.24" y1="12.7" x2="-10.16" y2="12.7" width="0.1524" layer="91"/>
-<label x="-12.7" y="12.7" size="1.778" layer="95"/>
+<pinref part="S2" gate="S" pin="3"/>
+<pinref part="S2" gate="S" pin="4"/>
+<wire x1="-22.86" y1="38.1" x2="-22.86" y2="35.56" width="0.1524" layer="91"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-22.86" y1="35.56" x2="-22.86" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-22.86" y="35.56"/>
+<wire x1="-22.86" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<junction x="-22.86" y="27.94"/>
+<label x="-17.78" y="27.94" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A5" class="0">
@@ -11045,6 +11177,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="-33.02" x2="20.32" y2="-33.02" width="0.1524" layer="91"/>
 <label x="17.78" y="-33.02" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="EN"/>
+<wire x1="210.82" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
+<label x="200.66" y="50.8" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="D8" class="0">
 <segment>
@@ -11062,12 +11199,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="12.7" y1="-30.48" x2="20.32" y2="-30.48" width="0.1524" layer="91"/>
 <label x="17.78" y="-30.48" size="1.778" layer="95"/>
 </segment>
-</net>
-<net name="JD9" class="0">
 <segment>
-<pinref part="JPD9" gate="G$1" pin="1"/>
-<wire x1="-15.24" y1="10.16" x2="-10.16" y2="10.16" width="0.1524" layer="91"/>
-<label x="-12.7" y="10.16" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="EN"/>
+<wire x1="210.82" y1="111.76" x2="198.12" y2="111.76" width="0.1524" layer="91"/>
+<label x="198.12" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -11216,21 +11351,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="JPLY" gate="G$1" pin="2"/>
 <wire x1="104.14" y1="55.88" x2="111.76" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="55.88" x2="111.76" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="S2" gate="S" pin="3"/>
-<pinref part="S2" gate="S" pin="4"/>
-<wire x1="-22.86" y1="38.1" x2="-22.86" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="2"/>
-<wire x1="-22.86" y1="35.56" x2="-22.86" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-22.86" y="35.56"/>
-<wire x1="-22.86" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
-<junction x="-22.86" y="27.94"/>
-<pinref part="JPD9" gate="G$1" pin="3"/>
-<wire x1="-15.24" y1="15.24" x2="-12.7" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="-12.7" y1="15.24" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="RST" class="0">

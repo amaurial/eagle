@@ -2101,6 +2101,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="R13" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="BAT+1" library="wirepad" deviceset="SMD2" device=""/>
 <part name="R14" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="0"/>
+<part name="SER_B" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2187,6 +2188,7 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="R13" gate="G$1" x="10.16" y="-20.32"/>
 <instance part="BAT+1" gate="1" x="-17.78" y="137.16"/>
 <instance part="R14" gate="G$1" x="185.42" y="91.44" rot="R180"/>
+<instance part="SER_B" gate="1" x="-7.62" y="68.58" rot="MR180"/>
 </instances>
 <busses>
 </busses>
@@ -2817,6 +2819,9 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="7.62" y1="66.04" x2="7.62" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="R10" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="83.82" x2="0" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="66.04" x2="15.24" y2="68.58" width="0.1524" layer="91"/>
+<pinref part="SER_B" gate="1" pin="P"/>
+<wire x1="15.24" y1="68.58" x2="-5.08" y2="68.58" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="OA" class="0">

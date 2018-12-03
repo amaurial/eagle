@@ -221,7 +221,7 @@ CBUS</text>
 <text x="35.179" y="64.135" size="0.8128" layer="121">5</text>
 <text x="37.719" y="64.135" size="0.8128" layer="121">6</text>
 <text x="40.259" y="64.135" size="0.8128" layer="121">7</text>
-<text x="13.716" y="62.23" size="1.016" layer="121">ANALOG MUX PORTS</text>
+<text x="13.716" y="62.23" size="1.016" layer="121">ANALOG MUX PORTS - A4</text>
 <text x="42.799" y="69.469" size="0.8128" layer="121">15</text>
 <text x="45.339" y="69.469" size="0.8128" layer="121">14</text>
 <text x="47.879" y="69.469" size="0.8128" layer="121">13</text>
@@ -244,6 +244,7 @@ CBUS</text>
 <hole x="85.09" y="68.072" drill="3.81"/>
 <text x="83.566" y="61.595" size="1.27" layer="121">GND</text>
 <text x="83.566" y="64.389" size="1.27" layer="121">V+</text>
+<text x="48.514" y="58.166" size="1.016" layer="121">DIGITAL MUX PORTS - D6</text>
 </plain>
 <libraries>
 <library name="Arduino_merg">

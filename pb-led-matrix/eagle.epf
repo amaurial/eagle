@@ -581,10 +581,11 @@ UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/xilinx-xc9.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/xilinx-xcv.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/zetex.lbr"
 UsedLibrary="/home/amaurial/eagle-7.2.0/lbr/zilog.lbr"
+UsedLibrary="/home/amaurial/Downloads/diy-modules.lbr"
 
 [Win_1]
 Type="Control Panel"
-Loc="337 122 1291 521"
+Loc="1594 61 2959 984"
 State=2
 Number=0
 

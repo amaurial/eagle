@@ -242,6 +242,9 @@ CBUS</text>
 <hole x="0.508" y="3.048" drill="3.81"/>
 <hole x="83.058" y="4.064" drill="3.81"/>
 <hole x="85.09" y="68.072" drill="3.81"/>
+<text x="83.566" y="61.595" size="1.27" layer="121">GND</text>
+<text x="83.566" y="64.389" size="1.27" layer="121">V+</text>
+<text x="55.372" y="58.166" size="1.016" layer="121">DIGITAL MUX PORTS</text>
 </plain>
 <libraries>
 <library name="Arduino_merg">

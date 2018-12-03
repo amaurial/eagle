@@ -2420,10 +2420,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="LDR" library="wirepad" deviceset="SMD2" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="3.3V" library="wirepad" deviceset="SMD2" device=""/>
-<part name="VCC2" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3V"/>
 <part name="U2" library="SparkFun-RF" deviceset="RFM69" device="CW"/>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="SUPPLY1" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3V"/>
 <part name="U4" library="SparkFun-DigitalIC" deviceset="ATMEGA328_SMT" device="" value="ATMEGA328P"/>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SER_GND" library="wirepad" deviceset="SMD2" device=""/>
@@ -2504,10 +2502,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="LDR" gate="1" x="220.98" y="63.5" rot="MR0"/>
 <instance part="GND11" gate="1" x="172.72" y="55.88"/>
 <instance part="3.3V" gate="1" x="226.06" y="-30.48" rot="MR0"/>
-<instance part="VCC2" gate="G$1" x="165.1" y="-27.94"/>
 <instance part="U2" gate="G$1" x="50.8" y="-25.4"/>
 <instance part="GND12" gate="1" x="71.12" y="-40.64"/>
-<instance part="SUPPLY1" gate="G$1" x="33.02" y="-5.08"/>
 <instance part="U4" gate="G$1" x="53.34" y="48.26"/>
 <instance part="GND3" gate="1" x="27.94" y="15.24"/>
 <instance part="SER_GND" gate="1" x="-17.78" y="121.92"/>
@@ -2542,17 +2538,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <junction x="101.6" y="119.38"/>
 </segment>
 <segment>
-<wire x1="165.1" y1="-30.48" x2="223.52" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="3.3V" gate="1" pin="P"/>
-<pinref part="VCC2" gate="G$1" pin="VCC"/>
-<wire x1="165.1" y1="-30.48" x2="165.1" y2="-27.94" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="VJ1" gate="1" pin="P"/>
-<pinref part="SUPPLY1" gate="G$1" pin="VCC"/>
-<wire x1="33.02" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <wire x1="10.16" y1="73.66" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="R_3.3V" gate="G$1" pin="1"/>
@@ -2560,6 +2545,17 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <wire x1="2.54" y1="60.96" x2="2.54" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="2.54" y1="73.66" x2="-5.08" y2="73.66" width="0.1524" layer="91"/>
 <junction x="2.54" y="73.66"/>
+<label x="-2.54" y="73.66" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="165.1" y1="-30.48" x2="223.52" y2="-30.48" width="0.1524" layer="91"/>
+<pinref part="3.3V" gate="1" pin="P"/>
+<label x="165.1" y="-30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="VJ1" gate="1" pin="P"/>
+<wire x1="33.02" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
+<label x="33.02" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="0">

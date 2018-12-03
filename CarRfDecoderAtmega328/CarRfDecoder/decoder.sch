@@ -2395,7 +2395,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="AUX1" library="wirepad" deviceset="SMD2" device=""/>
 <part name="R11" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="68"/>
 <part name="LIGHT" library="wirepad" deviceset="SMD2" device=""/>
-<part name="2.56V" library="wirepad" deviceset="SMD2" device=""/>
 <part name="RIR" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="68"/>
 <part name="LDR" library="wirepad" deviceset="SMD2" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -2475,7 +2474,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <instance part="AUX1" gate="1" x="220.98" y="-20.32" rot="MR0"/>
 <instance part="R11" gate="G$1" x="190.5" y="50.8"/>
 <instance part="LIGHT" gate="1" x="220.98" y="50.8" rot="MR0"/>
-<instance part="2.56V" gate="1" x="220.98" y="68.58" rot="MR0"/>
 <instance part="RIR" gate="G$1" x="190.5" y="58.42"/>
 <instance part="LDR" gate="1" x="220.98" y="63.5" rot="MR0"/>
 <instance part="GND11" gate="1" x="172.72" y="55.88"/>
@@ -2626,11 +2624,6 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 </segment>
 </net>
 <net name="AREF" class="0">
-<segment>
-<wire x1="172.72" y1="68.58" x2="218.44" y2="68.58" width="0.1524" layer="91"/>
-<pinref part="2.56V" gate="1" pin="P"/>
-<label x="172.72" y="68.58" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="U4" gate="G$1" pin="AREF"/>
 <wire x1="30.48" y1="58.42" x2="22.86" y2="58.42" width="0.1524" layer="91"/>
