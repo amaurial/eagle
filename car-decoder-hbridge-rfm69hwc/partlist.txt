@@ -1,0 +1,60 @@
+Partlist
+
+Exported from decoder.sch at 2/08/19 12:12 PM
+
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device                 Package        Library             Sheet
+
+3.3V                    SMD2                   SMD1,27-2,54   wirepad             1
+ABRKL                   SMD2                   SMD1,27-2,54   wirepad             1
+AUX1                    SMD2                   SMD1,27-2,54   wirepad             1
+AUX2                    SMD2                   SMD1,27-2,54   wirepad             1
+AUX3                    SMD2                   SMD1,27-2,54   wirepad             1
+AUX4                    SMD2                   SMD1,27-2,54   wirepad             1
+B-L                     SMD2                   SMD1,27-2,54   wirepad             1
+B-R                     SMD2                   SMD1,27-2,54   wirepad             1
+BAT+                    SMD2                   SMD1,27-2,54   wirepad             1
+BAT+1                   SMD2                   SMD1,27-2,54   wirepad             1
+BAT-                    SMD2                   SMD1,27-2,54   wirepad             1
+BBRKL                   SMD2                   SMD1,27-2,54   wirepad             1
+C1       0.1uF          CAP0805                0805           SparkFun-Capacitors 1
+C2       4.7uF          CAP0805                0805           SparkFun-Capacitors 1
+C3       4.7uF          CAP0805                0805           SparkFun-Capacitors 1
+C4       4.7uF          CAP0805                0805           SparkFun-Capacitors 1
+GND                     SMD2                   SMD1,27-2,54   wirepad             1
+GND1                    SMD2                   SMD1,27-2,54   wirepad             1
+LDR                     SMD2                   SMD1,27-2,54   wirepad             1
+LIGHT                   SMD2                   SMD1,27-2,54   wirepad             1
+MDRIVER  L9110S         L9110S                 SO08           h-bridge-l9119s     1
+MOTOR                   SMD2                   SMD1,27-2,54   wirepad             1
+MOTORGND                SMD2                   SMD1,27-2,54   wirepad             1
+R1       10k            RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R2       2k2            RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R3       2K             RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R4       2K             RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R5       2K             RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R6       0              RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R7       0              RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R8       100            RESISTOR-ARRAY0603-ARV 0603-ARV       SparkFun-Resistors  1
+R9       100            RESISTOR-ARRAY0603-ARV 0603-ARV       SparkFun-Resistors  1
+R10      0              RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R11      68             RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R14      0              RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R15      68             RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R16      0              RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+R17      10k            RESISTOR0603-RES       0603-RES       SparkFun-Resistors  1
+RST                     SMD2                   SMD1,27-2,54   wirepad             1
+SER_B                   SMD2                   SMD1,27-2,54   wirepad             1
+SER_DTR                 SMD2                   SMD1,27-2,54   wirepad             1
+SER_GND                 SMD2                   SMD1,27-2,54   wirepad             1
+SER_RX                  SMD2                   SMD1,27-2,54   wirepad             1
+SER_TX                  SMD2                   SMD1,27-2,54   wirepad             1
+SER_V+                  SMD2                   SMD1,27-2,54   wirepad             1
+U1       RFM69HCW       RFM69HCW               RFM69HCW-XXXS2 SparkFun-RF         1
+U3       MCP73831       MCP73831               SOT23-5        SparkFun-PowerIC    1
+U4       ATMEGA328P     ATMEGA328_SMT          TQFP32-08      SparkFun-DigitalIC  1
+U6       MIC5219 3.3V   V_REG_MIC52193.3V      SOT23-5        SparkFun-PowerIC    1
+Y1       16MHZ          RESONATOR16MHZ         RESONATOR-SMD  SparkFun-FreqCtrl   1
