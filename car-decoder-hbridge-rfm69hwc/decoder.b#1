@@ -143,7 +143,7 @@
 <text x="17.868959375" y="17.282259375" size="0.4064" layer="122" ratio="7" rot="MR180">si</text>
 <text x="13.881196875" y="16.57355" size="0.4064" layer="122" rot="MR90">gnd</text>
 <text x="17.853475" y="0.245521875" size="0.4064" layer="122" rot="MR90">rst</text>
-<text x="10.7455" y="15.694815625" size="0.4064" layer="121">R11</text>
+<text x="20.146646875" y="15.7491625" size="0.4064" layer="121">R11</text>
 <text x="5.272140625" y="1.99011875" size="0.4064" layer="121">C1</text>
 <text x="25.119665625" y="1.97890625" size="0.4064" layer="121">RX</text>
 <text x="23.2496875" y="1.859509375" size="0.4064" layer="121">TX</text>
@@ -160,11 +160,11 @@
 <text x="25.506396875" y="10.101259375" size="0.4064" layer="121">B-L</text>
 <text x="26.1853" y="5.622746875" size="0.4064" layer="121">BBRKL</text>
 <text x="25.4519125" y="8.5461" size="0.4064" layer="121">B-R</text>
-<text x="13.2416125" y="15.5344625" size="0.4064" layer="121">LIGHT</text>
+<text x="22.86013125" y="15.5072875" size="0.4064" layer="121">LIGHT</text>
 <text x="6.559878125" y="14.4072875" size="0.4064" layer="121">R4</text>
 <text x="11.073725" y="13.418803125" size="0.4064" layer="121">C4</text>
 <text x="8.69646875" y="7.71245625" size="0.4064" layer="121">U6</text>
-<text x="12.11916875" y="6.082940625" size="0.4064" layer="121">R9</text>
+<text x="14.89060625" y="3.365596875" size="0.4064" layer="121">R9</text>
 <text x="4.06999375" y="11.7311125" size="0.4064" layer="121">R15</text>
 <text x="4.15235625" y="10.1966625" size="0.4064" layer="121">R10</text>
 <text x="7.990546875" y="4.5376375" size="0.4064" layer="121">U3</text>
@@ -177,22 +177,22 @@
 <text x="4.09765625" y="13.74605625" size="0.4064" layer="121">LDR</text>
 <text x="9.782278125" y="0.69541875" size="0.4064" layer="122" rot="MR0">2.56V</text>
 <text x="5.2804125" y="1.662365625" size="0.4064" layer="122" rot="MR0">C2</text>
-<text x="7.086275" y="2.2840625" size="0.4064" layer="122" rot="MR0">R6</text>
-<text x="5.44875" y="2.32046875" size="0.4064" layer="122" rot="MR0">R7</text>
+<text x="7.955746875" y="2.338409375" size="0.4064" layer="122" rot="MR0">R6</text>
+<text x="6.15519375" y="2.4291625" size="0.4064" layer="122" rot="MR0">R7</text>
 <text x="10.100234375" y="8.28173125" size="0.4064" layer="122" rot="MR0">R2</text>
 <text x="10.93001875" y="13.342371875" size="0.4064" layer="122" rot="MR0">R13</text>
-<text x="11.35748125" y="16.33940625" size="0.4064" layer="122" rot="MR0">GND</text>
-<text x="7.55603125" y="15.460175" size="0.4064" layer="122" rot="MR0">VJ</text>
-<text x="5.21449375" y="15.643503125" size="0.4064" layer="122" rot="MR0">VJ</text>
+<text x="10.54235" y="17.018740625" size="0.4064" layer="122" rot="MR0">GND</text>
 <text x="3.684240625" y="16.497009375" size="0.4064" layer="122" rot="MR0">MOTOR</text>
 <text x="3.589715625" y="13.82110625" size="0.4064" layer="122" rot="MR0">MT-GND</text>
 <text x="3.81439375" y="2.3113375" size="0.4064" layer="122" rot="MR0">R14</text>
 <text x="9.358403125" y="11.35626875" size="0.4064" layer="122" rot="MR0">R5</text>
 <text x="6.539046875" y="10.655528125" size="0.4064" layer="122" rot="MR0">MDRIVER</text>
-<text x="3.912253125" y="16.488490625" size="0.4064" layer="121">RCCAR-V1.1
+<text x="3.912253125" y="16.488490625" size="0.4064" layer="121">RCCAR-V1.2
 RFM69HWC</text>
-<text x="7.16049375" y="16.543884375" size="0.4064" layer="122" rot="MR0">RCCAR-V1.1
+<text x="7.16049375" y="16.543884375" size="0.4064" layer="122" rot="MR0">RCCAR-V1.2
 RFM69HWC</text>
+<text x="17.58159375" y="15.45079375" size="0.4064" layer="121">AUX5</text>
+<text x="15.624853125" y="15.418175" size="0.4064" layer="121">AUX6</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
@@ -1047,6 +1047,8 @@ design rules under a new name.</description>
 <element name="R16" library="SparkFun-Resistors" package="0603-RES" value="0" x="10.6204125" y="7.767834375" rot="MR180"/>
 <element name="U1" library="SparkFun-RF" package="RFM69HCW-XXXS2" value="RFM69HCW" x="20.13378125" y="8.8597125" rot="MR270"/>
 <element name="R17" library="SparkFun-Resistors" package="0603-RES" value="10k" x="7.23198125" y="13.866196875"/>
+<element name="AUX5" library="wirepad" package="SMD1,27-2,54" value="" x="18.0090125" y="16.897565625"/>
+<element name="AUX6" library="wirepad" package="SMD1,27-2,54" value="" x="16.11595625" y="16.897565625"/>
 </elements>
 <signals>
 <signal name="VCC">
@@ -1194,12 +1196,12 @@ design rules under a new name.</description>
 <wire x1="12.573" y1="8.382" x2="12.4333" y2="8.5217" width="0.127" layer="16"/>
 <wire x1="12.573" y1="7.1247" x2="12.573" y2="8.382" width="0.127" layer="16"/>
 <wire x1="12.1539" y1="6.7056" x2="12.573" y2="7.1247" width="0.127" layer="16"/>
-<wire x1="8.6614" y1="6.7056" x2="10.1981" y2="6.7056" width="0.127" layer="16"/>
+<wire x1="8.57089375" y1="6.607290625" x2="10.1981" y2="6.7056" width="0.127" layer="16"/>
 <wire x1="10.1981" y1="6.7056" x2="11.3157" y2="6.7056" width="0.127" layer="16"/>
 <wire x1="11.3157" y1="6.7056" x2="12.1539" y2="6.7056" width="0.127" layer="16"/>
-<wire x1="7.9629" y1="7.4041" x2="8.6614" y2="6.7056" width="0.127" layer="16"/>
+<wire x1="7.897915625" y1="7.3568375" x2="8.57089375" y2="6.607290625" width="0.127" layer="16"/>
 <wire x1="11.5951" y1="10.7569" x2="11.4961375" y2="10.773146875" width="0.127" layer="16"/>
-<wire x1="7.9629" y1="7.4041" x2="7.881378125" y2="7.5265125" width="0.127" layer="16"/>
+<wire x1="7.897915625" y1="7.3568375" x2="7.881378125" y2="7.5265125" width="0.127" layer="16"/>
 <wire x1="6.985" y1="4.7498" x2="6.985" y2="4.4704" width="0.127" layer="1"/>
 <wire x1="7.5438" y1="5.3086" x2="6.985" y2="4.7498" width="0.127" layer="1"/>
 <wire x1="8.8011" y1="5.3086" x2="7.5438" y2="5.3086" width="0.127" layer="1"/>
@@ -1625,9 +1627,9 @@ design rules under a new name.</description>
 <wire x1="6.5659" y1="13.6906" x2="5.4483" y2="13.6906" width="0.127" layer="16"/>
 <wire x1="5.4483" y1="13.6906" x2="5.341378125" y2="13.6733125" width="0.127" layer="16"/>
 <wire x1="6.5659" y1="13.6906" x2="6.611378125" y2="13.6733125" width="0.127" layer="16"/>
-<wire x1="8.382" y1="7.8232" x2="7.8232" y2="8.382" width="0.127" layer="1"/>
+<wire x1="8.375875" y1="7.87220625" x2="7.8232" y2="8.382" width="0.127" layer="1"/>
 <wire x1="7.8232" y1="8.382" x2="5.7277" y2="10.4775" width="0.127" layer="1"/>
-<wire x1="10.0584" y1="7.8232" x2="8.382" y2="7.8232" width="0.127" layer="1"/>
+<wire x1="10.0584" y1="7.8232" x2="8.375875" y2="7.87220625" width="0.127" layer="1"/>
 <wire x1="10.4775" y1="7.4041" x2="10.3378" y2="7.5438" width="0.127" layer="1"/>
 <wire x1="10.3378" y1="7.5438" x2="10.0584" y2="7.8232" width="0.127" layer="1"/>
 <wire x1="5.7277" y1="10.4775" x2="5.692359375" y2="10.59588125" width="0.127" layer="1"/>
@@ -1855,6 +1857,24 @@ design rules under a new name.</description>
 <wire x1="9.9187" y1="9.3599" x2="9.792125" y2="9.383621875" width="0.127" layer="16"/>
 <via x="8.809028125" y="9.3599" extent="1-16" drill="0.3048"/>
 </signal>
+<signal name="D8">
+<contactref element="U4" pad="12"/>
+<contactref element="AUX5" pad="1"/>
+<wire x1="19.4183" y1="15.367" x2="19.4183" y2="14.5288" width="0.127" layer="1"/>
+<wire x1="18.0213" y1="16.764" x2="19.4183" y2="15.367" width="0.127" layer="1"/>
+<wire x1="19.4183" y1="14.5288" x2="19.532634375" y2="14.434625" width="0.127" layer="1"/>
+<wire x1="18.0213" y1="16.764" x2="18.0090125" y2="16.897565625" width="0.127" layer="1"/>
+</signal>
+<signal name="D9">
+<contactref element="U4" pad="13"/>
+<contactref element="AUX6" pad="1"/>
+<wire x1="18.7198" y1="14.9479" x2="18.7198" y2="14.5288" width="0.127" layer="1"/>
+<wire x1="17.8816" y1="15.7861" x2="18.7198" y2="14.9479" width="0.127" layer="1"/>
+<wire x1="17.1831" y1="15.7861" x2="17.8816" y2="15.7861" width="0.127" layer="1"/>
+<wire x1="16.2052" y1="16.764" x2="17.1831" y2="15.7861" width="0.127" layer="1"/>
+<wire x1="18.7198" y1="14.5288" x2="18.732634375" y2="14.434625" width="0.127" layer="1"/>
+<wire x1="16.2052" y1="16.764" x2="16.11595625" y2="16.897565625" width="0.127" layer="1"/>
+</signal>
 </signals>
 <errors>
 <approved hash="3,1,d770e10ae28cd4f6"/>
@@ -2051,11 +2071,9 @@ design rules under a new name.</description>
 <approved hash="4,1,be82a2707a3b69f2"/>
 <approved hash="4,1,82269a3da3b0532e"/>
 <approved hash="4,1,3750081b72b738d9"/>
-<approved hash="4,1,701a40d844b34f60"/>
 <approved hash="4,1,e31739477eb34fd0"/>
+<approved hash="4,1,701a40d844b34f60"/>
 <approved hash="4,1,bf49a186f676e173"/>
-<approved hash="4,16,dcb3f250eb4222aa"/>
-<approved hash="4,16,65aac777124f2f4e"/>
 <approved hash="4,16,acf5367d3f0fb5d4"/>
 <approved hash="4,16,f9fdc07ffb0fccda"/>
 <approved hash="4,16,d6e44da5938a18f2"/>
@@ -2066,6 +2084,8 @@ design rules under a new name.</description>
 <approved hash="4,16,e9eb239aace2aae2"/>
 <approved hash="4,16,cce777ee55c24f3f"/>
 <approved hash="4,16,801e8b1762e77786"/>
+<approved hash="4,16,dcb3f250eb4222aa"/>
+<approved hash="4,16,65aac777124f2f4e"/>
 <approved hash="4,16,8ece546c1a48ab02"/>
 <approved hash="4,16,aa961bb5034095c4"/>
 <approved hash="4,16,17ca97d4093982bc"/>

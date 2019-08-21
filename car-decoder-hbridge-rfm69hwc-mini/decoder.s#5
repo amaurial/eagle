@@ -2172,7 +2172,7 @@ at 27/07/2012 14:02:49</description>
 <text x="124.46" y="86.36" size="1.778" layer="91">Motor</text>
 <text x="124.46" y="81.28" size="1.778" layer="91">Motor Rotation</text>
 <text x="124.46" y="91.44" size="1.778" layer="91">Motor back</text>
-<text x="111.76" y="73.66" size="1.778" layer="91">A5 is connected to AUX2 and motor back
+<text x="106.68" y="73.66" size="1.778" layer="91">A5 is connected to AUX2 and motor back
 To use with the motor, R6 has to be connected</text>
 </plain>
 <instances>
@@ -2222,12 +2222,12 @@ To use with the motor, R6 has to be connected</text>
 <instance part="GND11" gate="1" x="172.72" y="55.88"/>
 <instance part="3.3V" gate="1" x="226.06" y="-30.48" rot="MR0"/>
 <instance part="VCC2" gate="G$1" x="165.1" y="-27.94"/>
-<instance part="GND3" gate="1" x="78.74" y="12.7"/>
+<instance part="GND3" gate="1" x="55.88" y="12.7"/>
 <instance part="SER_GND" gate="1" x="-17.78" y="121.92"/>
 <instance part="R1" gate="G$1" x="15.24" y="73.66"/>
 <instance part="VCC4" gate="G$1" x="2.54" y="73.66"/>
 <instance part="SER_DTR" gate="1" x="-17.78" y="101.6"/>
-<instance part="Y1" gate="G$1" x="134.62" y="22.86" rot="R90"/>
+<instance part="Y1" gate="G$1" x="111.76" y="22.86" rot="R90"/>
 <instance part="GND" gate="1" x="220.98" y="-38.1" rot="MR0"/>
 <instance part="GND1" gate="1" x="220.98" y="-45.72" rot="MR0"/>
 <instance part="C1" gate="G$1" x="22.86" y="83.82"/>
@@ -2242,11 +2242,11 @@ To use with the motor, R6 has to be connected</text>
 <instance part="SER_B" gate="1" x="-7.62" y="60.96" rot="MR180"/>
 <instance part="GND2" gate="1" x="162.56" y="99.06"/>
 <instance part="R16" gate="G$1" x="172.72" y="91.44"/>
-<instance part="U1" gate="G$1" x="45.72" y="-17.78"/>
-<instance part="GND13" gate="1" x="66.04" y="-33.02"/>
-<instance part="R17" gate="G$1" x="20.32" y="-12.7"/>
-<instance part="SUPPLY2" gate="G$1" x="22.86" y="-2.54"/>
-<instance part="U2" gate="A" x="104.14" y="43.18"/>
+<instance part="U1" gate="G$1" x="7.62" y="27.94"/>
+<instance part="GND13" gate="1" x="27.94" y="12.7"/>
+<instance part="R17" gate="G$1" x="-17.78" y="33.02"/>
+<instance part="SUPPLY2" gate="G$1" x="-15.24" y="43.18"/>
+<instance part="U2" gate="A" x="81.28" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -2276,13 +2276,13 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="R17" gate="G$1" pin="1"/>
-<wire x1="15.24" y1="-12.7" x2="15.24" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="33.02" x2="-22.86" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="3.3V"/>
-<wire x1="15.24" y1="-5.08" x2="22.86" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
 <pinref part="SUPPLY2" gate="G$1" pin="VCC"/>
-<wire x1="22.86" y1="-5.08" x2="30.48" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="22.86" y1="-2.54" x2="22.86" y2="-5.08" width="0.1524" layer="91"/>
-<junction x="22.86" y="-5.08"/>
+<wire x1="-15.24" y1="40.64" x2="-7.62" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="-15.24" y1="43.18" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
+<junction x="-15.24" y="40.64"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -2357,37 +2357,37 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND@2"/>
-<wire x1="60.96" y1="-22.86" x2="66.04" y2="-22.86" width="0.1524" layer="91"/>
-<wire x1="66.04" y1="-22.86" x2="66.04" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="22.86" x2="27.94" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="22.86" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U1" gate="G$1" pin="GND@1"/>
-<wire x1="66.04" y1="-27.94" x2="60.96" y2="-27.94" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="17.78" x2="22.86" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="66.04" y1="-30.48" x2="66.04" y2="-27.94" width="0.1524" layer="91"/>
-<junction x="66.04" y="-27.94"/>
+<wire x1="27.94" y1="15.24" x2="27.94" y2="17.78" width="0.1524" layer="91"/>
+<junction x="27.94" y="17.78"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="GND_2"/>
 <pinref part="U2" gate="A" pin="GND_3"/>
-<wire x1="86.36" y1="17.78" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="17.78" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="GND"/>
-<wire x1="86.36" y1="12.7" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
-<junction x="86.36" y="15.24"/>
+<wire x1="63.5" y1="12.7" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<junction x="63.5" y="15.24"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="78.74" y1="15.24" x2="83.82" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="15.24" x2="86.36" y2="15.24" width="0.1524" layer="91"/>
-<wire x1="83.82" y1="15.24" x2="83.82" y2="0" width="0.1524" layer="91"/>
-<junction x="83.82" y="15.24"/>
-<wire x1="83.82" y1="0" x2="144.78" y2="0" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="0" x2="144.78" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="15.24" x2="60.96" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="15.24" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="60.96" y1="15.24" x2="60.96" y2="0" width="0.1524" layer="91"/>
+<junction x="60.96" y="15.24"/>
+<wire x1="60.96" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="0" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="144.78" y1="22.86" x2="142.24" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="22.86" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
 <segment>
 <pinref part="U2" gate="A" pin="AREF"/>
-<wire x1="86.36" y1="55.88" x2="78.74" y2="55.88" width="0.1524" layer="91"/>
-<label x="78.74" y="55.88" size="1.778" layer="95"/>
+<wire x1="63.5" y1="55.88" x2="55.88" y2="55.88" width="0.1524" layer="91"/>
+<label x="55.88" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A0" class="0">
@@ -2403,8 +2403,8 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PC0"/>
-<wire x1="86.36" y1="43.18" x2="78.74" y2="43.18" width="0.1524" layer="91"/>
-<label x="78.74" y="43.18" size="1.778" layer="95"/>
+<wire x1="63.5" y1="43.18" x2="55.88" y2="43.18" width="0.1524" layer="91"/>
+<label x="55.88" y="43.18" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A1" class="0">
@@ -2415,41 +2415,15 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PC1"/>
-<wire x1="86.36" y1="40.64" x2="78.74" y2="40.64" width="0.1524" layer="91"/>
-<label x="78.74" y="40.64" size="1.778" layer="95"/>
+<wire x1="63.5" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
+<label x="55.88" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A3" class="0">
 <segment>
-<pinref part="R9" gate="R" pin="1"/>
-<wire x1="185.42" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
-<label x="172.72" y="-12.7" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U2" gate="A" pin="PC3"/>
-<wire x1="86.36" y1="35.56" x2="78.74" y2="35.56" width="0.1524" layer="91"/>
-<label x="78.74" y="35.56" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A4" class="0">
-<segment>
-<wire x1="142.24" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
-<label x="119.38" y="86.36" size="1.778" layer="95"/>
-<wire x1="142.24" y1="86.36" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U2" gate="A" pin="PC4"/>
-<wire x1="86.36" y1="33.02" x2="78.74" y2="33.02" width="0.1524" layer="91"/>
-<label x="78.74" y="33.02" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="A5" class="0">
-<segment>
-<pinref part="R9" gate="B" pin="1"/>
-<wire x1="185.42" y1="-5.08" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
-<label x="172.72" y="-5.08" size="1.778" layer="95"/>
+<wire x1="63.5" y1="35.56" x2="55.88" y2="35.56" width="0.1524" layer="91"/>
+<label x="55.88" y="35.56" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R6" gate="G$1" pin="1"/>
@@ -2459,9 +2433,21 @@ To use with the motor, R6 has to be connected</text>
 <label x="119.38" y="91.44" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="R9" gate="B" pin="1"/>
+<wire x1="185.42" y1="-5.08" x2="167.64" y2="-5.08" width="0.1524" layer="91"/>
+<label x="172.72" y="-5.08" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="A5" class="0">
+<segment>
 <pinref part="U2" gate="A" pin="PC5"/>
-<wire x1="86.36" y1="30.48" x2="78.74" y2="30.48" width="0.1524" layer="91"/>
-<label x="78.74" y="30.48" size="1.778" layer="95"/>
+<wire x1="63.5" y1="30.48" x2="55.88" y2="30.48" width="0.1524" layer="91"/>
+<label x="55.88" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="D" pin="1"/>
+<wire x1="185.42" y1="-20.32" x2="167.64" y2="-20.32" width="0.1524" layer="91"/>
+<label x="172.72" y="-20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D7" class="0">
@@ -2472,57 +2458,57 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PD7"/>
-<wire x1="121.92" y1="48.26" x2="132.08" y2="48.26" width="0.1524" layer="91"/>
-<label x="129.54" y="48.26" size="1.778" layer="95"/>
+<wire x1="99.06" y1="48.26" x2="109.22" y2="48.26" width="0.1524" layer="91"/>
+<label x="106.68" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SS" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="NSS"/>
-<wire x1="30.48" y1="-20.32" x2="25.4" y2="-20.32" width="0.1524" layer="91"/>
-<label x="25.4" y="-20.32" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="25.4" x2="-12.7" y2="25.4" width="0.1524" layer="91"/>
+<label x="-12.7" y="25.4" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PB2"/>
-<wire x1="121.92" y1="38.1" x2="132.08" y2="38.1" width="0.1524" layer="91"/>
-<label x="129.54" y="38.1" size="1.778" layer="95"/>
+<wire x1="99.06" y1="38.1" x2="109.22" y2="38.1" width="0.1524" layer="91"/>
+<label x="106.68" y="38.1" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SCK" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="SCK"/>
-<wire x1="30.48" y1="-17.78" x2="25.4" y2="-17.78" width="0.1524" layer="91"/>
-<label x="25.4" y="-17.78" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="27.94" x2="-12.7" y2="27.94" width="0.1524" layer="91"/>
+<label x="-12.7" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PB5"/>
-<wire x1="121.92" y1="30.48" x2="132.08" y2="30.48" width="0.1524" layer="91"/>
-<label x="129.54" y="30.48" size="1.778" layer="95"/>
+<wire x1="99.06" y1="30.48" x2="109.22" y2="30.48" width="0.1524" layer="91"/>
+<label x="106.68" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MOSI" class="0">
 <segment>
 <pinref part="U1" gate="G$1" pin="MOSI"/>
-<wire x1="30.48" y1="-15.24" x2="25.4" y2="-15.24" width="0.1524" layer="91"/>
-<label x="25.4" y="-15.24" size="1.778" layer="95"/>
+<wire x1="-7.62" y1="30.48" x2="-12.7" y2="30.48" width="0.1524" layer="91"/>
+<label x="-12.7" y="30.48" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PB3"/>
-<wire x1="121.92" y1="35.56" x2="132.08" y2="35.56" width="0.1524" layer="91"/>
-<label x="129.54" y="35.56" size="1.778" layer="95"/>
+<wire x1="99.06" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+<label x="106.68" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
 <segment>
 <pinref part="R17" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="MISO"/>
-<wire x1="25.4" y1="-12.7" x2="30.48" y2="-12.7" width="0.1524" layer="91"/>
-<label x="25.4" y="-12.7" size="1.778" layer="95"/>
+<wire x1="-12.7" y1="33.02" x2="-7.62" y2="33.02" width="0.1524" layer="91"/>
+<label x="-12.7" y="33.02" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PB4"/>
-<wire x1="121.92" y1="33.02" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
-<label x="129.54" y="33.02" size="1.778" layer="95"/>
+<wire x1="99.06" y1="33.02" x2="109.22" y2="33.02" width="0.1524" layer="91"/>
+<label x="106.68" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
@@ -2610,8 +2596,8 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PD5"/>
-<wire x1="121.92" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
-<label x="129.54" y="53.34" size="1.778" layer="95"/>
+<wire x1="99.06" y1="53.34" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
+<label x="106.68" y="53.34" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BR" class="0">
@@ -2622,8 +2608,8 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PD4"/>
-<wire x1="121.92" y1="55.88" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
-<label x="129.54" y="55.88" size="1.778" layer="95"/>
+<wire x1="99.06" y1="55.88" x2="109.22" y2="55.88" width="0.1524" layer="91"/>
+<label x="106.68" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BBRKL" class="0">
@@ -2634,8 +2620,8 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PD3"/>
-<wire x1="121.92" y1="58.42" x2="132.08" y2="58.42" width="0.1524" layer="91"/>
-<label x="129.54" y="58.42" size="1.778" layer="95"/>
+<wire x1="99.06" y1="58.42" x2="109.22" y2="58.42" width="0.1524" layer="91"/>
+<label x="106.68" y="58.42" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="ABRKL" class="0">
@@ -2646,13 +2632,13 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="DIO0"/>
-<wire x1="60.96" y1="-5.08" x2="66.04" y2="-5.08" width="0.1524" layer="91"/>
-<label x="60.96" y="-5.08" size="1.778" layer="95"/>
+<wire x1="22.86" y1="40.64" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
+<label x="22.86" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PD2"/>
-<wire x1="121.92" y1="60.96" x2="132.08" y2="60.96" width="0.1524" layer="91"/>
-<label x="129.54" y="60.96" size="1.778" layer="95"/>
+<wire x1="99.06" y1="60.96" x2="109.22" y2="60.96" width="0.1524" layer="91"/>
+<label x="106.68" y="60.96" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="D6" class="0">
@@ -2663,8 +2649,8 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PD6"/>
-<wire x1="121.92" y1="50.8" x2="132.08" y2="50.8" width="0.1524" layer="91"/>
-<label x="129.54" y="50.8" size="1.778" layer="95"/>
+<wire x1="99.06" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
+<label x="106.68" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RX" class="0">
@@ -2675,8 +2661,8 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PD0"/>
-<wire x1="121.92" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
-<label x="129.54" y="66.04" size="1.778" layer="95"/>
+<wire x1="99.06" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+<label x="106.68" y="66.04" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
@@ -2687,8 +2673,8 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="PD1"/>
-<wire x1="121.92" y1="63.5" x2="132.08" y2="63.5" width="0.1524" layer="91"/>
-<label x="129.54" y="63.5" size="1.778" layer="95"/>
+<wire x1="99.06" y1="63.5" x2="109.22" y2="63.5" width="0.1524" layer="91"/>
+<label x="106.68" y="63.5" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -2752,9 +2738,9 @@ To use with the motor, R6 has to be connected</text>
 <wire x1="40.64" y1="88.9" x2="30.48" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="30.48" y1="88.9" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PC6"/>
-<wire x1="86.36" y1="27.94" x2="53.34" y2="27.94" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="27.94" x2="53.34" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="53.34" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="27.94" x2="43.18" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="27.94" x2="43.18" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="73.66" x2="30.48" y2="73.66" width="0.1524" layer="91"/>
 <junction x="30.48" y="73.66"/>
 </segment>
 </net>
@@ -2796,8 +2782,8 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="ADC6"/>
-<wire x1="86.36" y1="50.8" x2="78.74" y2="50.8" width="0.1524" layer="91"/>
-<label x="78.74" y="50.8" size="1.778" layer="95"/>
+<wire x1="63.5" y1="50.8" x2="55.88" y2="50.8" width="0.1524" layer="91"/>
+<label x="55.88" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A7" class="0">
@@ -2812,20 +2798,22 @@ To use with the motor, R6 has to be connected</text>
 </segment>
 <segment>
 <pinref part="U2" gate="A" pin="ADC7"/>
-<wire x1="86.36" y1="48.26" x2="78.74" y2="48.26" width="0.1524" layer="91"/>
-<label x="78.74" y="48.26" size="1.778" layer="95"/>
+<wire x1="63.5" y1="48.26" x2="55.88" y2="48.26" width="0.1524" layer="91"/>
+<label x="55.88" y="48.26" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
-<pinref part="R9" gate="D" pin="1"/>
-<wire x1="185.42" y1="-20.32" x2="167.64" y2="-20.32" width="0.1524" layer="91"/>
-<label x="172.72" y="-20.32" size="1.778" layer="95"/>
+<pinref part="U2" gate="A" pin="PC2"/>
+<wire x1="63.5" y1="38.1" x2="55.88" y2="38.1" width="0.1524" layer="91"/>
+<label x="55.88" y="38.1" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="PC2"/>
-<wire x1="86.36" y1="38.1" x2="78.74" y2="38.1" width="0.1524" layer="91"/>
-<label x="78.74" y="38.1" size="1.778" layer="95"/>
+<wire x1="142.24" y1="86.36" x2="119.38" y2="86.36" width="0.1524" layer="91"/>
+<label x="119.38" y="86.36" size="1.778" layer="95"/>
+<wire x1="142.24" y1="86.36" x2="142.24" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="106.68" x2="147.32" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
@@ -2837,13 +2825,13 @@ To use with the motor, R6 has to be connected</text>
 <wire x1="15.24" y1="66.04" x2="15.24" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="SER_B" gate="1" pin="P"/>
 <wire x1="15.24" y1="60.96" x2="-5.08" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="15.24" y1="66.04" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="15.24" y1="66.04" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="VCC"/>
-<wire x1="86.36" y1="63.5" x2="81.28" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="81.28" y1="63.5" x2="81.28" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="63.5" x2="58.42" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="58.42" y1="63.5" x2="58.42" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="VCC_2"/>
-<wire x1="81.28" y1="66.04" x2="86.36" y2="66.04" width="0.1524" layer="91"/>
-<junction x="81.28" y="66.04"/>
+<wire x1="58.42" y1="66.04" x2="63.5" y2="66.04" width="0.1524" layer="91"/>
+<junction x="58.42" y="66.04"/>
 </segment>
 </net>
 <net name="OA" class="0">
@@ -2875,17 +2863,29 @@ To use with the motor, R6 has to be connected</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="137.16" y1="20.32" x2="137.16" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="20.32" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PB7"/>
-<wire x1="137.16" y1="17.78" x2="121.92" y2="17.78" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="17.78" x2="121.92" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="17.78" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="137.16" y1="25.4" x2="137.16" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="25.4" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PB6"/>
-<wire x1="137.16" y1="27.94" x2="121.92" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="A4" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PC4"/>
+<wire x1="63.5" y1="33.02" x2="55.88" y2="33.02" width="0.1524" layer="91"/>
+<label x="55.88" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R9" gate="R" pin="1"/>
+<wire x1="185.42" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
+<label x="172.72" y="-12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
@@ -2897,14 +2897,12 @@ To use with the motor, R6 has to be connected</text>
 <approved hash="104,1,35.56,111.76,U3,VSS,GND,,,"/>
 <approved hash="202,1,88.9,109.22,U6,BP,,,,"/>
 <approved hash="104,1,30.48,-5.08,U1,3.3V,VCC,,,"/>
-<approved hash="106,1,30.48,58.42,AREF,,,,,"/>
 <approved hash="208,1,2.54,124.46,GND,sup,,,,"/>
 <approved hash="208,1,38.1,109.22,GND,sup,,,,"/>
 <approved hash="208,1,50.8,109.22,GND,sup,,,,"/>
 <approved hash="208,1,58.42,109.22,GND,sup,,,,"/>
 <approved hash="208,1,129.54,99.06,GND,sup,,,,"/>
 <approved hash="208,1,172.72,58.42,GND,sup,,,,"/>
-<approved hash="208,1,27.94,17.78,GND,sup,,,,"/>
 <approved hash="208,1,101.6,109.22,GND,sup,,,,"/>
 <approved hash="208,1,185.42,78.74,GND,sup,,,,"/>
 <approved hash="208,1,165.1,104.14,GND,out,,,,"/>

@@ -2156,6 +2156,8 @@ Used, eg, on the Arduino Pro/ Pro Mini boards.&lt;br&gt;
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3V"/>
+<part name="AUX5" library="wirepad" deviceset="SMD2" device=""/>
+<part name="AUX6" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2239,6 +2241,8 @@ To use with the motor, R6 has to be connected</text>
 <instance part="GND13" gate="1" x="66.04" y="-33.02"/>
 <instance part="R17" gate="G$1" x="20.32" y="-12.7"/>
 <instance part="SUPPLY2" gate="G$1" x="22.86" y="-2.54"/>
+<instance part="AUX5" gate="1" x="149.86" y="2.54" rot="MR0"/>
+<instance part="AUX6" gate="1" x="149.86" y="-5.08" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -2869,6 +2873,30 @@ To use with the motor, R6 has to be connected</text>
 <wire x1="162.56" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
 <junction x="162.56" y="91.44"/>
 <wire x1="162.56" y1="91.44" x2="167.64" y2="91.44" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="D8" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PB0(ICP)"/>
+<wire x1="78.74" y1="27.94" x2="93.98" y2="27.94" width="0.1524" layer="91"/>
+<label x="88.9" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AUX5" gate="1" pin="P"/>
+<wire x1="147.32" y1="2.54" x2="137.16" y2="2.54" width="0.1524" layer="91"/>
+<label x="137.16" y="2.54" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D9" class="0">
+<segment>
+<pinref part="U4" gate="G$1" pin="PB1(OC1A)"/>
+<wire x1="78.74" y1="25.4" x2="93.98" y2="25.4" width="0.1524" layer="91"/>
+<label x="88.9" y="25.4" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AUX6" gate="1" pin="P"/>
+<wire x1="147.32" y1="-5.08" x2="137.16" y2="-5.08" width="0.1524" layer="91"/>
+<label x="137.16" y="-5.08" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

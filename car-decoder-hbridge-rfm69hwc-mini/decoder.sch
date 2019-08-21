@@ -2164,6 +2164,8 @@ at 27/07/2012 14:02:49</description>
 <part name="R17" library="SparkFun-Resistors" deviceset="RESISTOR" device="0603-RES" value="10k"/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="VCC" device="" value="3.3V"/>
 <part name="U2" library="Atmel_By_element14_Batch_1-00" deviceset="ATMEGA328P-MU" device=""/>
+<part name="AUX5" library="wirepad" deviceset="SMD2" device=""/>
+<part name="AUX6" library="wirepad" deviceset="SMD2" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2247,6 +2249,8 @@ To use with the motor, R6 has to be connected</text>
 <instance part="R17" gate="G$1" x="-17.78" y="33.02"/>
 <instance part="SUPPLY2" gate="G$1" x="-15.24" y="43.18"/>
 <instance part="U2" gate="A" x="81.28" y="43.18"/>
+<instance part="AUX5" gate="1" x="152.4" y="38.1" rot="MR0"/>
+<instance part="AUX6" gate="1" x="152.4" y="30.48" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -2366,9 +2370,7 @@ To use with the motor, R6 has to be connected</text>
 <junction x="27.94" y="17.78"/>
 </segment>
 <segment>
-<pinref part="U2" gate="A" pin="GND_2"/>
 <pinref part="U2" gate="A" pin="GND_3"/>
-<wire x1="63.5" y1="17.78" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="GND"/>
 <wire x1="63.5" y1="12.7" x2="63.5" y2="15.24" width="0.1524" layer="91"/>
 <junction x="63.5" y="15.24"/>
@@ -2378,9 +2380,8 @@ To use with the motor, R6 has to be connected</text>
 <wire x1="60.96" y1="15.24" x2="60.96" y2="0" width="0.1524" layer="91"/>
 <junction x="60.96" y="15.24"/>
 <wire x1="60.96" y1="0" x2="121.92" y2="0" width="0.1524" layer="91"/>
-<wire x1="121.92" y1="0" x2="121.92" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="0" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
 <pinref part="Y1" gate="G$1" pin="2"/>
-<wire x1="121.92" y1="22.86" x2="119.38" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AREF" class="0">
@@ -2863,17 +2864,19 @@ To use with the motor, R6 has to be connected</text>
 </net>
 <net name="N$2" class="0">
 <segment>
-<wire x1="114.3" y1="20.32" x2="114.3" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="20.32" x2="111.76" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PB7"/>
-<wire x1="114.3" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="17.78" x2="99.06" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="17.78" x2="99.06" y2="25.4" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="114.3" y1="25.4" x2="114.3" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="25.4" x2="111.76" y2="27.94" width="0.1524" layer="91"/>
 <pinref part="U2" gate="A" pin="PB6"/>
-<wire x1="114.3" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="27.94" x2="99.06" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="Y1" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="A4" class="0">
@@ -2886,6 +2889,30 @@ To use with the motor, R6 has to be connected</text>
 <pinref part="R9" gate="R" pin="1"/>
 <wire x1="185.42" y1="-12.7" x2="167.64" y2="-12.7" width="0.1524" layer="91"/>
 <label x="172.72" y="-12.7" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D8" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PB0"/>
+<wire x1="99.06" y1="43.18" x2="109.22" y2="43.18" width="0.1524" layer="91"/>
+<label x="106.68" y="43.18" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AUX5" gate="1" pin="P"/>
+<wire x1="149.86" y1="38.1" x2="142.24" y2="38.1" width="0.1524" layer="91"/>
+<label x="142.24" y="38.1" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="D9" class="0">
+<segment>
+<pinref part="U2" gate="A" pin="PB1"/>
+<wire x1="99.06" y1="40.64" x2="109.22" y2="40.64" width="0.1524" layer="91"/>
+<label x="106.68" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="AUX6" gate="1" pin="P"/>
+<wire x1="149.86" y1="30.48" x2="142.24" y2="30.48" width="0.1524" layer="91"/>
+<label x="142.24" y="30.48" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
