@@ -151,7 +151,7 @@
 <text x="17.97424375" y="17.3675" size="0.6096" layer="121">LIG</text>
 <text x="22.92299375" y="17.3675" size="0.6096" layer="121">1</text>
 <text x="26.8567375" y="17.02341875" size="0.6096" layer="121">2</text>
-<text x="13.028659375" y="1.21394375" size="0.6096" layer="121">SS</text>
+<text x="13.536659375" y="1.21394375" size="0.6096" layer="121">10</text>
 <text x="9.035528125" y="0.5487875" size="0.6096" layer="121">C2</text>
 <text x="9.067796875" y="2.35655625" size="0.6096" layer="121">C1</text>
 <text x="8.841909375" y="4.422578125" size="0.6096" layer="121">U6</text>
@@ -180,21 +180,17 @@
 <text x="14.986" y="0.508" size="0.6096" layer="122" rot="MR0">D-</text>
 <text x="14.986" y="2.54" size="0.6096" layer="122" rot="MR0">R1</text>
 <text x="10.668" y="3.302" size="0.6096" layer="122" rot="MR0">R2</text>
-<text x="7.366" y="3.556" size="0.6096" layer="122" rot="MR0">R13</text>
+<text x="8.128" y="1.524" size="0.6096" layer="122" rot="MR0">R13</text>
 <text x="31.496" y="5.08" size="0.6096" layer="122" rot="MR270">GND</text>
 <text x="29.464" y="5.334" size="0.6096" layer="122" rot="MR270">MISO</text>
 <text x="27.432" y="5.334" size="0.6096" layer="122" rot="MR270">MOSI</text>
-<text x="23.368" y="4.572" size="0.6096" layer="122" rot="MR270">SS</text>
-<text x="25.4" y="5.08" size="0.6096" layer="122" rot="MR270">SCK</text>
+<text x="25.4" y="5.08" size="0.6096" layer="122" rot="MR270">GND</text>
+<text x="23.622" y="5.08" size="0.6096" layer="122" rot="MR270">SCK</text>
 <text x="17.272" y="5.08" size="0.6096" layer="122" rot="MR270">GND</text>
-<text x="2.286" y="0.762" size="0.6096" layer="121">CAR V2.1</text>
-<text x="6.096" y="0.762" size="0.6096" layer="122" rot="MR0">CAR V2.1</text>
+<text x="2.286" y="0.762" size="0.6096" layer="121">CAR V2.0</text>
+<text x="6.096" y="0.762" size="0.6096" layer="122" rot="MR0">CAR V2.0</text>
 <text x="28.324515625" y="10.14221875" size="0.6096" layer="121">R7</text>
 <text x="25.530515625" y="17.25421875" size="0.6096" layer="121">R9</text>
-<text x="8.146825" y="1.591934375" size="0.6096" layer="122" rot="MR0">R15</text>
-<text x="25.4" y="14.732" size="0.6096" layer="122" rot="MR270">3.3v</text>
-<text x="17.272" y="14.478" size="0.6096" layer="122" rot="MR270">ANT</text>
-<text x="19.558" y="14.478" size="0.6096" layer="122" rot="MR270">GND</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">

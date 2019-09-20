@@ -1,109 +1,61 @@
-<<<<<<< HEAD
-Partlist exported from /home/amaurial/eagle/CarRfDecoder/decoder.sch at 19/08/15 8:48 PM
+Partlist
 
-Part      Value             Device                 Package       Description                                                                             PROD_ID    VALUE       
-2.56V                       SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-3.3V                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-10K       68                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-ABRKLIGHT                   SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX1                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX2                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX3                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX4                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX5                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX6                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX7                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX8                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX9                        SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX10                       SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-BBRKLIGHT                   SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-BLINK-L                     SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-BLINK-R                     SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-C1        1uF               CAP0805                0805          Capacitor                                                                                                      
-C2        4.7uF             CAP0805                0805          Capacitor                                                                                                      
-C3        4.7uF             CAP0805                0805          Capacitor                                                                                                      
-C4        4.7uF             CAP0805                0805          Capacitor                                                                                                      
-D1                          DIODESOD-523           SOD-523       Diode                                                                                                          
-GND                         SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-LDR                         SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-LIGHT                       SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-MOTOR                       SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-MOTORGND                    SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-R1        22                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R2        22                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R3        2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R4        2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R5        2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R6        2k2               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
-R7        100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
-R8        100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
-R9        100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
-R10       100               RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R11       68                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-T1        BC847             BC847                  SOT23         NPN TRANSISTOR                                                                                                 
-T2        BC847             BC847                  SOT23         NPN TRANSISTOR                                                                                                 
-T3        IRLML6402         MOSFET-P-SOT23         SOT23         P-Channel MOSFET (e.g.  IRLML6402)                                                                             
-U1        ATMEGA32U4TQFP-44 ATMEGA32U4TQFP-44      TQFP44        Atmel 44-pin 8-bit Microcontroller with 32KBytes of ISP Flash and USB Controller                               
-U2        RFM69CW           RFM69CW                RFM69CW-XXXS2                                                                                                                
-U3        MCP73831          MCP73831               SOT23-5       Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller IC-09995               
-U6        MIC5219 3.3V      V_REG_MIC52193.3V      SOT23-5       V_REG MIC5219                                                                           VREG-09872 MIC5219 3.3V
-USBD+                       SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-USBD-                       SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-USBV+                       SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-USBV+2                      SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-USBV-                       SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-=======
-Partlist exported from /home/user/amauriala/eagle/CarRfDecoder/decoder.sch at 19/08/15 9:59 AM
+Exported from decoder.brd at 22/08/19 10:34 PM
 
-Part            Value             Device                 Package       Description                                                                             PROD_ID    VALUE       
-2.56V                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-3.3V                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-10K             68                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-AUX-BREAKLIGHT                    SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX1                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX2                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX3                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX4                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX5                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX6                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX7                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX8                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX9                              SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-AUX10                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-BACK-BREAKLIGHT                   SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-BLINK-L                           SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-BLINK-R                           SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-C1              1uF               CAP0805                0805          Capacitor                                                                                                      
-C2              4.7uF             CAP0805                0805          Capacitor                                                                                                      
-C3              4.7uF             CAP0805                0805          Capacitor                                                                                                      
-C4              4.7uF             CAP0805                0805          Capacitor                                                                                                      
-D1                                DIODESOD-523           SOD-523       Diode                                                                                                          
-GND                               SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-LDR                               SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-LIGHT                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-MOTOR                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-MOTORGND                          SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-R1              22                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R2              22                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R3              2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R4              2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R5              2K                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R6              2k2               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
-R7              100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
-R8              100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
-R9              100               RESISTOR-ARRAY0603-ARV 0603-ARV      Array Chip Resistor                                                                                            
-R10             100               RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-R11             68                RESISTOR0603-RES       0603-RES      Resistor                                                                                                       
-T1              BC847             BC847                  SOT23         NPN TRANSISTOR                                                                                                 
-T2              BC847             BC847                  SOT23         NPN TRANSISTOR                                                                                                 
-T3              IRLML6402         MOSFET-P-SOT23         SOT23         P-Channel MOSFET (e.g.  IRLML6402)                                                                             
-U1              ATMEGA32U4TQFP-44 ATMEGA32U4TQFP-44      TQFP44        Atmel 44-pin 8-bit Microcontroller with 32KBytes of ISP Flash and USB Controller                               
-U2              RFM69CW           RFM69CW                RFM69CW-XXXS2                                                                                                                
-U3              MCP73831          MCP73831               SOT23-5       Miniature single cell, fully integrated Li-Ion, Li-polymer charge management controller IC-09995               
-U6              MIC5219 3.3V      V_REG_MIC52193.3V      SOT23-5       V_REG MIC5219                                                                           VREG-09872 MIC5219 3.3V
-USBD+                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-USBD-                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-USBV+                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-USBV+2                            SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
-USBV-                             SMD2                   SMD1,27-2,54  SMD PAD                                                                                                        
->>>>>>> 7e29d8d802b838e6265658a6e492951331455fc2
+EAGLE Version 7.2.0 Copyright (c) 1988-2014 CadSoft
+
+Assembly variant: 
+
+Part      Value             Package       Library             Position (inch)       Orientation
+
+3.3V                        SMD1,27-2,54  wirepad             (0.12 0.5)            R90
+10K       68                0603-RES      SparkFun-Resistors  (0.27 0.56)           R0
+ABRKLIGHT                   SMD1,27-2,54  wirepad             (1.24 0.04)           R90
+AUX1                        SMD1,27-2,54  wirepad             (0.95 0.68)           R180
+AUX2                        SMD1,27-2,54  wirepad             (1.1 0.68)            R180
+AUX3                        SMD1,27-2,54  wirepad             (1.17 0.68)           R180
+AUX4                        SMD1,27-2,54  wirepad             (1.24 0.68)           R0
+AUX5                        SMD1,27-2,54  wirepad             (1.24 0.6)            R90
+AUX6                        SMD1,27-2,54  wirepad             (1.24 0.53)           R90
+AUX7                        SMD1,27-2,54  wirepad             (1.24 0.34)           R90
+AUX8                        SMD1,27-2,54  wirepad             (1.24 0.41)           R90
+AUX9                        SMD1,27-2,54  wirepad             (0.43 0.68)           R180
+AUX10                       SMD1,27-2,54  wirepad             (0.59 0.04)           R0
+BAT+                        SMD1,27-2,54  wirepad             (0.12 0.18)           R90
+BAT-                        SMD1,27-2,54  wirepad             (0.12 0.09)           R90
+BBRKLIGHT                   SMD1,27-2,54  wirepad             (1.24 0.11)           R90
+BLINK-L                     SMD1,27-2,54  wirepad             (1.24 0.25)           R90
+BLINK-R                     SMD1,27-2,54  wirepad             (1.24 0.18)           R90
+C1        1uF               0805          SparkFun-Capacitors (0.3 0.11)            R180
+C2        4.7uF             0805          SparkFun-Capacitors (0.3 0.04)            R180
+C3        4.7uF             0805          SparkFun-Capacitors (0.17 0.68)           R0
+C4        4.7uF             0805          SparkFun-Capacitors (0.31 0.68)           R180
+C5        1uF               0805          SparkFun-Capacitors (0.47 0.45)           MR0
+LDR                         SMD1,27-2,54  wirepad             (0.12 0.59)           R90
+LIGHT                       SMD1,27-2,54  wirepad             (0.68 0.68)           R180
+MOTOR                       SMD1,27-2,54  wirepad             (0.12 0.53)           MR270
+MOTORGND                    SMD1,27-2,54  wirepad             (0.12 0.44)           MR90
+R1        22                0603-RES      SparkFun-Resistors  (0.52 0.14)           MR90
+R2        22                0603-RES      SparkFun-Resistors  (0.45 0.14)           MR90
+R3        2K                0603-RES      SparkFun-Resistors  (0.27 0.5)            R180
+R4        2K                0603-RES      SparkFun-Resistors  (0.43 0.55)           R180
+R5        2K                0603-RES      SparkFun-Resistors  (0.42 0.49)           R180
+R6        0                 0603-RES      SparkFun-Resistors  (0.31 0.66)           MR0
+R7        100               0603-ARV      SparkFun-Resistors  (1.13 0.51)           R315
+R8        100               0603-ARV      SparkFun-Resistors  (1.09 0.19)           R225
+R9        100               0603-ARV      SparkFun-Resistors  (1.03 0.61)           R315
+R10       100               0603-RES      SparkFun-Resistors  (0.46 0.61)           R180
+R11       68                0603-RES      SparkFun-Resistors  (0.58 0.69)           R0
+R12       10K               0603-RES      SparkFun-Resistors  (0.9 0.03)            R0
+R13       2k2               0603-RES      SparkFun-Resistors  (0.3 0.11)            MR0
+RST                         SMD1,27-2,54  wirepad             (0.80105856 0.0378825) R180
+U$1       L9110S            SO08          h-bridge-l9119s     (0.3 0.36)            MR0
+U1        ATMEGA32U4TQFP-44 TQFP44        SparkFun-DigitalIC  (0.8 0.37)            R45
+U2        RFM69CW           RFM69CW-XXXS2 SparkFun-RF         (0.92 0.36)           MR270
+U3        MCP73831          SOT23-5       SparkFun-PowerIC    (0.23 0.28)           R0
+U6        MIC5219 3.3V      SOT23-5       SparkFun-PowerIC    (0.38 0.28)           R0
+USBD+                       SMD1,27-2,54  wirepad             (0.45 0.04)           MR0
+USBD-                       SMD1,27-2,54  wirepad             (0.52 0.04)           MR0
+USBV+                       SMD1,27-2,54  wirepad             (0.12 0.3)            MR90
+USBV-                       SMD1,27-2,54  wirepad             (0.12 0.22)           MR90
+Y1        16MHZ             RESONATOR-SMD SparkFun-FreqCtrl   (1.04 0.06)           R180

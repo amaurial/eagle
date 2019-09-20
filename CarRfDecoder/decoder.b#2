@@ -8,15 +8,15 @@
 </settings>
 <grid distance="0.01" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.000000123031" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -75,7 +75,7 @@
 <layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="IDFDebug" color="7" fill="1" visible="no" active="yes"/>
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
 <layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
@@ -184,17 +184,14 @@
 <text x="31.496" y="5.08" size="0.6096" layer="122" rot="MR270">GND</text>
 <text x="29.464" y="5.334" size="0.6096" layer="122" rot="MR270">MISO</text>
 <text x="27.432" y="5.334" size="0.6096" layer="122" rot="MR270">MOSI</text>
-<text x="23.368" y="4.572" size="0.6096" layer="122" rot="MR270">SS</text>
-<text x="25.4" y="5.08" size="0.6096" layer="122" rot="MR270">SCK</text>
+<text x="25.4" y="5.08" size="0.6096" layer="122" rot="MR270">GND</text>
+<text x="23.622" y="5.08" size="0.6096" layer="122" rot="MR270">SCK</text>
 <text x="17.272" y="5.08" size="0.6096" layer="122" rot="MR270">GND</text>
-<text x="2.286" y="0.762" size="0.6096" layer="121">CAR V2.1</text>
-<text x="6.096" y="0.762" size="0.6096" layer="122" rot="MR0">CAR V2.1</text>
+<text x="2.286" y="0.762" size="0.6096" layer="121">CAR V2.0</text>
+<text x="6.096" y="0.762" size="0.6096" layer="122" rot="MR0">CAR V2.0</text>
 <text x="28.324515625" y="10.14221875" size="0.6096" layer="121">R7</text>
 <text x="25.530515625" y="17.25421875" size="0.6096" layer="121">R9</text>
 <text x="8.146825" y="1.591934375" size="0.6096" layer="122" rot="MR0">R15</text>
-<text x="25.4" y="14.732" size="0.6096" layer="122" rot="MR270">3.3v</text>
-<text x="17.272" y="14.478" size="0.6096" layer="122" rot="MR270">ANT</text>
-<text x="19.558" y="14.478" size="0.6096" layer="122" rot="MR270">GND</text>
 </plain>
 <libraries>
 <library name="SparkFun-Resistors">
