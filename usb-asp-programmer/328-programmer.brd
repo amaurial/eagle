@@ -140,6 +140,14 @@
 <wire x1="57.15" y1="54.61" x2="57.15" y2="0" width="0.4064" layer="121"/>
 <wire x1="57.15" y1="0" x2="0" y2="0" width="0.4064" layer="121"/>
 <wire x1="0" y1="0" x2="0" y2="54.61" width="0.4064" layer="121"/>
+<text x="10.795" y="52.07" size="1.778" layer="121" rot="R180">RST</text>
+<text x="5.08" y="33.02" size="1.778" layer="121">VCC</text>
+<text x="5.08" y="35.56" size="1.778" layer="121">GND</text>
+<text x="5.08" y="25.4" size="1.778" layer="121">CR2</text>
+<text x="5.08" y="22.86" size="1.778" layer="121">CR1</text>
+<text x="45.72" y="22.86" size="1.778" layer="121">SCK</text>
+<text x="45.72" y="17.78" size="1.778" layer="121">SI</text>
+<text x="45.72" y="20.32" size="1.778" layer="121">SO</text>
 </plain>
 <libraries>
 <library name="resistor">
